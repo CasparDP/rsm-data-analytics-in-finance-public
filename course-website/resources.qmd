@@ -1,0 +1,96 @@
+---
+title: "Resources"
+subtitle: "MSc Finance Research Skills"
+author: "Your Name"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+---
+
+# Course Resources
+
+This page contains additional resources to support your learning in the MSc Finance Research Skills course.
+
+## Software Resources
+
+### Stata
+
+- [Stata Official Documentation](https://www.stata.com/documentation/)
+- [Stata Cheat Sheets](https://www.stata.com/bookstore/stata-cheat-sheets/)
+- [UCLA Stata Resources](https://stats.oarc.ucla.edu/stata/)
+
+### Python
+
+- [Python for Finance](https://www.datacamp.com/tracks/python-for-finance)
+- [Python Pandas Documentation](https://pandas.pydata.org/docs/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+- [Seaborn Documentation](https://seaborn.pydata.org/)
+
+### R
+
+- [R for Finance](https://www.datacamp.com/tracks/r-for-finance)
+- [Tidyverse Documentation](https://www.tidyverse.org/)
+- [ggplot2 Documentation](https://ggplot2.tidyverse.org/)
+
+## Data Sources
+
+### Financial Data
+
+- [Yahoo Finance](https://finance.yahoo.com/)
+- [WRDS (Wharton Research Data Services)](https://wrds-www.wharton.upenn.edu/)
+- [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org/)
+- [Eurostat](https://ec.europa.eu/eurostat/data/database)
+- [World Bank Open Data](https://data.worldbank.org/)
+
+### Academic Research
+
+- [SSRN (Social Science Research Network)](https://www.ssrn.com/)
+- [Google Scholar](https://scholar.google.com/)
+- [RePEc (Research Papers in Economics)](http://repec.org/)
+
+## Academic Writing Resources
+
+- [APA Style Guide](https://apastyle.apa.org/)
+- [Zotero Reference Manager](https://www.zotero.org/)
+- [Mendeley Reference Manager](https://www.mendeley.com/)
+- [Grammarly](https://www.grammarly.com/)
+
+## Replication Resources
+
+- [Institute for Replication (I4R)](https://i4replication.org/)
+- [AEA Data Editor Guidelines](https://aeadataeditor.github.io/aea-de-guidance/)
+- [Social Science Data Editors](https://social-science-data-editors.github.io/guidance/)
+
+## Econometrics and Statistics Resources
+
+- [Mostly Harmless Econometrics Companion](https://www.mostlyharmlesseconometrics.com/)
+- [Introductory Econometrics: A Modern Approach](https://www.cengage.com/c/introductory-econometrics-a-modern-approach-7e-wooldridge/9781337558860/)
+- [Statistical Learning Resources](https://www.statlearning.com/)
+
+## Recommended Books
+
+### Finance
+
+- Cochrane, J. H. (2009). *Asset Pricing: Revised Edition*. Princeton University Press.
+- Berk, J., & DeMarzo, P. (2019). *Corporate Finance* (5th ed.). Pearson.
+- Hull, J. C. (2017). *Options, Futures, and Other Derivatives* (10th ed.). Pearson.
+
+### Research Methods
+
+- Angrist, J. D., & Pischke, J. S. (2008). *Mostly Harmless Econometrics: An Empiricist's Companion*. Princeton University Press.
+- Wooldridge, J. M. (2019). *Introductory Econometrics: A Modern Approach* (7th ed.). Cengage Learning.
+- Kennedy, P. (2008). *A Guide to Econometrics* (6th ed.). Wiley-Blackwell.
+
+## Online Courses and Tutorials
+
+- [DataCamp Finance Courses](https://www.datacamp.com/tracks/finance-fundamentals-in-r)
+- [Coursera Financial Engineering and Risk Management](https://www.coursera.org/specializations/financialengineering)
+- [Khan Academy Finance and Capital Markets](https://www.khanacademy.org/economics-finance-domain/core-finance)
+
+## University Resources
+
+- [EUR Library Finance Resources](https://www.eur.nl/en/library/collections/finance)
+- [Academic Writing Center](https://www.eur.nl/en/education/practical-matters/academic-writing-center)
+- [Statistical Consulting Service](https://www.eur.nl/en/research/research-services/research-data-management/statistical-consulting)

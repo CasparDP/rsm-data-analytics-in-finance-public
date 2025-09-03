@@ -1,0 +1,487 @@
+/* Caspar's Website CSS - Matched with custom.scss */
+
+/* Import Source Sans Pro font */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+/* Color Variables matching custom.scss */
+:root {
+  --primary-color: #0066cc;
+  --secondary-color: #004d99;
+  --accent-color: #ff6b35;
+  --accent2: #00796b;
+  --jet: #333333;
+  --text-color: #333333;
+  --background-color: #ffffff;
+  --light-gray: #f8f9fa;
+
+  /* Heading colors matching custom.scss */
+  --h1-color: #1a365d;
+  --h2-color: #2b6cb0;
+  --h3-color: #3182ce;
+  --h4-color: #00796b;
+  --h5-color: #607d8b;
+  --h6-color: #78909c;
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+  background-color: var(--background-color);
+  font-size: 32px;
+}
+
+/* Typography matching custom.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-transform: none;
+}
+
+h1 {
+  color: var(--h1-color);
+  font-size: 2.5em;
+}
+
+h2 {
+  color: var(--h2-color);
+  font-size: 1.8em;
+}
+
+h3 {
+  color: var(--h3-color);
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+h4 {
+  color: var(--h4-color);
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+h5 {
+  color: var(--h5-color);
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+h6 {
+  color: var(--h6-color);
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* Paragraphs */
+p {
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 1rem;
+}
+
+/* Links matching custom.scss */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Lists - matching SCSS with RSM colors */
+ul {
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+ul li::marker {
+  color: var(--heading-color);
+}
+
+ul ul {
+  list-style: none;
+}
+
+/* ul ul li:before {
+  content: "→";
+  color: var(--accent-color);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: 0.5em;
+} */
+
+ol {
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+ol li::marker {
+  color: var(--heading-color);
+}
+
+/* Code - matching SCSS */
+pre {
+  background-color: var(--background-off-white);
+  border: 1px solid rgba(0, 107, 161, 0.2);
+  color: var(--code-color);
+  font-family: "Fira Code", monospace;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  max-height: 450px;
+  overflow-y: auto;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+code {
+  color: var(--code-color);
+  background-color: rgba(0, 107, 161, 0.05);
+  font-family: "Fira Code", monospace;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-size: 0.875em;
+}
+
+pre code {
+  font-size: 0.85em;
+  line-height: 1.4;
+  padding: 0;
+  background-color: transparent;
+}
+
+/* Tables - matching SCSS styling */
+table {
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 5px;
+  margin: 1.2em 0;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+table th {
+  background-color: var(--heading-color);
+  color: white;
+  font-weight: 500;
+  padding: 0.7em 0.5em;
+  text-align: left;
+  position: relative;
+}
+
+table th:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+table td {
+  padding: 0.6em 0.5em;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: rgba(0, 107, 161, 0.04);
+}
+
+table tbody tr:hover {
+  background-color: rgba(0, 107, 161, 0.08);
+}
+
+/* Table of Contents */
+.toc {
+  background-color: var(--background-off-white);
+  border: 1px solid rgba(0, 107, 161, 0.2);
+  border-radius: 6px;
+  padding: 1.2em;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.toc ul {
+  list-style-type: none;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.toc > ul {
+  padding-left: 0;
+}
+
+.toc li {
+  margin-bottom: 0.25rem;
+}
+
+.toc a {
+  color: var(--text-color);
+  font-weight: 500;
+  border-bottom: none;
+}
+
+.toc a:hover {
+  color: var(--heading-color);
+}
+
+/* Blockquotes - matching SCSS */
+blockquote {
+  border-left: 4px solid var(--heading-color);
+  color: var(--text-color);
+  background-color: rgba(0, 107, 161, 0.05);
+  padding: 1em 1.2em;
+  margin: 1.2em 0;
+  font-style: italic;
+  border-radius: 0 6px 6px 0;
+  position: relative;
+}
+
+blockquote::before {
+  content: "\201C";
+  font-family: Georgia, serif;
+  font-size: 3em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  color: rgba(0, 107, 161, 0.2);
+}
+
+blockquote p {
+  margin-bottom: 0.5em;
+}
+
+blockquote cite {
+  display: block;
+  font-size: 0.8em;
+  font-style: normal;
+  margin-top: 0.5em;
+  text-align: right;
+  color: rgba(33, 37, 41, 0.7);
+}
+
+/* Cards and callouts - matching SCSS */
+.card,
+.callout {
+  background-color: var(--background-off-white);
+  color: var(--text-color);
+  border: 1px solid rgba(0, 107, 161, 0.2);
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  margin: 1em 0;
+  padding: 1.2em;
+  position: relative;
+  overflow: hidden;
+}
+
+.callout-note,
+.callout-tip {
+  border-left: 4px solid var(--heading-color);
+}
+
+.callout-important,
+.callout-warning {
+  border-left: 4px solid var(--accent-color);
+}
+
+.callout-caution {
+  border-left: 4px solid var(--accent2-color);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  box-shadow: none;
+  margin: 0.5em auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.figure img,
+p > img,
+div > img {
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 4px;
+}
+
+/* Figure captions */
+figcaption {
+  font-size: 0.8em;
+  color: rgba(33, 37, 41, 0.7);
+  font-style: italic;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--selection-color);
+}
+
+/* Title area styling - matching SCSS title slide */
+.title {
+  color: var(--heading-color);
+  font-size: 2.2em;
+  font-weight: 700;
+  line-height: 1.2;
+  border-bottom: 2px solid rgba(0, 107, 161, 0.3);
+  padding-bottom: 0.5rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.subtitle {
+  color: var(--accent-color);
+  font-size: 1.5em;
+  margin-top: 1rem;
+}
+
+.author,
+.quarto-title-author-name {
+  color: var(--text-color);
+  font-size: 1.2em;
+}
+
+.quarto-title-affiliation,
+.institute,
+.date,
+.quarto-title-author-email {
+  font-style: italic;
+  color: var(--text-color);
+  opacity: 0.8;
+  font-size: 1.2em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .toc {
+    padding: 0.75rem;
+  }
+
+  .card,
+  .callout {
+    padding: 1rem;
+  }
+}
+
+/* Utility classes matching custom.scss */
+.smaller {
+  font-size: 0.85em !important;
+}
+
+.larger {
+  font-size: 1.2em !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.highlight {
+  background-color: rgba(255, 107, 53, 0.1);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+.alert {
+  color: var(--accent2);
+}
+
+.fg {
+  color: var(--jet);
+}
+
+.bg {
+  background-color: var(--background-color);
+  padding: 0.1em;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Button styling matching custom.scss */
+.button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.button::before {
+  content: "▶";
+  margin-right: 5px;
+}
+
+/* Print styles */
+@media print {
+  body {
+    color: #000;
+    background: #fff;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .toc {
+    background: #fff;
+    border: 1px solid #000;
+  }
+}

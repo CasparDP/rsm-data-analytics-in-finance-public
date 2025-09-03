@@ -1,0 +1,867 @@
+[
+  {
+    "objectID": "lectures/lecture_5.html#overview",
+    "href": "lectures/lecture_5.html#overview",
+    "title": "Replication Workshop",
+    "section": "Overview",
+    "text": "Overview",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Replication Workshop"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_5.html#overview-1",
+    "href": "lectures/lecture_5.html#overview-1",
+    "title": "Replication Workshop",
+    "section": "Overview",
+    "text": "Overview\nRecap of previous lecture",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Replication Workshop"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_5.html#overview-2",
+    "href": "lectures/lecture_5.html#overview-2",
+    "title": "Replication Workshop",
+    "section": "Overview",
+    "text": "Overview\nToday’s learning objectives",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Replication Workshop"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_5.html#overview-3",
+    "href": "lectures/lecture_5.html#overview-3",
+    "title": "Replication Workshop",
+    "section": "Overview",
+    "text": "Overview\nKey concepts",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Replication Workshop"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_5.html#references",
+    "href": "lectures/lecture_5.html#references",
+    "title": "Replication Workshop",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Replication Workshop"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#linear-models-and-endogeneity-in-finance-1",
+    "href": "lectures/lecture_3.html#linear-models-and-endogeneity-in-finance-1",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Linear Models and Endogeneity in Finance",
+    "text": "Linear Models and Endogeneity in Finance\nLearning Objectives",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#introduction-1",
+    "href": "lectures/lecture_3.html#introduction-1",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Introduction",
+    "text": "Introduction\nMotivation\nWhy is research exciting?\n“(…) the world is our lab, and the many diverse people in it are our subjects” (Angrist 2015)\nWhat are accounting researchers investigating?\n\nWhat is the impact of digitalization on audit practices\nWhat are the real effects of the disclosure regulation?\nHow do firms react to tax changes?",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#introduction-2",
+    "href": "lectures/lecture_3.html#introduction-2",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Introduction",
+    "text": "Introduction\nGoal\n\nUncover the causal effect of an intervention\n\n\n\na.k.a. average treatment effect (ATE)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#introduction-3",
+    "href": "lectures/lecture_3.html#introduction-3",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Introduction",
+    "text": "Introduction\nHow do we find the answers?\nWe use data to answer these “cause-and-effect” questions!",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#introduction-4",
+    "href": "lectures/lecture_3.html#introduction-4",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Introduction",
+    "text": "Introduction\nHow do we find the answers?\nWe use data to answer these “cause-and-effect” questions!",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#introduction-5",
+    "href": "lectures/lecture_3.html#introduction-5",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Introduction",
+    "text": "Introduction\nHow do we find the answers?\nWe use data to answer these “cause-and-effect” questions!\n\nCorrelation \\(\\neq\\) Causation \n\n\n\nCorrelation is a statistical measure that expresses the extent to which two variables are linearly related (meaning they change together at a constant rate)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation",
+    "href": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Theory, hypotheses, and operationalisation",
+    "text": "Theory, hypotheses, and operationalisation\nTheory",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-1",
+    "href": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-1",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Theory, hypotheses, and operationalisation",
+    "text": "Theory, hypotheses, and operationalisation\nTheory\n\n\nConceptual level\n\nTheory to explain the relationship\nFormulate a hypothesis\n\n\nOperational level\n\nMeasure the variables\nTest the hypothesis\n\n\n\n\nFor more about experimental research in financial accounting, check Libby, Bloomfield, and Nelson (2002)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-2",
+    "href": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-2",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Theory, hypotheses, and operationalisation",
+    "text": "Theory, hypotheses, and operationalisation\nWhat is a hypothesis?\n\nA hypothesis is a proposed explanation for a phenomenon or a prediction of a possible causal correlation\nIt is a tentative answer to a research question that guides the direction of study and investigation\nIts formulation is guided by existing (economic) theory\nA well-constructed hypothesis is testable, meaning it can be supported or rejected through experimentation",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-3",
+    "href": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-3",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Theory, hypotheses, and operationalisation",
+    "text": "Theory, hypotheses, and operationalisation\nHow do we test a hypothesis?\n\nStepst-testVisual\n\n\n\nWe need a baseline to test against: The null hypothesis (\\(H_0\\))\nWhy null? It states that there is no effect or no difference, which serves as a baseline assumption\n\n\\(H_0\\) is what you test your \\(H_1\\) against, e.g. \\(H_0 = 0\\)\n\\(H_1\\) is the/your alternative hypothesis - what you might believe to be true\n\nA statistical test rejects \\(H_0\\) if there is enough evidence against it\n\nIf we reject \\(H_0\\), we accept \\(H_1\\)\n\n\n\n\nThe t-test measures how far the sample mean is away from \\(H_0\\)\nHypothesis:\n\nOne-sided (\\(H_0 \\leq 0\\), \\(H_1&gt;0\\)): \\(t = \\frac{X-0}{SE(X)}\\)\nTwo-sided (\\(H_0 = 0\\), \\(H_1 \\neq 0\\)): \\(t = \\frac{X_{treated}-X_{control}}{SE(X_{treated}-X_{control})}\\)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#causal-inference",
+    "href": "lectures/lecture_3.html#causal-inference",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Causal inference",
+    "text": "Causal inference\nA small Becksperiment\nResearch question: Does beer affect performance?\n\n\\(H_0\\): Beer consumption does not affect performance\n\\(H_1\\): Beer consumption affects performance\n\n\n\nSometimes \\(H_1\\) is referred to as a non-directional hypothesis. This means that it does not specify the direction of the effect. Theory allows for the affect to be positive or negative.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#becksperiment",
+    "href": "lectures/lecture_3.html#becksperiment",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Becksperiment",
+    "text": "Becksperiment\nWhat is the problem?\n\nFigureResultCode\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimple group comparison\n\nThe results suggest that, on average, beer drinking improves grades.\nBut is this true? Did we find the causal effect of beer drinking on grades?\n\n\n\n\nbecks_data %&gt;% \n  group_by(treatment) %&gt;% \n  summarise(across(\"performance\" , ~ mean(.x))) %&gt;% \n  mutate(beer = case_when(treatment == 1 ~ \"Beer\", \n                          treatment == 0 ~ \"No beer\"),\n           # Cosmetic change to reorder so \"Beer\" is on the left\n         beer = factor(beer, levels = c(\"Beer\", \"No beer\"))) %&gt;%\n  ggplot(aes(x = beer, y = performance, group = beer, fill = beer)) +\n  geom_col() +\n  scale_y_continuous(breaks = seq(0,10,1)) +\n  scale_fill_manual(name = \"\", values = c(\"#F7AB64\", \"#93B8D6\")) +\n  labs(x=\"\", y=\"Grade\") +\n  ggthemes::theme_hc(base_size = 18) + \n  theme(legend.position=\"\") +\n  ylim(0,10)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#becksperiment-1",
+    "href": "lectures/lecture_3.html#becksperiment-1",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Becksperiment",
+    "text": "Becksperiment\nHow comparable are the groups, on average?\n\n\n\n\n\n\nVariable\nBeer\nNo beer\nDifference\nt-stat.\np-value\n\n\n\n\nPerformance\n8.44\n7.00\n1.43\n-10.09\n0.00\n\n\nEducation\n3.73\n2.92\n0.82\n-6.54\n0.00\n\n\nGender\n0.40\n0.40\n0.00\n-0.11\n0.91\n\n\n\n\n\n\n\n\n“Eye test” - The beer group has a higher average grade (performance) - The groups are comparable on average for gender1 but not for education\nThe gender variable is coded as 1 if the subject identifies as female, and 0 otherwise. The education variable is continuous - larger values indicate better prior education.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#becksperiment-2",
+    "href": "lectures/lecture_3.html#becksperiment-2",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Becksperiment",
+    "text": "Becksperiment\nDo other factors play a role?\n\nFigureCode\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n# Plot results for simple group comparison - condition on observed factors\n\nbecks_data %&gt;% \n  mutate(high_edu = case_when(education &gt; mean(becks_data$education) ~ 1, \n                              education &lt;=  mean(becks_data$education) ~ 0) %&gt;% as.character()) %&gt;% \n  group_by(treatment, high_edu) %&gt;% \n  summarise(across(\"performance\" , ~ mean(.x))) %&gt;% \n  mutate(beer = case_when(treatment == 1 ~ \"Beer\", \n                          treatment == 0 ~ \"No beer\"),\n           # Cosmetic change to reorder so \"Beer\" is on the left\n         beer = factor(beer, levels = c(\"Beer\", \"No beer\"))) %&gt;%\n  ggplot(aes(x = beer, y = performance, group = high_edu, color = high_edu)) +\n  geom_point(size = 2) +\n  geom_line(aes(group = high_edu), linetype = \"dashed\", size = 1.5 ) +\n  scale_y_continuous(breaks = seq(0,10,1)) +\n  scale_color_manual(values = c(\"0\" = \"#93B8D6\", \"1\" = \"#F7AB64\"), name = \"High education\") +\n  labs(x=\"\", y=\"Grade\") +\n  ggthemes::theme_hc(base_size = 18) + \n  theme(legend.position=\"bottom\")+\n  ylim(4,10)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#becksperiment-3",
+    "href": "lectures/lecture_3.html#becksperiment-3",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Becksperiment",
+    "text": "Becksperiment\nDo other factors play a role?\n\nFigureCode\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nbecks_data %&gt;% \n  group_by(treatment, gender) %&gt;% \n  mutate(gender = as.character(gender)) %&gt;% \n  summarise(across(\"performance\" , ~ mean(.x))) %&gt;% \n  mutate(beer = case_when(treatment == 1 ~ \"Beer\", \n                          treatment == 0 ~ \"No beer\"),\n           # Cosmetic change to reorder so \"Beer\" is on the left\n         beer = factor(beer, levels = c(\"Beer\", \"No beer\"))) %&gt;%\n  ggplot(aes(x = beer, y = performance, group = gender, color = gender)) +\n  geom_point(size = 2) +\n  geom_line(aes(group = gender), linetype = \"dashed\", size = 1.5) +\n  scale_y_continuous(breaks = seq(0,10,1)) +\n  scale_color_manual(values = c(\"0\" = \"#93B8D6\", \"1\" = \"#F7AB64\"), name = \"Gender\") +\n  labs(x=\"\", y=\"Grade\") +\n  ggthemes::theme_hc(base_size = 18) + \n  theme(legend.position=\"bottom\")+\n  ylim(4,10)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#becksperiment-4",
+    "href": "lectures/lecture_3.html#becksperiment-4",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Becksperiment",
+    "text": "Becksperiment\nDo unobservable factors play a role?\n\nFigureSummary statisticsCorrelation tableCode\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nBeer\nNo beer\nDifference\nt-stat.\np-value\n\n\n\n\nPerformance\n8.44\n7.00\n1.43\n-10.09\n0.00\n\n\nTalent\n5.79\n3.28\n2.51\n-24.76\n0.00\n\n\nEducation\n3.73\n2.92\n0.82\n-6.54\n0.00\n\n\nGender\n0.40\n0.40\n0.00\n-0.11\n0.91\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlibrary(ggcorrplot)\n# Calculate correlations \n# I make a copy of the dataset for nicer names in the correlation plot\nbecks_data_corr &lt;- becks_data \nnames(becks_data_corr) &lt;- names(becks_data) %&gt;% str_to_sentence()\n\n# Calculate correlations \nbecks_data_corr &lt;- becks_data \nnames(becks_data_corr) &lt;- names(becks_data) %&gt;% str_to_sentence()\n\ncorr &lt;- \n  becks_data_corr %&gt;% \n  select(- Student , -Treatment_random) %&gt;% \n  cor(.) %&gt;% \n  round(.,2)\n\nggcorrplot(corr, hc.order = TRUE,type = \"upper\", lab = TRUE) + \n  xlab(\"\") + ylab(\"\") +\n  ggthemes::theme_hc(base_size = 16) + \n  theme(legend.position=\"bottom\") \n\nrm(becks_data_corr)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#becksperiment-5",
+    "href": "lectures/lecture_3.html#becksperiment-5",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Becksperiment",
+    "text": "Becksperiment\nRandomly assigning beer drinking\n\nFigureSummary statisticsCode\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVariable\nBeer\nNo beer\nDifference\nt-stat.\np-value\n\n\n\n\nPerformance\n8.44\n7.00\n1.43\n0.12\n0.90\n\n\nEducation\n3.73\n2.92\n0.82\n-0.23\n0.82\n\n\nGender\n0.40\n0.40\n0.00\n0.40\n0.69\n\n\nTalent\n5.79\n3.28\n2.51\n0.63\n0.53\n\n\n\n\n\n\n\n\n\nbecks_data %&gt;% \n  group_by(treatment_random) %&gt;% \n  summarise(across(\"performance\" , ~ mean(.x))) %&gt;% \n  mutate(beer = case_when(treatment_random == 1 ~ \"Beer\", \n                          treatment_random == 0 ~ \"No beer\"),\n         # Cosmetic change to reorder so \"Beer\" is on the left\n         beer = factor(beer, levels = c(\"Beer\", \"No beer\"))) %&gt;%\n  ggplot(aes(x = beer, y = performance, group = beer, fill = beer)) +\n  geom_col() +\n  scale_y_continuous(breaks = seq(0,10,1)) +\n  scale_fill_manual(name = \"\", values = c(\"#F7AB64\", \"#93B8D6\")) +\n  labs(x=\"\", y=\"Grade\") +\n  ggthemes::theme_hc(base_size = 18) + \n  theme(legend.position=\"bottom\") +\n  ylim(0,10)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#becksperiment-6",
+    "href": "lectures/lecture_3.html#becksperiment-6",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Becksperiment",
+    "text": "Becksperiment\nTakeaways\n\nRandom assignment assures that the effect is not due to selection bias\nThe difference in talent between the groups is statistically insignificant\n\nThe selection bias disappears",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nWhy is randomization so important?\n\nControlling variation in the causal variable, e.g. beer drinking\nMakes sure that the treatment and control group are similar along observable and unobservable dimensions\nThe only difference between the two groups is the treatment\nThis allows us to attribute any difference in outcomes to the treatment\nNo selection bias (endogeneity issue)\n\n\n\nAnother term for Experiments is Randomized Controlled Trials (RCTs).",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-1",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-1",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nDesigning and analyzing experiments\nTypes of experiments:\n\nField experiments\n\naim to be as similar as possible to real-world decision situations\n\nA/B testing\n\naim to evaluate different versions of the same product\n\nLab experiments\n\nare carried out in an artificial environment, usually a computer lab\n\n\n\n\nFor more in-depth information on experiments and other causal inference methods, see Békés and Kézdi (2021).",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-2",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-2",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nSetup of an experiment\n\nRandom assignment of treatment via assignment rule\nNumber of subjects? Ideally large, exact number via power analysis\n\nHow many subjects do I need to detect a certain effect size?\n\nProportion of treated subjects? Ideally 50/50\nCovariate balance\n\nDid random assignment work?",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-3",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-3",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nExternal and internal validity\n\nInternal validity\n\nExtent to which experiment identifies causal effect of treatment\n\nExternal validity\n\nExtent to which results generalize to other situations\n\n\n\n\n\n🚨💼🧠 Trade-off\n\nHigh external validity more likely achieved in real world situation\nHigh internal validity more likely achieved in controlled situation\nHow well does the result from “controlled situation” generalize to the real world?",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#experiments-in-practice",
+    "href": "lectures/lecture_3.html#experiments-in-practice",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Experiments in practice",
+    "text": "Experiments in practice\n\nDesign can be complicated\n\nIntention to treat versus actual treatment\n\nExperiments need careful planning\n\nResults uninformative or misleading if poorly designed\n\nAnalysis is relatively simple to do and to communicate\n\n\n\nWhen compliance is not perfect the intention to treat effect is the effect of being assigned to the treatment group, not the effect of actually receiving the treatment.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-4",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-4",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nTakeaways\n\nRandom assignment assures that effect is not due to selection bias\nIn the experiment you control…\n\nwho receives the treatment (the treatment group),…\nand who doesn’t (the control group)\n\nYou can control other aspects of the situation to avoid other confounders\nYou can measure the effect of the treatment on the outcome\nPotential trade-off between internal and external validity",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#natural-experiments",
+    "href": "lectures/lecture_3.html#natural-experiments",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Natural experiments",
+    "text": "Natural experiments\nWhat is a natural experiment?\n\nA natural experiment is an observational study that uses a naturally occurring event to assign treatment and control groups\nThe event is not controlled by the researcher\nThe event is not a random assignment, but it is as-if random\nSome prominent examples of natural experiments are:\n\nMilitary draft lotteries\nAllocation of water to diﬀerent houses\nEconomic shocks",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#natural-experiments-1",
+    "href": "lectures/lecture_3.html#natural-experiments-1",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Natural experiments",
+    "text": "Natural experiments\nNatural Becksperiment",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#control-variables",
+    "href": "lectures/lecture_3.html#control-variables",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Control variables",
+    "text": "Control variables\nWhat are control variables?\n\nThey are used to control for confounding variables that may bias the estimated effect of the treatment on the outcome\nControl variables are not the same as instrumental variables (IVs)\nThe interpretation of the treatment effect is conditional on the control variables\nStill the treatment effect is not the same as the causal effect, if the treatment is not randomly assigned\n“Just” a correlation between treatment and outcome",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nWhat is OLS?",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-1",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-1",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nOLS Assumption\nOLS’s key assumptions to produce consistent estimates\n\nRandom sample of observations on Y and X\nA mean zero error term (\\(\\epsilon\\)) with a constant variance\nNo linear relationship among the explanatory variables, i.e. no perfect collinearity\nAn error term that is uncorrelated with each explanatory variable, i.e. \\(Cov(x_i ,\\epsilon ) = 0\\)\nAn error term with zero mean conditional on the explanatory variables, i.e. \\(E( \\epsilon | X ) = 0\\)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-2",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-2",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nOLS Assumption (1)\n\nRandom sample of observations on Y and X\n\nThis assumption can be relaxed\nOne need to assume only that the error term is independent of the sample selection mechanism conditional on the covariates (i.e., control variables)\n\nNo Biggie!",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-3",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-3",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nOLS Assumption (2)\n\nA mean zero error term (\\(\\epsilon\\)) with a constant variance\n\nA nonzero mean for the error term simply gets absorbed by the intercept\n\nNo Biggie!\n\nThe variance of the error term is not constant if it increases with one of the dependent variables… (a.k.a. Heteroscedasticity)\nWe will always use robust standard errors that take care of that issue, hence…\n\nNo Biggie!",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-4",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-4",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nOLS Assumption (3)\n\nNo linear relationship among the explanatory variables, i.e. no perfect collinearity\n\nNo Biggie! OLS does not run!\n\n\nAnd what about, high (but not perfect) collinearity, a.k.a. multicollinearity? - Interpretation of coefficients problematic, since c.p. does not work anymore",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-5",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-5",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nOLS Assumption (4 & 5)\n\nAn error term that is uncorrelated with each explanatory variable, i.e. \\(Cov(x_i ,epsilon ) = 0\\)\nAn error term with zero mean conditional on the explanatory variables, i.e. \\(E( epsilon | X ) = 0\\)\n\n\nNo way to empirically test whether a variable is correlated with the regression error term because the error term is unobservable\nThis problem is called ENDOGENEITY\nSources of endogeneity:\n\nMeasurement error in the dependent or independent variable\nSimultaneity\nOmitted variable bias (recall selection bias in the example)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-6",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-6",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nInterpreting regression models",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-7",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-7",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nSources of endogeneity\n\nOmitted variable bias (e.g., unobservable firm characteristics)\nMeasurement error in variables\nSimultaneity",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#fixed-effects",
+    "href": "lectures/lecture_3.html#fixed-effects",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Fixed Effects",
+    "text": "Fixed Effects\nWhat are fixed effects?\n\nCommon practice in panel data analysis\nAny time-invariant characteristic that cannot be observed in the data = fixed effect\nFixed effects alleviate concerns that time invariant characteristics drive the results\nThey DO NOT solve endogeneity issues (more on that in the next lectures)\nUse with caution! Do not “fix effect away” what you want to measure, i.e. understanding cross-sectional variation in a variable\nVery common to include firm and year fixed effects",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#fixed-effects-1",
+    "href": "lectures/lecture_3.html#fixed-effects-1",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Fixed Effects",
+    "text": "Fixed Effects\nFixed Effects - Example\n\\[y_{i,t} = \\beta_0 + \\beta_1X_{i,t} + \\epsilon_{i, t}\\]\nThe error term \\(u_{i,t}\\) includes an omitted variable that is constant for each \\(i\\)\n\\[u_{i,t} = \\epsilon_{i, t} + c_{i}\\]\nInclude separate intercept for each \\(i\\) or “deviations-from-individual-means regression”\n\\[\\left(y_{i,t} - \\frac{1}{T}\\sum_{t=1}^{T}y_{i,t} \\right) = \\left( \\beta_0 - \\frac{1}{T}\\sum_{t=1}^{T}y_{i,t} \\right) + \\left(\\beta_1X_{i,t} - \\frac{1}{T}\\sum_{t=1}^{T}X_{i,t} \\right) + \\left(\\epsilon_{i,t} - \\frac{1}{T}\\sum_{t=1}^{T}\\epsilon_{i,t}  \\right)\\]\nProblem solved, because…\n\\[c_{i} - \\frac{1}{T}\\sum_{t=1}^{T}c_{i} = 0\\]",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#standard-errors-1",
+    "href": "lectures/lecture_3.html#standard-errors-1",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Standard Errors",
+    "text": "Standard Errors\nWhat is the problem, anyways?\n\nStatistical significance (a.k.a. inference) (\\(t\\)-stat) boils down to two ingredients: \\(\\beta\\) and standard error\nFailure to control for within-cluster error correlation can lead to very misleadingly small standard errors ⇒ large t-statistics (and low p-values)\nInference breaks down",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#standard-errors-2",
+    "href": "lectures/lecture_3.html#standard-errors-2",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Standard Errors",
+    "text": "Standard Errors\nBest Practices\n\nAlways use robust standard errors (solves heteroscedasticity issues)\nRule of thumb I: Cluster at the level of the treatment/“shock”, e.g. treatment is on state-level (new law) ⇒ cluster standard errors at state\nBe careful: Less than ≈ 30 clusters makes standard errors too small\nRule of thumb II: Check robustness of different cluster methods ⇒ report most conservative one\n\nFor more details see, e.g. Petersen (2009), Abadie et al. (2017), Cameron & Miller",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#interpretation-of-coefficients",
+    "href": "lectures/lecture_3.html#interpretation-of-coefficients",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Interpretation of coefficients",
+    "text": "Interpretation of coefficients\nFunctional Forms\n\n\n\n\n\n\n\n\nName\nFunctional form\nInterpretation \\(\\beta_1\\)\n\n\n\n\nLinear\n\\(Y = \\beta_0 +\\beta_1X + \\epsilon\\)\nAverage change of Y by one unit change in X \\(=\\beta_1\\)\n\n\nLog-linear\n\\(ln(Y) = \\beta_0 +\\beta_1X + \\epsilon\\)\nAverage change of Y by one unit change in X \\(\\approx100 \\times \\beta_1\\)%1\n\n\nLog-log\n\\(ln(Y) = \\beta_0 +\\beta_1ln(X) + \\epsilon\\)\n% change in mean Y associated with a one percent change in X (a.k.a. elasticity), (c.p.) \\(=\\beta_1\\)\n\n\n\nExact calculation: \\(100 \\times (e^{\\beta_1}-1)\\)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#categorical-and-limited-dependent-variables",
+    "href": "lectures/lecture_3.html#categorical-and-limited-dependent-variables",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "Categorical and limited dependent variables",
+    "text": "Categorical and limited dependent variables\n\nLogistic regression for binary financial outcomes (defaults, M&A)\nCount data models for financial events (credit rating changes)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#references",
+    "href": "lectures/lecture_3.html#references",
+    "title": "Linear Models and Endogeneity in Finance",
+    "section": "References",
+    "text": "References\n\n\nAngrist, Jorn-Steffen, Joshua; Pischke. 2015. Mastering ’Metrics : The Path from Cause to Effect. Oxford: Princeton University Press,.\n\n\nBékés, Gábor, and Gábor Kézdi. 2021. Data Analysis for Business, Economics, and Policy. Cambridge University Press.\n\n\nLibby, Robert, Robert Bloomfield, and Mark W Nelson. 2002. “Experimental Research in Financial Accounting.” Accounting, Organizations and Society 27 (8): 775–810.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Linear Models and Endogeneity in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_1.html#overview-1",
+    "href": "lectures/lecture_1.html#overview-1",
+    "title": "Data Acquisition and Management",
+    "section": "Overview",
+    "text": "Overview\nIntroduction to the course",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Acquisition and Management"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_1.html#overview-2",
+    "href": "lectures/lecture_1.html#overview-2",
+    "title": "Data Acquisition and Management",
+    "section": "Overview",
+    "text": "Overview\nLearning objectives",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Acquisition and Management"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_1.html#overview-3",
+    "href": "lectures/lecture_1.html#overview-3",
+    "title": "Data Acquisition and Management",
+    "section": "Overview",
+    "text": "Overview\nCourse structure",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Acquisition and Management"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_1.html#references",
+    "href": "lectures/lecture_1.html#references",
+    "title": "Data Acquisition and Management",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Acquisition and Management"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Analytics in Finance",
+    "section": "",
+    "text": "Welcome to the Data Analytics in Finance course materials. This website contains all the lecture slides, assignments, and resources for the course.\n\n\nThis course equips students with essential research skills in finance, including data analytics, scientific methods, and econometric techniques. Students will learn how to critically assess academic research, replicate findings, and conduct their own analyses.\n\n\n\nBy the end of this course, students will be able to:\n\nApply appropriate data management, analysis, and visualization techniques\nCritically evaluate models and theories in finance\nUnderstand the scientific method as applied to finance research\nApply commonly used econometric methods for financial applications\nAnalyze ethical concepts and dilemmas in finance\n\n\n\n\n\nLecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5\n\n\n\n\n\n\nRegular practice exercises will be posted here throughout the course.\n\n\n\nInformation about course assessments and grading criteria.\n\n\n\n\nAdditional resources, recommended readings, and useful links.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Data Analytics in Finance"
+    ]
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Data Analytics in Finance",
+    "section": "",
+    "text": "This course equips students with essential research skills in finance, including data analytics, scientific methods, and econometric techniques. Students will learn how to critically assess academic research, replicate findings, and conduct their own analyses.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Data Analytics in Finance"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-objectives",
+    "href": "index.html#learning-objectives",
+    "title": "Data Analytics in Finance",
+    "section": "",
+    "text": "By the end of this course, students will be able to:\n\nApply appropriate data management, analysis, and visualization techniques\nCritically evaluate models and theories in finance\nUnderstand the scientific method as applied to finance research\nApply commonly used econometric methods for financial applications\nAnalyze ethical concepts and dilemmas in finance",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Data Analytics in Finance"
+    ]
+  },
+  {
+    "objectID": "index.html#lectures",
+    "href": "index.html#lectures",
+    "title": "Data Analytics in Finance",
+    "section": "",
+    "text": "Lecture 1\nLecture 2\nLecture 3\nLecture 4\nLecture 5",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Data Analytics in Finance"
+    ]
+  },
+  {
+    "objectID": "index.html#materials",
+    "href": "index.html#materials",
+    "title": "Data Analytics in Finance",
+    "section": "",
+    "text": "Regular practice exercises will be posted here throughout the course.\n\n\n\nInformation about course assessments and grading criteria.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Data Analytics in Finance"
+    ]
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Data Analytics in Finance",
+    "section": "",
+    "text": "Additional resources, recommended readings, and useful links.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Data Analytics in Finance"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#overview",
+    "href": "lectures/lecture_2.html#overview",
+    "title": "Data Exploration and Visualization",
+    "section": "Overview",
+    "text": "Overview",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Visualization"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#overview-1",
+    "href": "lectures/lecture_2.html#overview-1",
+    "title": "Data Exploration and Visualization",
+    "section": "Overview",
+    "text": "Overview\nRecap of previous lecture",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Visualization"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#overview-2",
+    "href": "lectures/lecture_2.html#overview-2",
+    "title": "Data Exploration and Visualization",
+    "section": "Overview",
+    "text": "Overview\nToday’s learning objectives",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Visualization"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#overview-3",
+    "href": "lectures/lecture_2.html#overview-3",
+    "title": "Data Exploration and Visualization",
+    "section": "Overview",
+    "text": "Overview\nKey concepts",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Visualization"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#references",
+    "href": "lectures/lecture_2.html#references",
+    "title": "Data Exploration and Visualization",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Visualization"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_4.html#overview",
+    "href": "lectures/lecture_4.html#overview",
+    "title": "Advanced Econometric Methods and Data Analysis",
+    "section": "Overview",
+    "text": "Overview",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Advanced Econometric Methods and Data Analysis"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_4.html#overview-1",
+    "href": "lectures/lecture_4.html#overview-1",
+    "title": "Advanced Econometric Methods and Data Analysis",
+    "section": "Overview",
+    "text": "Overview\nRecap of previous lecture",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Advanced Econometric Methods and Data Analysis"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_4.html#overview-2",
+    "href": "lectures/lecture_4.html#overview-2",
+    "title": "Advanced Econometric Methods and Data Analysis",
+    "section": "Overview",
+    "text": "Overview\nToday’s learning objectives",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Advanced Econometric Methods and Data Analysis"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_4.html#overview-3",
+    "href": "lectures/lecture_4.html#overview-3",
+    "title": "Advanced Econometric Methods and Data Analysis",
+    "section": "Overview",
+    "text": "Overview\nKey concepts",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Advanced Econometric Methods and Data Analysis"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_4.html#references",
+    "href": "lectures/lecture_4.html#references",
+    "title": "Advanced Econometric Methods and Data Analysis",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Advanced Econometric Methods and Data Analysis"
+    ]
+  }
+]

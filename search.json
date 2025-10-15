@@ -4,7 +4,7 @@
     "href": "lectures/lecture_6.html#overview",
     "title": "Replication Workshop",
     "section": "Overview",
-    "text": "Overview\nGoals for today\n\nAlign on replication rubric and expectations\nSurface and resolve common data and code issues\nEnsure everyone leaves with a concrete next-step checklist\n\nAgenda\n\nReplication rubric and deliverables (10 min)\nData access and IDs (CUSIP, GVKEY, PERMNO) walkthrough (20 min)\nCode clinic: FE, clustering, winsorizing, SE choices (30 min)\nEvent-time vs. calendar-time: CAR vs. FMB pitfalls (15 min)\nBreakouts and troubleshooting (30–45 min)\nWrap-up and milestones (10 min)",
+    "text": "Overview",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -13,11 +13,11 @@
     ]
   },
   {
-    "objectID": "lectures/lecture_6.html#replication-rubric-and-expectations",
-    "href": "lectures/lecture_6.html#replication-rubric-and-expectations",
+    "objectID": "lectures/lecture_6.html#overview-1",
+    "href": "lectures/lecture_6.html#overview-1",
     "title": "Replication Workshop",
-    "section": "Replication rubric and expectations",
-    "text": "Replication rubric and expectations\n\nDocumentation standards and reproducibility checklist\nRequired outputs: tables, logs, and data description\nGrading criteria and threshold to pass",
+    "section": "Overview",
+    "text": "Overview\nRecap of previous lecture",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -26,11 +26,11 @@
     ]
   },
   {
-    "objectID": "lectures/lecture_6.html#data-and-identifiers-clinic",
-    "href": "lectures/lecture_6.html#data-and-identifiers-clinic",
+    "objectID": "lectures/lecture_6.html#overview-2",
+    "href": "lectures/lecture_6.html#overview-2",
     "title": "Replication Workshop",
-    "section": "Data and identifiers clinic",
-    "text": "Data and identifiers clinic\n\nAccess paths to CRSP, Compustat, FF factors\nMapping identifiers and common merge issues\nHandling non-matches and many-to-many risks",
+    "section": "Overview",
+    "text": "Overview\nToday’s learning objectives",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -39,50 +39,11 @@
     ]
   },
   {
-    "objectID": "lectures/lecture_6.html#code-clinic-modeling-and-ses",
-    "href": "lectures/lecture_6.html#code-clinic-modeling-and-ses",
+    "objectID": "lectures/lecture_6.html#overview-3",
+    "href": "lectures/lecture_6.html#overview-3",
     "title": "Replication Workshop",
-    "section": "Code clinic: modeling and SEs",
-    "text": "Code clinic: modeling and SEs\n\nWhen to use FE and how to justify them\nClustering choices (firm, time, two-way)\nOutliers: winsorize vs. trim and documentation",
-    "crumbs": [
-      "Home",
-      "Course Materials",
-      "Lectures",
-      "Replication Workshop"
-    ]
-  },
-  {
-    "objectID": "lectures/lecture_6.html#event-time-vs-calendar-time",
-    "href": "lectures/lecture_6.html#event-time-vs-calendar-time",
-    "title": "Replication Workshop",
-    "section": "Event-time vs calendar-time",
-    "text": "Event-time vs calendar-time\n\nCAR (event-time) vs FMB (calendar-time) perspectives\nTypical pitfalls and interpretation differences",
-    "crumbs": [
-      "Home",
-      "Course Materials",
-      "Lectures",
-      "Replication Workshop"
-    ]
-  },
-  {
-    "objectID": "lectures/lecture_6.html#breakouts-and-troubleshooting",
-    "href": "lectures/lecture_6.html#breakouts-and-troubleshooting",
-    "title": "Replication Workshop",
-    "section": "Breakouts and troubleshooting",
-    "text": "Breakouts and troubleshooting\n\nThemed stations: merges, SEs, event windows, FMB setup\nTA/peer triage and office hours follow-up",
-    "crumbs": [
-      "Home",
-      "Course Materials",
-      "Lectures",
-      "Replication Workshop"
-    ]
-  },
-  {
-    "objectID": "lectures/lecture_6.html#milestones-and-next-steps",
-    "href": "lectures/lecture_6.html#milestones-and-next-steps",
-    "title": "Replication Workshop",
-    "section": "Milestones and next steps",
-    "text": "Milestones and next steps\n\nIndividual checklist of remaining tasks\nSubmission format and due dates",
+    "section": "Overview",
+    "text": "Overview\nKey concepts",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -463,7 +424,7 @@
     "href": "lectures/lecture_5.html#overview",
     "title": "Event Studies (CAR) and Fama–MacBeth",
     "section": "Overview",
-    "text": "Overview\nRecap of previous lecture\n\nPanel FE and clustering\nDiD moved into Panel Methods (parallel trends, staggered adoption pitfalls)\n\nToday’s learning objectives\n\nCompute abnormal returns (AR) and cumulative abnormal returns (CAR)\nDistinguish estimation vs. event windows and select a canonical expected-return model\nImplement characteristics-based Fama–MacBeth cross-sectional regressions\nReport time-series standard errors on risk premia and interpret results",
+    "text": "Overview",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -472,11 +433,11 @@
     ]
   },
   {
-    "objectID": "lectures/lecture_5.html#datasets-and-setup",
-    "href": "lectures/lecture_5.html#datasets-and-setup",
+    "objectID": "lectures/lecture_5.html#overview-1",
+    "href": "lectures/lecture_5.html#overview-1",
     "title": "Event Studies (CAR) and Fama–MacBeth",
-    "section": "Datasets and setup",
-    "text": "Datasets and setup\n\nCRSP daily returns (for CAR)\nCRSP monthly returns (for FMB)\nFama–French factors and risk-free rate\nCompustat fundamentals and CCM link for firm characteristics",
+    "section": "Overview",
+    "text": "Overview\nRecap of previous lecture",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -485,11 +446,11 @@
     ]
   },
   {
-    "objectID": "lectures/lecture_5.html#event-studies-car",
-    "href": "lectures/lecture_5.html#event-studies-car",
+    "objectID": "lectures/lecture_5.html#overview-2",
+    "href": "lectures/lecture_5.html#overview-2",
     "title": "Event Studies (CAR) and Fama–MacBeth",
-    "section": "Event Studies (CAR)",
-    "text": "Event Studies (CAR)\n\nDefine estimation window and event window\nMarket model vs. FF3/FF5 expected returns (choose one spec in-class)\nCompute AR, CAR; cross-sectional tests; visualization of mean CAR with bands",
+    "section": "Overview",
+    "text": "Overview\nToday’s learning objectives",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -498,24 +459,11 @@
     ]
   },
   {
-    "objectID": "lectures/lecture_5.html#famamacbeth-characteristics-based",
-    "href": "lectures/lecture_5.html#famamacbeth-characteristics-based",
+    "objectID": "lectures/lecture_5.html#overview-3",
+    "href": "lectures/lecture_5.html#overview-3",
     "title": "Event Studies (CAR) and Fama–MacBeth",
-    "section": "Fama–MacBeth (characteristics-based)",
-    "text": "Fama–MacBeth (characteristics-based)\n\nTwo-pass framework and intuition\nCross-sectional regressions each month: size, B/M, profitability, investment\nTime-series SEs on average gammas; limitations and caveats",
-    "crumbs": [
-      "Home",
-      "Course Materials",
-      "Lectures",
-      "Event Studies (CAR) and Fama–MacBeth"
-    ]
-  },
-  {
-    "objectID": "lectures/lecture_5.html#in-class-tasks",
-    "href": "lectures/lecture_5.html#in-class-tasks",
-    "title": "Event Studies (CAR) and Fama–MacBeth",
-    "section": "In-class tasks",
-    "text": "In-class tasks\n\nTask 1: Build CAR around a supplied event list; produce plot and table\nTask 2: Run FMB with provided monthly panel; output a publication-quality table",
+    "section": "Overview",
+    "text": "Overview\nKey concepts",
     "crumbs": [
       "Home",
       "Course Materials",

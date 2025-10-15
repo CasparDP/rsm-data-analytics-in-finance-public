@@ -442,7 +442,7 @@
   <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Caspar David Peter">
-  <title>MSc Finance Research Skills – Data Management and Merging</title>
+  <title>MSc Finance Research Skills – Replication Workshop</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -1005,7 +1005,7 @@ margin-right: 0; }
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Data Management and Merging</h1>
+  <h1 class="title">Replication Workshop</h1>
   <p class="subtitle">Data Analytics in Finance</p>
 
 <div class="quarto-title-authors">
@@ -1024,31 +1024,72 @@ Caspar David Peter <a href="https://orcid.org/0000-0003-0020-1673" class="quarto
 
 </section>
 <section>
-<section id="overview" class="title-slide slide level1 center">
-<h1>Overview</h1>
+<section id="replication-workshop" class="title-slide slide level1 center">
+<h1>Replication Workshop</h1>
 
 </section>
-<section id="overview-1" class="slide level2">
+<section id="overview" class="slide level2">
 <h2>Overview</h2>
-<h3 id="introduction-to-the-course">Introduction to the course</h3>
+<h3 id="goals-for-today">Goals for today</h3>
+<ul>
+<li>Align on replication rubric and expectations</li>
+<li>Surface and resolve common data and code issues</li>
+<li>Ensure everyone leaves with a concrete next-step checklist</li>
+</ul>
+<h3 id="agenda">Agenda</h3>
+<ul>
+<li>Replication rubric and deliverables (10 min)</li>
+<li>Data access and IDs (CUSIP, GVKEY, PERMNO) walkthrough (20 min)</li>
+<li>Code clinic: FE, clustering, winsorizing, SE choices (30 min)</li>
+<li>Event-time vs. calendar-time: CAR vs. FMB pitfalls (15 min)</li>
+<li>Breakouts and troubleshooting (30–45 min)</li>
+<li>Wrap-up and milestones (10 min)</li>
+</ul>
 </section>
-<section id="overview-2" class="slide level2">
-<h2>Overview</h2>
-<h3 id="learning-objectives">Learning objectives</h3>
+<section id="replication-rubric-and-expectations" class="slide level2">
+<h2>Replication rubric and expectations</h2>
+<ul>
+<li>Documentation standards and reproducibility checklist</li>
+<li>Required outputs: tables, logs, and data description</li>
+<li>Grading criteria and threshold to pass</li>
+</ul>
 </section>
-<section id="overview-3" class="slide level2">
-<h2>Overview</h2>
-<h3 id="course-structure">Course structure</h3>
-</section></section>
-<section id="data-acquisition" class="title-slide slide level1 center">
-<h1>Data Acquisition</h1>
-
+<section id="data-and-identifiers-clinic" class="slide level2">
+<h2>Data and identifiers clinic</h2>
+<ul>
+<li>Access paths to CRSP, Compustat, FF factors</li>
+<li>Mapping identifiers and common merge issues</li>
+<li>Handling non-matches and many-to-many risks</li>
+</ul>
 </section>
-
-<section>
-<section id="data-management" class="title-slide slide level1 center">
-<h1>Data Management</h1>
-
+<section id="code-clinic-modeling-and-ses" class="slide level2">
+<h2>Code clinic: modeling and SEs</h2>
+<ul>
+<li>When to use FE and how to justify them</li>
+<li>Clustering choices (firm, time, two-way)</li>
+<li>Outliers: winsorize vs. trim and documentation</li>
+</ul>
+</section>
+<section id="event-time-vs-calendar-time" class="slide level2">
+<h2>Event-time vs calendar-time</h2>
+<ul>
+<li>CAR (event-time) vs FMB (calendar-time) perspectives</li>
+<li>Typical pitfalls and interpretation differences</li>
+</ul>
+</section>
+<section id="breakouts-and-troubleshooting" class="slide level2">
+<h2>Breakouts and troubleshooting</h2>
+<ul>
+<li>Themed stations: merges, SEs, event windows, FMB setup</li>
+<li>TA/peer triage and office hours follow-up</li>
+</ul>
+</section>
+<section id="milestones-and-next-steps" class="slide level2">
+<h2>Milestones and next steps</h2>
+<ul>
+<li>Individual checklist of remaining tasks</li>
+<li>Submission format and due dates</li>
+</ul>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>

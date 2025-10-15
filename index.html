@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-07bbee290eb5c4bdfb5745d9c83da32e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e5a573548822d846f2de60c9103eaea8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,6 +81,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">MSc Finance Research Skills</span>
     </a>
@@ -119,12 +122,12 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./lectures/lecture_5.html">
  <span class="dropdown-text">Lecture 5</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./lectures/lecture_6.html">
+ <span class="dropdown-text">Lecture 6</span></a>
+  </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./resources.qmd"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -146,6 +149,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -175,30 +182,36 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lectures/lecture_1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Acquisition and Management</span></a>
+ <span class="menu-text">Data Management and Merging</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lectures/lecture_2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Exploration and Visualization</span></a>
+ <span class="menu-text">Data Exploration and Academic Tables</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lectures/lecture_3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Linear Models and Endogeneity in Finance</span></a>
+ <span class="menu-text">Regression Methods and Identification</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lectures/lecture_4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Advanced Econometric Methods and Data Analysis</span></a>
+ <span class="menu-text">Panel Data Methods</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lectures/lecture_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Event Studies (CAR) and Fama–MacBeth</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lectures/lecture_6.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Replication Workshop</span></a>
   </div>
 </li>
@@ -218,14 +231,21 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#course-overview" id="toc-course-overview" class="nav-link active" data-scroll-target="#course-overview">Course Overview</a>
   <ul class="collapse">
-  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#course-outline" id="toc-course-outline" class="nav-link" data-scroll-target="#course-outline">Course outline</a></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">Learning goals</a></li>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link" data-scroll-target="#schedule">Schedule</a></li>
   <li><a href="#lectures" id="toc-lectures" class="nav-link" data-scroll-target="#lectures">Lectures</a></li>
   <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a>
   <ul class="collapse">
   <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
-  <li><a href="#assessment" id="toc-assessment" class="nav-link" data-scroll-target="#assessment">Assessment</a></li>
   </ul></li>
+  <li><a href="#assessment" id="toc-assessment" class="nav-link" data-scroll-target="#assessment">Assessment</a>
+  <ul class="collapse">
+  <li><a href="#individual-assignments" id="toc-individual-assignments" class="nav-link" data-scroll-target="#individual-assignments">Individual assignments</a></li>
+  <li><a href="#assignment-overview" id="toc-assignment-overview" class="nav-link" data-scroll-target="#assignment-overview">Assignment Overview:</a></li>
+  <li><a href="#pass-requirements" id="toc-pass-requirements" class="nav-link" data-scroll-target="#pass-requirements">Pass Requirements:</a></li>
+  </ul></li>
+  <li><a href="#software-and-tools" id="toc-software-and-tools" class="nav-link" data-scroll-target="#software-and-tools">Software and Tools</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul></li>
   </ul>
@@ -270,29 +290,36 @@ ul.task-list li input[type="checkbox"] {
 <section id="course-overview" class="level1">
 <h1>Course Overview</h1>
 <p>Welcome to the Data Analytics in Finance course materials. This website contains all the lecture slides, assignments, and resources for the course.</p>
-<section id="course-description" class="level2">
-<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
-<p>This course equips students with essential research skills in finance, including data analytics, scientific methods, and econometric techniques. Students will learn how to critically assess academic research, replicate findings, and conduct their own analyses.</p>
+<section id="course-outline" class="level2">
+<h2 class="anchored" data-anchor-id="course-outline">Course outline</h2>
+<p>This course is designed to equip students with comprehensive data analysis skills using Stata and a thorough understanding of research methods in finance. The course emphasizes both theoretical foundations and practical implementation of econometric techniques essential for empirical finance research.</p>
+<p>Students will learn how to apply statistical analysis techniques with proper understanding of underlying assumptions, interpret data effectively, and address common methodological challenges in financial research. These skills directly support students’ ability to successfully complete their master thesis replication projects and prepare them for data-intensive roles in the financial industry.</p>
 </section>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<section id="learning-goals" class="level2">
+<h2 class="anchored" data-anchor-id="learning-goals">Learning goals</h2>
 <p>By the end of this course, students will be able to:</p>
-<ul>
-<li>Apply appropriate data management, analysis, and visualization techniques</li>
-<li>Critically evaluate models and theories in finance</li>
-<li>Understand the scientific method as applied to finance research</li>
-<li>Apply commonly used econometric methods for financial applications</li>
-<li>Analyze ethical concepts and dilemmas in finance</li>
-</ul>
+<ol type="1">
+<li><strong>Data Management</strong>: Clean, transform, and merge complex datasets using different identifiers (CUSIP, GVKEY, PERMNO) in Stata</li>
+<li><strong>Econometric Theory</strong>: Understand and verify the assumptions underlying statistical methods used in finance research</li>
+<li><strong>Panel Methods</strong>: Implement and interpret fixed effects models with appropriate standard error corrections</li>
+<li><strong>Causal Inference</strong>: Apply difference-in-differences, event studies, and instrumental variables with proper identification strategies</li>
+<li><strong>Research Communication</strong>: Create publication-quality tables and essential visualizations for academic papers</li>
+<li><strong>Replication Skills</strong>: Execute replications of published research with proper documentation and Stata code</li>
+</ol>
+</section>
+<section id="schedule" class="level2">
+<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
+<p>The course consists of 6 sessions, each lasting 2 hours 45 minutes. The sessions will be held in person on campus. The course includes individual assignments that reinforce the concepts learned in class.</p>
 </section>
 <section id="lectures" class="level2">
 <h2 class="anchored" data-anchor-id="lectures">Lectures</h2>
 <ol type="1">
-<li><a href="./lectures/lecture_1.html">Lecture 1</a></li>
-<li><a href="./lectures/lecture_2.html">Lecture 2</a></li>
-<li><a href="./lectures/lecture_3.html">Lecture 3</a></li>
-<li><a href="./lectures/lecture_4.html">Lecture 4</a></li>
-<li><a href="./lectures/lecture_5.html">Lecture 5</a></li>
+<li><a href="./lectures/lecture_1.html">Data Management and Merging</a></li>
+<li><a href="./lectures/lecture_2.html">Data Exploration and Academic Tables</a></li>
+<li><a href="./lectures/lecture_3.html">Regression Methods and Identification</a></li>
+<li><a href="./lectures/lecture_4.html">Panel Data Methods (with DiD)</a></li>
+<li><a href="./lectures/lecture_5.html">Event Studies (CAR) and Fama–MacBeth</a></li>
+<li><a href="./lectures/lecture_6.html">Replication Workshop</a></li>
 </ol>
 </section>
 <section id="materials" class="level2">
@@ -301,10 +328,37 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="exercises">Exercises</h3>
 <p>Regular practice exercises will be posted here throughout the course.</p>
 </section>
-<section id="assessment" class="level3">
-<h3 class="anchored" data-anchor-id="assessment">Assessment</h3>
-<p>Information about course assessments and grading criteria.</p>
 </section>
+<section id="assessment" class="level2">
+<h2 class="anchored" data-anchor-id="assessment">Assessment</h2>
+<section id="individual-assignments" class="level3">
+<h3 class="anchored" data-anchor-id="individual-assignments">Individual assignments</h3>
+<ul>
+<li>Six assignments throughout the course</li>
+<li>All assignments must be completed</li>
+</ul>
+</section>
+<section id="assignment-overview" class="level3">
+<h3 class="anchored" data-anchor-id="assignment-overview">Assignment Overview:</h3>
+<p>TBD</p>
+</section>
+<section id="pass-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="pass-requirements">Pass Requirements:</h3>
+<ul>
+<li>Overall course grade ≥ 55%</li>
+<li>Replication exercise grade ≥ 50%</li>
+<li>All assignments must be submitted</li>
+</ul>
+</section>
+</section>
+<section id="software-and-tools" class="level2">
+<h2 class="anchored" data-anchor-id="software-and-tools">Software and Tools</h2>
+<p>Students will use:</p>
+<ol type="1">
+<li><strong>Stata</strong> (version 17 or higher) - All econometric analysis</li>
+<li>Access to financial databases through university subscriptions</li>
+</ol>
+<p>All software is available through university resources. Basic familiarity with statistics is expected.</p>
 </section>
 <section id="resources" class="level2">
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
@@ -366,13 +420,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

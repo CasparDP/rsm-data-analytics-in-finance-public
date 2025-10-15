@@ -442,7 +442,7 @@
   <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Caspar David Peter">
-  <title>MSc Finance Research Skills – Data Management and Merging</title>
+  <title>MSc Finance Research Skills – Event Studies (CAR) and Fama–MacBeth</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -1005,7 +1005,7 @@ margin-right: 0; }
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Data Management and Merging</h1>
+  <h1 class="title">Event Studies (CAR) and Fama–MacBeth</h1>
   <p class="subtitle">Data Analytics in Finance</p>
 
 <div class="quarto-title-authors">
@@ -1024,31 +1024,56 @@ Caspar David Peter <a href="https://orcid.org/0000-0003-0020-1673" class="quarto
 
 </section>
 <section>
-<section id="overview" class="title-slide slide level1 center">
-<h1>Overview</h1>
+<section id="event-studies-car-and-famamacbeth" class="title-slide slide level1 center">
+<h1>Event Studies (CAR) and Fama–MacBeth</h1>
 
 </section>
-<section id="overview-1" class="slide level2">
+<section id="overview" class="slide level2">
 <h2>Overview</h2>
-<h3 id="introduction-to-the-course">Introduction to the course</h3>
+<h3 id="recap-of-previous-lecture">Recap of previous lecture</h3>
+<ul>
+<li>Panel FE and clustering</li>
+<li>DiD moved into Panel Methods (parallel trends, staggered adoption pitfalls)</li>
+</ul>
+<h3 id="todays-learning-objectives">Today’s learning objectives</h3>
+<ul>
+<li>Compute abnormal returns (AR) and cumulative abnormal returns (CAR)</li>
+<li>Distinguish estimation vs. event windows and select a canonical expected-return model</li>
+<li>Implement characteristics-based Fama–MacBeth cross-sectional regressions</li>
+<li>Report time-series standard errors on risk premia and interpret results</li>
+</ul>
 </section>
-<section id="overview-2" class="slide level2">
-<h2>Overview</h2>
-<h3 id="learning-objectives">Learning objectives</h3>
+<section id="datasets-and-setup" class="slide level2">
+<h2>Datasets and setup</h2>
+<ul>
+<li>CRSP daily returns (for CAR)</li>
+<li>CRSP monthly returns (for FMB)</li>
+<li>Fama–French factors and risk-free rate</li>
+<li>Compustat fundamentals and CCM link for firm characteristics</li>
+</ul>
 </section>
-<section id="overview-3" class="slide level2">
-<h2>Overview</h2>
-<h3 id="course-structure">Course structure</h3>
-</section></section>
-<section id="data-acquisition" class="title-slide slide level1 center">
-<h1>Data Acquisition</h1>
-
+<section id="event-studies-car" class="slide level2">
+<h2>Event Studies (CAR)</h2>
+<ul>
+<li>Define estimation window and event window</li>
+<li>Market model vs. FF3/FF5 expected returns (choose one spec in-class)</li>
+<li>Compute AR, CAR; cross-sectional tests; visualization of mean CAR with bands</li>
+</ul>
 </section>
-
-<section>
-<section id="data-management" class="title-slide slide level1 center">
-<h1>Data Management</h1>
-
+<section id="famamacbeth-characteristics-based" class="slide level2">
+<h2>Fama–MacBeth (characteristics-based)</h2>
+<ul>
+<li>Two-pass framework and intuition</li>
+<li>Cross-sectional regressions each month: size, B/M, profitability, investment</li>
+<li>Time-series SEs on average gammas; limitations and caveats</li>
+</ul>
+</section>
+<section id="in-class-tasks" class="slide level2">
+<h2>In-class tasks</h2>
+<ul>
+<li>Task 1: Build CAR around a supplied event list; produce plot and table</li>
+<li>Task 2: Run FMB with provided monthly panel; output a publication-quality table</li>
+</ul>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>

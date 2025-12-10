@@ -160,7 +160,7 @@
     "href": "lectures/lecture_2.html#overview-2",
     "title": "Data Exploration and Academic Tables",
     "section": "Overview",
-    "text": "Overview\nToday’s learning objectives",
+    "text": "Overview\nWhat are we gonna to do today?\nToday’s learning objectives\n\nDescribing and visualizing\n\nIndividual variables\nRelationships between variables\n\nCreating academic tables in Stata\n\nReadings\nThe effect chapters 3 and 4",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -174,6 +174,97 @@
     "title": "Data Exploration and Academic Tables",
     "section": "Overview",
     "text": "Overview\nKey concepts",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Academic Tables"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#individual-variables",
+    "href": "lectures/lecture_2.html#individual-variables",
+    "title": "Data Exploration and Academic Tables",
+    "section": "Individual Variables",
+    "text": "Individual Variables\nTypes of Variables\n\nContinuous Variables: Can take any value within a range. Example: Income measured in currency, like ZAR.\n\nNo discrete jumps between variable values.\n\nCount Variables: Count occurrences or items, cannot be negative and usually non-fractional.\n\nExamples: Number of business mergers in a year.\n\nOrdinal Variables: Categorical with inherent order but undefined magnitude of difference.\n\nExample: Neuroticism levels (low, medium, high).\n\nCategorical Variables: Describe observations in discrete categories with no intrinsic order.\n\nExample: Color of flowers, with specific categories.\n\nBinary Variables: A type of categorical variable with two categories, often ‘yes’ or ‘no’.\nQualitative Variables: Non-numeric and not easily categorized variables, e.g., text headlines.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Academic Tables"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#individual-variables-1",
+    "href": "lectures/lecture_2.html#individual-variables-1",
+    "title": "Data Exploration and Academic Tables",
+    "section": "Individual Variables",
+    "text": "Individual Variables\nUnderstanding Distributions\n\nDistribution: Probability of values that a variable can take.\n\nCategorical/Ordinal: Distribution shown via frequency tables or bar graphs.\nContinuous: Shown using histograms or density plots.\n\nSummary Tools:\n\nMean: Average value, calculated as the sum of observations divided by the number of observations.\nPercentiles: Value below which a percentage of observations fall, e.g., median is the 50th percentile.\n\nVisual Representation:\n\nHistogram: Graphical display dividing data into bins showing frequency of values in each range.\nDensity Plot: Smoother alternative to histogram, representing distribution with narrowing bins.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Academic Tables"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#relationships-between-variables",
+    "href": "lectures/lecture_2.html#relationships-between-variables",
+    "title": "Data Exploration and Academic Tables",
+    "section": "Relationships Between Variables",
+    "text": "Relationships Between Variables\nKey Concepts\n\nA relationship in data analysis shows how two or more variables are interconnected. Understanding one variable can provide insights about another\nPositive relationships imply that as one variable increases, the other tends to increase as well\nNegative relationships indicate that as one variable increases, the other tends to decrease\nNull relationships mean there is no discernible connection between the variables",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Academic Tables"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#relationships-between-variables-1",
+    "href": "lectures/lecture_2.html#relationships-between-variables-1",
+    "title": "Data Exploration and Academic Tables",
+    "section": "Relationships Between Variables",
+    "text": "Relationships Between Variables\nKey Assumptions\n\nThe main goal is to describe the relationship between variables accurately to address a research question\nUnderstanding the form of a relationship (e.g., linear, quadratic) is crucial for appropriate analysis and interpretation\n\n\n\n\n\n\n\nCausation vs. Correlation\n\n\nThe assumption that a scatterplot or similar visual representation can imply causation is misleading\n⇢ correlation does not equal causation",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Academic Tables"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#relationships-between-variables-2",
+    "href": "lectures/lecture_2.html#relationships-between-variables-2",
+    "title": "Data Exploration and Academic Tables",
+    "section": "Relationships Between Variables",
+    "text": "Relationships Between Variables\nConditional Distributions\nExample\n\n\n\n\n\n\n\nDefinition\n\n\nThe distribution of one variable given a specific value or range of another variable",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Academic Tables"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#relationships-between-variables-3",
+    "href": "lectures/lecture_2.html#relationships-between-variables-3",
+    "title": "Data Exploration and Academic Tables",
+    "section": "Relationships Between Variables",
+    "text": "Relationships Between Variables\nConditional Means\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefinition\n\n\nThe average value of one variable given a specific value or range of another variable ⇢ Helps understand how the expected value of one variable changes with another",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Data Exploration and Academic Tables"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_2.html#relationships-between-variables-4",
+    "href": "lectures/lecture_2.html#relationships-between-variables-4",
+    "title": "Data Exploration and Academic Tables",
+    "section": "Relationships Between Variables",
+    "text": "Relationships Between Variables\nVisualizing Relationships\nScatterplot\n\nBasic tool to visualize relationships between two continuous variables\nPlot every data point for variables on x- and y-axes to discern patterns\nExample: Scatterplot between age and heart health showing a slight negative relationship\n\nEstimation Techniques\n\nUse of regressions to determine the nature and strength of relationships, e.g.OLS (Ordinary Least Squares): Fits a straight line, simple yet applicable for linear relationships\n\n\nConditional Distributions\n\nDistribution of one variable given another’s value (e.g., vitamin E intake among exercisers).\nProvides insights on the relationship between two variables by changing the underlying probability distribution",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -199,7 +290,7 @@
     "href": "index.html",
     "title": "Data Analytics for Finance",
     "section": "",
-    "text": "Welcome to the Data Analytics in Finance course materials. This website contains all the lecture slides, assignments, and resources for the course.\n\n\nThis course is designed to equip students with comprehensive data analysis skills using Stata and a thorough understanding of research methods in finance. The course emphasizes both theoretical foundations and practical implementation of econometric techniques essential for empirical finance research.\nStudents will learn how to apply statistical analysis techniques with proper understanding of underlying assumptions, interpret data effectively, and address common methodological challenges in financial research. These skills directly support students’ ability to successfully complete their master thesis replication projects and prepare them for data-intensive roles in the financial industry.\n\n\n\nBy the end of this course, students will be able to:\n\nData Management: Clean, transform, and merge complex datasets using different identifiers (CUSIP, GVKEY, PERMNO) in Stata\nEconometric Theory: Understand and verify the assumptions underlying statistical methods used in finance research\nPanel Methods: Implement and interpret fixed effects models with appropriate standard error corrections\nCausal Inference: Apply difference-in-differences, event studies, and instrumental variables with proper identification strategies\nResearch Communication: Create publication-quality tables and essential visualizations for academic papers\nReplication Skills: Execute replications of published research with proper documentation and Stata code\n\n\n\n\nThe course consists of 6 sessions, each lasting 2 hours 45 minutes. The sessions will be held in person on campus. The course includes individual assignments that reinforce the concepts learned in class.\n\n\n\n\nData Management and Merging\nData Exploration and Academic Tables\nRegression Methods and Identification\nPanel Data Methods (with DiD)\nEvent Studies (CAR) and Fama–MacBeth\nReplication Workshop\n\n\n\n\n\n\nRegular practice exercises will be posted here throughout the course.\n\n\n\n\n\n\n\nSix assignments throughout the course\nAll assignments must be completed\n\n\n\n\nTBD\n\n\n\n\nOverall course grade ≥ 55%\nReplication exercise grade ≥ 50%\nAll assignments must be submitted\n\n\n\n\n\nStudents will use:\n\nStata (version 17 or higher) - All econometric analysis\nAccess to financial databases through university subscriptions\n\nAll software is available through university resources. Basic familiarity with statistics is expected.\n\n\n\n\n\n\nHuntington-Klein, N. (2022). The Effect: An Introduction to Research Design and Causality (2nd ed.). Chapman and Hall/CRC.\n\nFree online version available at theeffectbook.net\nRequired reading for causal inference concepts\nSpecific chapters assigned for each session\n\n\nAdditional resources, recommended readings, and useful links.",
+    "text": "Welcome to the Data Analytics for Finance course materials. This website contains all the lecture slides, assignments, and resources for the course.\n\n\nThis course is designed to equip students with comprehensive data analysis skills using Stata and a thorough understanding of research methods in finance. The course emphasizes both theoretical foundations and practical implementation of econometric techniques essential for empirical finance research.\nStudents will learn how to apply statistical analysis techniques with proper understanding of underlying assumptions, interpret data effectively, and address common methodological challenges in financial research. These skills directly support students’ ability to successfully complete their master thesis replication projects and prepare them for data-intensive roles in the financial industry.\n\n\n\nBy the end of this course, students will be able to:\n\nData Management: Clean, transform, and merge complex datasets using different identifiers (CUSIP, GVKEY, PERMNO) in Stata\nEconometric Theory: Understand and verify the assumptions underlying statistical methods used in finance research\nPanel Methods: Implement and interpret fixed effects models with appropriate standard error corrections\nCausal Inference: Apply difference-in-differences, event studies, and instrumental variables with proper identification strategies\nResearch Communication: Create publication-quality tables and essential visualizations for academic papers\nReplication Skills: Execute replications of published research with proper documentation and Stata code\n\n\n\n\nThe course consists of 6 sessions, each lasting 2 hours 45 minutes. The sessions will be held in person on campus. The course includes individual assignments that reinforce the concepts learned in class.\n\n\n\n\nData Management and Merging\nData Exploration and Academic Tables\nRegression Methods and Identification\nPanel Data Methods (with DiD)\nEvent Studies (CAR) and Fama–MacBeth\nReplication Workshop\n\n\n\n\n\n\nRegular practice exercises will be posted here throughout the course.\n\n\n\n\n\n\n\nSix assignments throughout the course\nAll assignments must be completed\n\n\n\n\nTBD\n\n\n\n\nOverall course grade ≥ 55%\nReplication exercise grade ≥ 50%\nAll assignments must be submitted\n\n\n\n\n\nStudents will use:\n\nStata (version 17 or higher) - All econometric analysis\nAccess to financial databases through university subscriptions\n\nAll software is available through university resources. Basic familiarity with statistics is expected.\n\n\n\n\n\n\nHuntington-Klein, N. (2022). The Effect: An Introduction to Research Design and Causality (2nd ed.). Chapman and Hall/CRC.\n\nFree online version available at theeffectbook.net\nRequired reading for causal inference concepts\nSpecific chapters assigned for each session\n\n\nAdditional resources, recommended readings, and useful links.",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -320,7 +411,7 @@
     "href": "lectures/lecture_1.html#overview-2",
     "title": "Data Management and Merging",
     "section": "Overview",
-    "text": "Overview\nLearning objectives",
+    "text": "Overview\nLearning objectives\n\nData Management: Clean, transform, and merge complex datasets using different identifiers (CUSIP, GVKEY, PERMNO) in Stata\nEconometric Theory: Understand and verify the assumptions underlying statistical methods used in finance research\nPanel Methods: Implement and interpret fixed effects models with appropriate standard error corrections\nCausal Inference: Apply difference-in-differences, event studies, and instrumental variables with proper identification strategies\nResearch Communication: Create publication-quality tables and essential visualizations for academic papers\nReplication Skills: Execute replications of published research with proper documentation and Stata code",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -333,7 +424,7 @@
     "href": "lectures/lecture_1.html#overview-3",
     "title": "Data Management and Merging",
     "section": "Overview",
-    "text": "Overview\nCourse structure",
+    "text": "Overview\nCourse structure\n\nData Management and Merging\nData Exploration and Presentation\nRegression Methods and Identification\nPanel Data Methods (with DiD)\nEvent Studies (CAR) and Fama–MacBeth\nReplication Workshop",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -385,7 +476,7 @@
     "href": "lectures/lecture_3.html#overview-2",
     "title": "Regression Methods and Identification",
     "section": "Overview",
-    "text": "Overview\nToday’s learning objectives",
+    "text": "Overview\nToday’s learning objectives\nLiterature\nHuntington-Klein (2022) (Chapters 4 & 13)\nIdentifiction\nOrdinary Least Squares (OLS) regression",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -398,7 +489,384 @@
     "href": "lectures/lecture_3.html#overview-3",
     "title": "Regression Methods and Identification",
     "section": "Overview",
-    "text": "Overview\nKey concepts",
+    "text": "Overview\nKey concepts\n\n\n\n\n\n\n\n\n\nConcept\nMeaning\nExample\n\n\n\n\nData‑Generating Process (DGP)\nThe complete set of rules that determine how the data you observe are created\nNewton’s law of gravity\n\n\nVariation\nThe differences in a variable’s value across observations.\nHow people’s incomes differ by hair color across individuals.\n\n\nIdentification\nThe process of ensuring that the variation you exploit is causal, not a spurious alternative\nChoclate consumption and Nobel laureates (this is spurious)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#overview-4",
+    "href": "lectures/lecture_3.html#overview-4",
+    "title": "Regression Methods and Identification",
+    "section": "Overview",
+    "text": "Overview\nWhy is identinfication important?\nIdentification is the bridge between:\n\nTheory / prior knowledge (what we already know about the DGP)\nData (what we observe)\nCausal or associational conclusions that are scientifically defensible",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#identification",
+    "href": "lectures/lecture_3.html#identification",
+    "title": "Regression Methods and Identification",
+    "section": "Identification",
+    "text": "Identification\nWhat is identification?\nDefinition\n\nIdentification refers to the process of determining the specific variation in data that answers a research question\nIt involves isolating the part of the data that reflects the causal relationship of interest\n\nExample\n\nEstimating the effect of LLM use on exam scores1\nNeed to isolate variation in LLM use that is not confounded by other factors (e.g., student ability)\n\nThe gender variable is coded as 1 if the subject identifies as female, and 0 otherwise.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#identification-1",
+    "href": "lectures/lecture_3.html#identification-1",
+    "title": "Regression Methods and Identification",
+    "section": "Identification",
+    "text": "Identification\nWhat are the ingredients for identification?\nKey Assumptions\n\nData Generating Process (DGP): Assumes that observations are produced by underlying laws or processes\nTheory and Assumptions: Used to identify which parts of the DGP explain the data and refine research designs\nLimiting Explanation: Assumptions help block non-essential variations, focusing on the aspect of data that aligns with the research question.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#identification-2",
+    "href": "lectures/lecture_3.html#identification-2",
+    "title": "Regression Methods and Identification",
+    "section": "Identification",
+    "text": "Identification\nKey Assumptions in DGP and Identification\n\nKnown & Unknown: Part of DGP is understood (helps form assumptions); part is unknown (area of exploration)\nTheoretical Framework: Research relies on known aspects of DGP to interpret data and identify genuine causal effects\nIdentification Strategy: Techniques like controlling for variables, subgroup analyses, or hypothetical scenarios help test specific segments of DGP\nAssumption-Based Progress: Continued research and empirical testing refine and validate assumptions about parts of the DGP",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#dillma",
+    "href": "lectures/lecture_3.html#dillma",
+    "title": "Regression Methods and Identification",
+    "section": "“DiLLMa”",
+    "text": "“DiLLMa”\nWhat’s the story?\n\n\nMotivation\n\nLLMs are increasingly used by students e.g. for exam preparation\nThere is a debate about whether LLM use improves or hinders learning outcomes\nUnderstanding the causal effect of LLM use on exam scores is crucial for educators and policymakers\n\n\nIdentification challenge\n\nWe have observational data on students’ LLM use and their exam scores\nWe need to identify the causal effect of LLM use on exam scores, accounting for potential confounders like student ability, study habits, and demographics\n\n\n\n\n\n\n\n\nResearch question\n\n\nWhat is the effect of LLM use on students’ exam scores?\n\n\n\nLibby Boxes",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#identification-3",
+    "href": "lectures/lecture_3.html#identification-3",
+    "title": "Regression Methods and Identification",
+    "section": "Identification",
+    "text": "Identification\nWhat could possibly go wrong?\n\n\nNaive comparison\n\n\n\n\n\n\n\n\n\n\nWhat do we find?\n\nStudents who used LLMs scored higher on average\nNaive comparison suggests a positive effect of LLM use on exam scores\nEconomic effect: ~0.5 point increase in exam scores\n\n\n\n\n\n\n\n\nBut…\n\n\nIs this effect causal? Or are there confounding factors at play?",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#identification-4",
+    "href": "lectures/lecture_3.html#identification-4",
+    "title": "Regression Methods and Identification",
+    "section": "Identification",
+    "text": "Identification\nDiLLMa\n\n\nVariables in the dataset\n\n\n\n\n\n\nVariable\nLLM\nNo LLM\nDifference\nt-stat.\np-value\n\n\n\n\nExam score\n7.04\n6.55\n0.50\n-5.99\n0.00\n\n\nAttendance rate\n74.15\n75.43\n-1.28\n1.42\n0.15\n\n\nFemale\n0.49\n0.50\n-0.01\n0.39\n0.70\n\n\nAge\n21.37\n21.34\n0.03\n-0.18\n0.86\n\n\nStudy hours\n20.09\n20.34\n-0.25\n0.35\n0.73\n\n\n\n\n\n\n\n“Eye test”\n\nThe LLM group has a higher average exam scores\nThe groups are comparable on observable characteristics, on average1\nHowever, there may be unobservable factors (e.g., innate ability, motivation) that differ between the groups and affect exam scores\n\n\nThe gender variable is coded as 1 if the subject identifies as female, and 0 otherwise.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#think-about-it-for-a-moment",
+    "href": "lectures/lecture_3.html#think-about-it-for-a-moment",
+    "title": "Regression Methods and Identification",
+    "section": "Think about it for a moment…",
+    "text": "Think about it for a moment…",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#do-unobservable-factors-play-a-role",
+    "href": "lectures/lecture_3.html#do-unobservable-factors-play-a-role",
+    "title": "Regression Methods and Identification",
+    "section": "Do unobservable factors play a role?",
+    "text": "Do unobservable factors play a role?\nWhat about ability?\n\nWhat happens if we could observe and condition on (or control for) ability?\n\n\nNow, it comes in handy that I created the data myself and we can actually observe ability!",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#do-unobservable-factors-play-a-role-1",
+    "href": "lectures/lecture_3.html#do-unobservable-factors-play-a-role-1",
+    "title": "Regression Methods and Identification",
+    "section": "Do unobservable factors play a role?",
+    "text": "Do unobservable factors play a role?\nConditional means - Ability1\n\n\nLow versus high ability\n\n\n\n\n\n\n\n\n\n\nWhat do we find?\n\nLow and High-ability students score lower on average, when using LLMs!\nThe difference in exam scores between LLM users and non-users is reversed when conditioning on ability\nSuggests that ability confounds the naive comparison of LLM use and exam scores\n\n\n\nAbility is typically unobservable in real-world settings, making it a classic example of an omitted variable.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#do-unobservable-factors-play-a-role-2",
+    "href": "lectures/lecture_3.html#do-unobservable-factors-play-a-role-2",
+    "title": "Regression Methods and Identification",
+    "section": "Do unobservable factors play a role?",
+    "text": "Do unobservable factors play a role?\nConditional means - Let’s dissect the results\n\n\nConditional means\n\n\n\n\n\n\nGroup\nLLM\nNo LLM\nDifference\n\n\n\n\nLow ability\n5.83\n6.13\n-0.31\n\n\nHigh ability\n7.45\n7.72\n-0.26\n\n\n\n\n\n\n\nGroup composition\n\n\n\n\n\n\nGroup\nLLM\nNo LLM\nDifference\n\n\n\n\nLow ability\n122\n379\n-257\n\n\nHigh ability\n364\n135\n229\n\n\n\n\n\n\n\nUnconditional means\n\\[\n\\text{LLM users: }\\frac{122 \\times 5.83 + 364 \\times 7.45}{486} \\approx 7.04\n\\] \\[\n\\text{Non-users: }\\frac{379 \\times 6.13 + 135 \\times 7.72}{514} \\approx 6.55\n\\]\nNaive effect: +0.49 (positive!)",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#what-did-we-just-discover-1",
+    "href": "lectures/lecture_3.html#what-did-we-just-discover-1",
+    "title": "Regression Methods and Identification",
+    "section": "What did we just discover?",
+    "text": "What did we just discover?\nRecap of findings\n\n\nResults summary\n\nNaive test: positive effect → “LLMs improve grades!”\nAdd ability control: effect flips negative → “Wait, no they don’t”\nConditional means plot: the reveal—LLMs hurt everyone, we were just fooled by who chooses to use them\n\n\nKey insight",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#identification-5",
+    "href": "lectures/lecture_3.html#identification-5",
+    "title": "Regression Methods and Identification",
+    "section": "Identification",
+    "text": "Identification\nEndogeneity issues\nSelection Bias\n\nSelection bias occurs when individuals self-select into treatment (LLM use) based on characteristics that also affect the outcome (exam scores)\nIn the example, ability influences both the likelihood of using LLMs and exam performance\nThis leads to biased estimates of the effect of LLM use on exam scores\n\n\n\n\n\n\n\n\nKey takeaway\n\n\nNaive comparisons can be misleading due to endogeneity issues like selection bias!",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments",
+    "title": "Regression Methods and Identification",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nWhy is randomization so important?\n\nControlling variation in the causal variable, e.g. LLM use via random assignment\nMakes sure that the treatment and control group are similar along observable and unobservable dimensions\nThe only difference between the two groups is the treatment\nThis allows us to attribute any difference in outcomes to the treatment\nNo selection bias (endogeneity issue)\n\n\n\nAnother term for Experiments is Randomized Controlled Trials (RCTs).",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-1",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-1",
+    "title": "Regression Methods and Identification",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nDesigning and analyzing experiments\nTypes of experiments:\n\nField experiments\n\naim to be as similar as possible to real-world decision situations\n\nA/B testing\n\naim to evaluate different versions of the same product\n\nLab experiments\n\nare carried out in an artificial environment, usually a computer lab\n\n\n\n\nFor more in-depth information on experiments and other causal inference methods, see Békés and Kézdi (2021).",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-2",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-2",
+    "title": "Regression Methods and Identification",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nSetup of an experiment\n\nRandom assignment of treatment via assignment rule\nNumber of subjects? Ideally large, exact number via power analysis\n\nHow many subjects do I need to detect a certain effect size?\n\nProportion of treated subjects? Ideally 50/50\nCovariate balance\n\nDid random assignment work?",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-3",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-3",
+    "title": "Regression Methods and Identification",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nDiLLMa experiment\n\nRandomly assign students to LLM use or no LLM use\nEnsure groups are balanced on observable characteristics (e.g., prior GPA, study habits)\nMeasure exam scores after the treatment period\nAnalyze the difference in exam scores between the treatment and control groups",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-4",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-4",
+    "title": "Regression Methods and Identification",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nDiLLMa experiment\nRandom assignment of LLM use\n\n\nNaive comparison\n\n\n\n\n\n\n\n\n\n\nWhat do we find?\n\nStudents who used LLMs scored lower on average\nNaive comparison suggests a negative effect of LLM use on exam scores\nEconomic effect: ~0.5 point decrease in exam scores\n\n\n\n\n\n\n\n\nBut…\n\n\nDid random assignment work? Are the groups balanced on observable & unobservable characteristics?",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-5",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-5",
+    "title": "Regression Methods and Identification",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nDiLLMa experiment\nCovariate balance check\n\n\n\n\n\n\nVariable\nLLM\nNo LLM\nDifference\nt-stat.\np-value\n\n\n\n\nExam score\n6.43\n7.22\n-0.80\n8.75\n0.00\n\n\nAttendance rate\n74.62\n75.01\n-0.39\n0.43\n0.66\n\n\nFemale\n0.49\n0.49\n0.00\n-0.02\n0.98\n\n\nAge\n21.29\n21.43\n-0.13\n0.91\n0.36\n\n\nStudy hours\n19.92\n20.56\n-0.64\n0.89\n0.37\n\n\nAbility\n0.01\n0.03\n-0.02\n0.33\n0.74",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-6",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-6",
+    "title": "Regression Methods and Identification",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nTakeaways\n\nRandom assignment assures that effect is not due to selection bias\nIn the experiment you control…\n\nwho receives the treatment (the treatment group),…\nand who doesn’t (the control group)\n\nYou can control other aspects of the situation to avoid other confounders\nYou can measure the effect of the treatment on the outcome\nPotential trade-off between internal and external validity",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-1",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-1",
+    "title": "Regression Methods and Identification",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhat is OLS regression?\n\nOLS is the workhorse of explanatory analytics\nIt lets us answer “What would happen to the expected value of \\(Y\\) if we changed \\(X\\) by one unit?”\n\nPrediction vs explanation\n\nPrediction: use \\(X\\) to forecast \\(Y\\)\nStatistical explanation: describe the relationship between them via a functional form such as \\[\nY = \\beta_0 + \\beta_1 X + \\varepsilon.\n\\]\nThe coefficient \\(\\beta_1\\) is the slope — a one‑unit change in \\(X\\) is associated with a \\(\\beta_1\\) change in \\(Y\\).",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-2",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-2",
+    "title": "Regression Methods and Identification",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nChoosing a shape for the relationship\nLinear: \\[\nY = \\beta_0 + \\beta_1 X.\n\\]\n“Linear‑in‑parameters” (e.g., quadratic): \\[\nY = \\beta_0 + \\beta_1 X + \\beta_2 X^2.\n\\]\nAdded variables and control (multi‑predictor/multiviriate OLS)\n\\[\nY = \\beta_0 + \\beta_1 X + \\beta_2 Z + \\varepsilon,\n\\] the coefficient on \\(X\\) is estimated using only the variation in \\(X\\) that is left after regressing \\(Z\\) out of both \\(X\\) and \\(Y\\) — that is, you “control for” \\(Z\\).\n\n\nThere are also non‑linear models: logit, probit, poisson, etc.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-3",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-3",
+    "title": "Regression Methods and Identification",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhen does it work perfectly (OLS Assumptions)?\n\n\n\n\n\n\n\n\nAssumption\nWhat it requires\nRole\n\n\n\n\nLinearity\n\\(E[Y \\mid X] = \\beta_0 + \\beta_1 X\\)\nCorrect specification of functional form\n\n\nExogeneity\n\\(E[\\varepsilon \\mid X] = 0\\)\nEnsures \\(\\hat{\\beta}\\) is unbiased and consistent\n\n\nHomoscedasticity\n\\(Var(\\varepsilon \\mid X) = \\sigma^2\\)\nStandard errors are efficient and unbiased\n\n\nIndependence\nObservations are i.i.d.\nStandard error formulas are valid\n\n\nNormality (small samples)\n\\(\\varepsilon \\sim N(0, \\sigma^2)\\)\nValidates t-tests and confidence intervals",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-4",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-4",
+    "title": "Regression Methods and Identification",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nThe Skinny - For those who prefer plain English\nWhen does it work perfectly (OLS Assumptions)?\n\n\n\n\n\n\n\nAssumption\nPlain English\n\n\n\n\nLinearity\nThe relationship between X and Y is a straight line\n\n\nExogeneity\nX is not correlated with anything else that affects Y\n\n\nHomoscedasticity\nThe spread of errors is the same across all values of X\n\n\nIndependence\nOne observation doesn’t influence another\n\n\nNormality (small samples)\nErrors follow a bell curve—only matters for hypothesis testing with few observations",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-5",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-5",
+    "title": "Regression Methods and Identification",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nWhat dooes it look like?\n\n\nPlot\n\n\n\n\n\n\n\n\n\n\nTable output",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-6",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-6",
+    "title": "Regression Methods and Identification",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nWhat does the output tell me?\n\n\n\n\n\n\n\n\n\n\nComponent\nMeaning\nTypical notation\n\n\n\n\nRows (Coefficient, Standard Error)\nEstimate of \\(\\beta_j\\) and its SE (or t‑stat)\n-0.021 (0.004)\n\n\nSignificance stars\nIndicates p‑value thresholds\n*** = p &lt; .01\n\n\nR²\nProportion of variance in \\(Y\\) explained by the model\n0.033\n\n\nAdjusted R²\nCorrects R² for number of predictors.\n0.065\n\n\nF‑statistic\nJoint test that all non‑constant coefficients equal zero\n35.016\n\n\nRMSE\nStandard deviation of residuals (or “root mean squared error”)\n1.307",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-7",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-7",
+    "title": "Regression Methods and Identification",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nHow to interpret the output?\n\n\nTable output\n\n\n\n\nInterpretation\n\n\nSlope– “For each additional location, the exam score increase by ~0.021 points.”\nPrecision – Given SE=0.004, even small differences in coefficients are detectable\nSignificance – *** indicates the coefficient differs from zero at the 1 % level\nModel fit – R²≈0.065 tells us only 3.3 % of the variation in scores is captured by the predictors\nt-stat – The slope is about 5 standard errors away from zero (0.021/0.004 ≈ 5), indicating strong evidence against the null hypothesis of no effect.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#section",
+    "href": "lectures/lecture_3.html#section",
+    "title": "Regression Methods and Identification",
+    "section": "",
+    "text": "Statistical significance\n\n\nDo not over‑interpret statistical significance; it says nothing about causal magnitude or policy relevance!",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-8",
+    "href": "lectures/lecture_3.html#ordinary-least-squares-ols-8",
+    "title": "Regression Methods and Identification",
+    "section": "Ordinary Least Squares (OLS)",
+    "text": "Ordinary Least Squares (OLS)\nTakeaways\n\nThe error term separates what is explained by the predictors from everything else\nExogeneity is the linchpin that turns OLS estimates into unbiased causal indicators\nSampling variability is quantified by standard errors, which underpin hypothesis tests, p‑values, and confidence intervals\nRegression tables encapsulate all of this: coefficients, precision, significance, model‑fit metrics",
     "crumbs": [
       "Home",
       "Course Materials",
@@ -411,7 +879,59 @@
     "href": "lectures/lecture_3.html#references",
     "title": "Regression Methods and Identification",
     "section": "References",
-    "text": "References",
+    "text": "References\n\n\nBékés, Gábor, and Gábor Kézdi. 2021. Data Analysis for Business, Economics, and Policy. Cambridge University Press.\n\n\nHuntington-Klein, Nick. 2022. The Effect: An Introduction to Research Design and Causality. 2nd ed. Chapman; Hall/CRC.",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#libby-boxes",
+    "href": "lectures/lecture_3.html#libby-boxes",
+    "title": "Regression Methods and Identification",
+    "section": "Libby Boxes",
+    "text": "Libby Boxes\nDiLLMa\n Back",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-7",
+    "href": "lectures/lecture_3.html#the-gold-standard-experiments-7",
+    "title": "Regression Methods and Identification",
+    "section": "The gold standard: Experiments",
+    "text": "The gold standard: Experiments\nDiLLMa experiment\nCovariate balance check - no random assignment!\n\n\n\n\n\n\nVariable\nLLM\nNo LLM\nDifference\nt-stat.\np-value\n\n\n\n\nExam score\n7.04\n6.55\n0.50\n-5.99\n0.00\n\n\nAttendance rate\n74.15\n75.43\n-1.28\n1.42\n0.15\n\n\nFemale\n0.49\n0.50\n-0.01\n0.39\n0.70\n\n\nAge\n21.37\n21.34\n0.03\n-0.18\n0.86\n\n\nStudy hours\n20.09\n20.34\n-0.25\n0.35\n0.73\n\n\nAbility\n0.56\n-0.50\n1.07\n-20.11\n0.00",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation",
+    "href": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation",
+    "title": "Regression Methods and Identification",
+    "section": "Theory, hypotheses, and operationalisation",
+    "text": "Theory, hypotheses, and operationalisation\nWhat is a hypothesis?\n\nA hypothesis is a proposed explanation for a phenomenon or a prediction of a possible causal correlation\nIt is a tentative answer to a research question that guides the direction of study and investigation\nIts formulation is guided by existing (economic) theory\nA well-constructed hypothesis is testable, meaning it can be supported or rejected through experimentation",
+    "crumbs": [
+      "Home",
+      "Course Materials",
+      "Lectures",
+      "Regression Methods and Identification"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-1",
+    "href": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-1",
+    "title": "Regression Methods and Identification",
+    "section": "Theory, hypotheses, and operationalisation",
+    "text": "Theory, hypotheses, and operationalisation\nHow do we test a hypothesis?\n\nStepst-testVisual\n\n\n\nWe need a baseline to test against: The null hypothesis (\\(H_0\\))\nWhy null? It states that there is no effect or no difference, which serves as a baseline assumption\n\n\\(H_0\\) is what you test your \\(H_1\\) against, e.g. \\(H_0 = 0\\)\n\\(H_1\\) is the/your alternative hypothesis - what you might believe to be true\n\nA statistical test rejects \\(H_0\\) if there is enough evidence against it\n\nIf we reject \\(H_0\\), we accept \\(H_1\\)\n\n\n\n\nThe t-test measures how far the sample mean is away from \\(H_0\\)\nHypothesis:\n\nOne-sided (\\(H_0 \\leq 0\\), \\(H_1&gt;0\\)): \\(t = \\frac{X-0}{SE(X)}\\)\nTwo-sided (\\(H_0 = 0\\), \\(H_1 \\neq 0\\)): \\(t = \\frac{X_{treated}-X_{control}}{SE(X_{treated}-X_{control})}\\)",
     "crumbs": [
       "Home",
       "Course Materials",

@@ -25,7 +25,7 @@
     "href": "assignment-workflow.html#step-3-work-on-the-assignment",
     "title": "Data Analytics for Finance",
     "section": "Step 3: Work on the Assignment",
-    "text": "Step 3: Work on the Assignment\n\nOpen the assignment notebook (e.g., 01-assignment.ipynb) by clicking on it.\nComplete the tasks as specified in the notebook. Make sure to follow any instructions provided and write your code in the designated cells.\nSave your work frequently by clicking the save icon or using Ctrl + S.\nDo not any cells except the ones you are supposed to fill in your code, e.g. ““# YOUR CODE HERE”“.\n\n\n\n\nJupytherHub Enter Code\n\n\n\n\n\n\n\n\nTipTrouble with Jupyter notebooks?\n\n\n\nIf you cannot execute the code in the notebook, you should check the following things:\n\nMake sure you are connected to the JupyterLab.\nMake sure the kernel is running. You can check this by looking at the top right corner of the notebook. It should say “Stata” or something similar. If it says “No kernel”, you can select the kernel by clicking on the kernel name and selecting the “State kernel” from the list.\nIf your kernel is running, but you still cannot execute the code, you can try to restart the kernel and clear the output. You can do this by clicking on the kernel tab and selecting “Restart kernel and clear output” from the list. This will restart the kernel and clear the output, and you can try to execute the code again.\nImportant:\n\nAfter restarting the kernel, you need to re-run all previous cells before the one you want to execute.\nRestarting the kernel will NOT delete your code or changes in the notebook; it only resets the execution environment.\n\nIt may also well be that the server is overloaded. In that case, please try again later. Typically, the server is less busy in the evenings or during weekends. Peak times are right before assignment deadlines. Take this into account when planning your work.\n\n\n\n\n\nExample of the correct kernel\n\n\n\nJupytherHub Kernel\n\n\n\nExample of restarting the kernel\n\n\n\nJupytherHub Restart Kernel"
+    "text": "Step 3: Work on the Assignment\n\nOpen the assignment notebook (e.g., 01-assignment.ipynb) by clicking on it.\nComplete the tasks as specified in the notebook. Make sure to follow any instructions provided and write your code in the designated cells.\nSave your work frequently by clicking the save icon or using Ctrl + S.\nDo not modify any cells except the ones you are supposed to fill in your code, e.g. ““# YOUR CODE HERE”“.\n\n\n\n\nJupytherHub Enter Code\n\n\n\n\n\n\n\n\nTipTrouble with Jupyter notebooks?\n\n\n\nIf you cannot execute the code in the notebook, you should check the following things:\n\nMake sure you are connected to the JupyterLab.\nMake sure the kernel is running. You can check this by looking at the top right corner of the notebook. It should say “Stata” or something similar. If it says “No kernel”, you can select the kernel by clicking on the kernel name and selecting the “State kernel” from the list.\nIf your kernel is running, but you still cannot execute the code, you can try to restart the kernel and clear the output. You can do this by clicking on the kernel tab and selecting “Restart kernel and clear output” from the list. This will restart the kernel and clear the output, and you can try to execute the code again.\nImportant:\n\nAfter restarting the kernel, you need to re-run all previous cells before the one you want to execute.\nRestarting the kernel will NOT delete your code or changes in the notebook; it only resets the execution environment.\n\nIt may also well be that the server is overloaded. In that case, please try again later. Typically, the server is less busy in the evenings or during weekends. Peak times are right before assignment deadlines. Take this into account when planning your work.\n\n\n\n\n\nExample of the correct kernel\n\n\n\nJupytherHub Kernel\n\n\n\nExample of restarting the kernel\n\n\n\nJupytherHub Restart Kernel"
   },
   {
     "objectID": "assignment-workflow.html#step-4-submit-the-assignment",
@@ -80,113 +80,113 @@
     "objectID": "lectures/lecture_3.html#regressions-and-identification-1",
     "href": "lectures/lecture_3.html#regressions-and-identification-1",
     "title": "Regressions and Identification",
-    "section": "Regressions and Identification",
-    "text": "Regressions and Identification\nToday’s Journey\n\nIdentification: What it means and why it matters\nThe identification problem: Endogeneity\n\nSelection bias\nOmitted variable bias\n\nDiLLMa: seeing the problem in action\nThe gold standard: Experiments\nOrdinary Least Squares (OLS) regression\n\nLiterature\n\nHuntington-Klein (2022) (Chapters 5 & 13)\nVerbeek (2021) (Chapters 2.1)"
+    "section": "",
+    "text": "Identification: What it means and why it matters\nThe identification problem: Endogeneity\n\nSelection bias\nOmitted variable bias\n\n\nDiLLMa: seeing the problem in action\nThe gold standard: Experiments\nOrdinary Least Squares (OLS) regression\n\n\n\nHuntington-Klein (2022) (Chapters 5 & 13)\n\nVerbeek (2021) (Chapters 2.1)"
   },
   {
     "objectID": "lectures/lecture_3.html#regressions-and-identification-2",
     "href": "lectures/lecture_3.html#regressions-and-identification-2",
     "title": "Regressions and Identification",
-    "section": "Regressions and Identification",
-    "text": "Regressions and Identification\nRecap - Where did we leave things?\n\n\nLast time: The Research Pipeline\n\n\nRaw & Clean Data, Visualization\n\nFrom messy to tidy data\nExploratory data analysis with focus on visualization\n\nToday’s Menu\n\nIdentification & OLS regression\nExperiments\nDiLLMa (example)"
+    "section": "",
+    "text": "From messy to tidy data\nExploratory data analysis with focus on visualization\n\n\n\nIdentification & OLS regression\nExperiments\nDiLLMa (example)"
   },
   {
     "objectID": "lectures/lecture_3.html#regressions-and-identification-3",
     "href": "lectures/lecture_3.html#regressions-and-identification-3",
     "title": "Regressions and Identification",
-    "section": "Regressions and Identification",
-    "text": "Regressions and Identification\nLearning Objectives\nBy the end of today, you will be able to\n\nUnderstand the concept of identification in causal inference\nRecognize endogeneity issues such as selection bias and omitted variable bias\nExplain the importance of random assignment in experiments\nDescribe the basics of Ordinary Least Squares (OLS) regression\nInterpret OLS regression output and understand when estimates are trustworthy\n\n\n\n\n\n\n\nHands-on Practice\n\n\nIn Assignment 3, you’ll apply these concepts: run OLS regressions, test assumptions, and create publication-quality tables."
+    "section": "",
+    "text": "Understand the concept of identification in causal inference\nRecognize endogeneity issues such as selection bias and omitted variable bias\nExplain the importance of random assignment in experiments\nDescribe the basics of Ordinary Least Squares (OLS) regression\nInterpret OLS regression output and understand when estimates are trustworthy\n\n\n\n\n\n\n\nTipHands-on Practice\n\n\n\nIn Assignment 3, you’ll apply these concepts: run OLS regressions, test assumptions, and create publication-quality tables."
   },
   {
     "objectID": "lectures/lecture_3.html#regressions-and-identification-4",
     "href": "lectures/lecture_3.html#regressions-and-identification-4",
     "title": "Regressions and Identification",
-    "section": "Regressions and Identification",
-    "text": "Regressions and Identification\nIntroduction to Identification\nKey concepts\n\n\n\n\n\n\n\n\n\nConcept\nMeaning\nExample\n\n\n\n\nData‑Generating Process (DGP)\nThe complete set of rules that determine how the data you observe are created\nNewton’s law of gravity\n\n\nVariation\nThe differences in a variable’s value across observations.\nHow people’s incomes differ by hair color across individuals.\n\n\nIdentification\nThe process of ensuring that the variation you exploit is causal, not a spurious alternative\nChocolate consumption and Nobel laureates (this is spurious)"
+    "section": "",
+    "text": "Concept\nMeaning\nExample\n\n\n\nData‑Generating Process (DGP)\nThe complete set of rules that determine how the data you observe are created\nNewton’s law of gravity\n\n\nVariation\nThe differences in a variable’s value across observations.\nHow people’s incomes differ by hair color across individuals.\n\n\nIdentification\nThe process of ensuring that the variation you exploit is causal, not a spurious alternative\nChocolate consumption and Nobel laureates (this is spurious)"
   },
   {
     "objectID": "lectures/lecture_3.html#identification",
     "href": "lectures/lecture_3.html#identification",
     "title": "Regressions and Identification",
-    "section": "Identification",
-    "text": "Identification\nWhy is identification important?\nIdentification is the bridge between:\n\nTheory / prior knowledge (what we already know about the DGP)\nData (what we observe)\nCausal or associational conclusions that are scientifically defensible"
+    "section": "",
+    "text": "Identification is the bridge between:\n\n\nTheory / prior knowledge (what we already know about the DGP)\n\nData (what we observe)\n\nCausal or associational conclusions that are scientifically defensible"
   },
   {
     "objectID": "lectures/lecture_3.html#identification-1",
     "href": "lectures/lecture_3.html#identification-1",
     "title": "Regressions and Identification",
-    "section": "Identification",
-    "text": "Identification\nWhat is identification?\nDefinition\n\nIdentification refers to the process of determining the specific variation in data that answers a research question\nIt involves isolating the part of the data that reflects the causal relationship of interest\n\nExample\n\nEstimating the effect of LLM use on exam scores1\nNeed to isolate variation in LLM use that is not confounded by other factors (e.g., student ability)\n\nFor an alternative example see Huntington-Klein (2022) (Chapter 5)"
+    "section": "",
+    "text": "Identification refers to the process of determining the specific variation in data that answers a research question\nIt involves isolating the part of the data that reflects the causal relationship of interest\n\n\n\nEstimating the effect of LLM use on exam scores1\n\nNeed to isolate variation in LLM use that is not confounded by other factors (e.g., student ability)"
   },
   {
     "objectID": "lectures/lecture_3.html#identification-2",
     "href": "lectures/lecture_3.html#identification-2",
     "title": "Regressions and Identification",
-    "section": "Identification",
-    "text": "Identification\nWhat are the ingredients for identification?\nKey Assumptions\nData Generating Process (DGP)\nAssumes that observations are produced by underlying laws or processes\nTheory and Assumptions\nUsed to identify which parts of the DGP explain the data and refine research designs\nLimiting Explanation\nAssumptions help block non-essential variations, focusing on the aspect of data that aligns with the research question."
+    "section": "",
+    "text": "Assumes that observations are produced by underlying laws or processes\n\nUsed to identify which parts of the DGP explain the data and refine research designs\n\nAssumptions help block non-essential variations, focusing on the aspect of data that aligns with the research question."
   },
   {
     "objectID": "lectures/lecture_3.html#identification-3",
     "href": "lectures/lecture_3.html#identification-3",
     "title": "Regressions and Identification",
-    "section": "Identification",
-    "text": "Identification\nKey Assumptions in DGP and Identification\nKnown & Unknown\nPart of DGP is understood (helps form assumptions); part is unknown (area of exploration)\nTheoretical Framework\nResearch relies on known aspects of DGP to interpret data and identify genuine causal effects\nIdentification Strategy\nTechniques like controlling for variables, subgroup analyses, or hypothetical scenarios help test specific segments of DGP\nAssumption-Based Progress\nContinued research and empirical testing refine and validate assumptions about parts of the DGP"
+    "section": "",
+    "text": "Part of DGP is understood (helps form assumptions); part is unknown (area of exploration)\n\nResearch relies on known aspects of DGP to interpret data and identify genuine causal effects\n\nTechniques like controlling for variables, subgroup analyses, or hypothetical scenarios help test specific segments of DGP\n\nContinued research and empirical testing refine and validate assumptions about parts of the DGP"
   },
   {
     "objectID": "lectures/lecture_3.html#endogeneity",
     "href": "lectures/lecture_3.html#endogeneity",
     "title": "Regressions and Identification",
     "section": "Endogeneity",
-    "text": "Endogeneity\nWhat can go wrong?\nWhen we try to estimate causal effects, we face a fundamental challenge:\n\nEndogeneity occurs when the explanatory variable (X) is correlated with the error term (ε) in our model.\n\nThis correlation can arise from several sources… let’s focus on two of the most common1\n\n\nMathematically: \\(\\text{Cov}(X, \\varepsilon) \\neq 0\\)\nOther sources include measurement error and simultaneity (X causes Y and Y causes X -&gt; Think: Police and Crime rates)."
+    "text": "Endogeneity\nWhat can go wrong?\nWhen we try to estimate causal effects, we face a fundamental challenge:\n\nEndogeneity occurs when the explanatory variable (X) is correlated with the error term (ε) in our model.\n\nThis correlation can arise from several sources… let’s focus on two of the most common2\n\n\nMathematically: \\(\\text{Cov}(X, \\varepsilon) \\neq 0\\)"
   },
   {
     "objectID": "lectures/lecture_3.html#endogeneity-1",
     "href": "lectures/lecture_3.html#endogeneity-1",
     "title": "Regressions and Identification",
     "section": "Endogeneity",
-    "text": "Endogeneity\nSource 1: Selection Bias\nDefinition\nSelection bias occurs when individuals [self-select[ into treatment based on characteristics that also affect the outcome.\nThe problem\n\nPeople who choose to do X are [systematically different[ from those who don’t\nThese differences—not X itself—may explain the outcome\n\nClassic examples\n\nDo hospitals make people healthier? (Sick people go to hospitals)\nDoes college increase earnings? (High-ability students attend college)\nDo LLMs improve exam scores? (Tech-savvy students use LLMs)"
+    "text": "Endogeneity\nSource 1: Selection Bias\nDefinition\nSelection bias occurs when individuals [self-select[ into treatment based on characteristics that also affect the outcome.\nThe problem\n\nPeople who choose to do X are [systematically different[ from those who don’t\nThese differences—not X itself—may explain the outcome\nClassic examples\n\nDo hospitals make people healthier? (Sick people go to hospitals)\nDoes college increase earnings? (High-ability students attend college)\nDo LLMs improve exam scores? (Tech-savvy students use LLMs)"
   },
   {
     "objectID": "lectures/lecture_3.html#endogeneity-2",
     "href": "lectures/lecture_3.html#endogeneity-2",
     "title": "Regressions and Identification",
     "section": "Endogeneity",
-    "text": "Endogeneity\nSource 2: Omitted Variable Bias (OVB)\nDefinition\nOmitted variable bias occurs when a relevant variable that affects both the explanatory variable (X) and the outcome (Y) is left out of the analysis.\n\n\nThe problem\n\nThe omitted variable “confounds” the relationship\nWe attribute its effect to X, biasing our estimate\n\n\nFormal condition for OVB\nA variable Z causes OVB if:\n\nZ affects Y (Z → Y)\nZ is correlated with X (Z ↔︎ X)\nZ is not included in the model\n\n\n\n\n\n\n\n\nThe connection\n\n\nSelection bias is one cause of OVB. When people self-select based on characteristic Z (which also affects Y), and we omit Z from our model, we have OVB."
+    "text": "Endogeneity\nSource 2: Omitted Variable Bias (OVB)\nDefinition\nOmitted variable bias occurs when a relevant variable that affects both the explanatory variable (X) and the outcome (Y) is left out of the analysis.\n\n\nThe problem\n\nThe omitted variable “confounds” the relationship\nWe attribute its effect to X, biasing our estimate\n\n\nFormal condition for OVB\nA variable Z causes OVB if:\n\nZ affects Y (Z → Y)\nZ is correlated with X (Z ↔︎ X)\nZ is not included in the model\n\n\n\n\n\n\n\n\n\nNoteThe connection\n\n\n\nSelection bias is one cause of OVB. When people self-select based on characteristic Z (which also affects Y), and we omit Z from our model, we have OVB."
   },
   {
     "objectID": "lectures/lecture_3.html#endogeneity-3",
     "href": "lectures/lecture_3.html#endogeneity-3",
     "title": "Regressions and Identification",
     "section": "Endogeneity",
-    "text": "Endogeneity\nVisualizing the Problem\n\n\n\n\n\n\n\nKey insight\n\n\nIf ability affects both LLM use and exam scores, any naive comparison of LLM users vs. non-users will be confounded."
+    "text": "Endogeneity\nVisualizing the Problem\n\n\n\n\n\n\n\nWarningKey insight\n\n\n\nIf ability affects both LLM use and exam scores, any naive comparison of LLM users vs. non-users will be confounded."
   },
   {
     "objectID": "lectures/lecture_3.html#endogeneity-4",
     "href": "lectures/lecture_3.html#endogeneity-4",
     "title": "Regressions and Identification",
     "section": "Endogeneity",
-    "text": "Endogeneity\nWhy does this matter?\nThe consequence\nEndogeneity can:\n\nInflate the estimated effect (make X look better than it is)\nDeflate the estimated effect (make X look worse than it is)\nFlip the sign of the estimated effect (make X look beneficial when it’s harmful, or vice versa)\n\nThe challenge\nWe often cannot directly observe the confounding variables!\n\nLet’s see this problem in action with a concrete example…"
+    "text": "Endogeneity\nWhy does this matter?\nThe consequence\nEndogeneity can:\n\n\nInflate the estimated effect (make X look better than it is)\n\nDeflate the estimated effect (make X look worse than it is)\n\nFlip the sign of the estimated effect (make X look beneficial when it’s harmful, or vice versa)\nThe challenge\nWe often cannot directly observe the confounding variables!\n\nLet’s see this problem in action with a concrete example…"
   },
   {
     "objectID": "lectures/lecture_3.html#dillma",
     "href": "lectures/lecture_3.html#dillma",
     "title": "Regressions and Identification",
     "section": "“DiLLMa”",
-    "text": "“DiLLMa”\nWhat’s the story?\n\n\nMotivation\n\nLLMs are increasingly used by students e.g. for exam preparation\nThere is a debate about whether LLM use improves or hinders learning outcomes\nUnderstanding the causal effect of LLM use on exam scores is crucial for educators and policymakers\n\n\nIdentification challenge\n\nWe have observational data on students’ LLM use and their exam scores\nWe need to identify the causal effect of LLM use on exam scores, accounting for potential confounders like student ability, study habits, and demographics\n\n\n\n\n\n\n\n\nResearch question\n\n\nWhat is the effect of LLM use on students’ exam scores?\n\n\n\nLibby Boxes"
+    "text": "“DiLLMa”\nWhat’s the story?\n\n\nMotivation\n\nLLMs are increasingly used by students e.g. for exam preparation\nThere is a debate about whether LLM use improves or hinders learning outcomes\nUnderstanding the causal effect of LLM use on exam scores is crucial for educators and policymakers\n\n\nIdentification challenge\n\nWe have observational data on students’ LLM use and their exam scores\nWe need to identify the causal effect of LLM use on exam scores, accounting for potential confounders like student ability, study habits, and demographics\n\n\n\n\n\n\n\n\n\nNoteResearch question\n\n\n\nWhat is the effect of LLM use on students’ exam scores?\n\n\nLibby Boxes"
   },
   {
     "objectID": "lectures/lecture_3.html#identification-4",
     "href": "lectures/lecture_3.html#identification-4",
     "title": "Regressions and Identification",
     "section": "Identification",
-    "text": "Identification\nWhat could possibly go wrong?\n\n\nNaive comparison\n\n\n\n\n\n\n\n\n\n\nWhat do we find?\n\nStudents who used LLMs scored higher on average\nNaive comparison suggests a positive effect of LLM use on exam scores\nEconomic effect: ~0.5 point increase in exam scores\n\n\n\n\n\n\n\n\nBut…\n\n\nIs this effect causal? Or are there confounding factors at play?"
+    "text": "Identification\nWhat could possibly go wrong?\n\n\nNaive comparison\n\n\n\n\n\n\n\n\n\n\nWhat do we find?\n\nStudents who used LLMs scored higher on average\nNaive comparison suggests a positive effect of LLM use on exam scores\nEconomic effect: ~0.5 point increase in exam scores\n\n\n\n\n\n\n\n\n\nWarningBut…\n\n\n\nIs this effect causal? Or are there confounding factors at play?"
   },
   {
     "objectID": "lectures/lecture_3.html#dillma-1",
     "href": "lectures/lecture_3.html#dillma-1",
     "title": "Regressions and Identification",
     "section": "DiLLMa",
-    "text": "DiLLMa\nStep 2: Looking at Observable Characteristics\n\n\nVariables in the dataset\n\n\n\n\n\n\nVariable\nLLM\nNo LLM\nDifference\nt-stat.\np-value\n\n\n\n\nExam score\n7.04\n6.55\n0.50\n-5.99\n0.00\n\n\nAttendance rate\n74.15\n75.43\n-1.28\n1.42\n0.15\n\n\nFemale\n0.49\n0.50\n-0.01\n0.39\n0.70\n\n\nAge\n21.37\n21.34\n0.03\n-0.18\n0.86\n\n\nStudy hours\n20.09\n20.34\n-0.25\n0.35\n0.73\n\n\n\n\n\n\n\n“Eye test”\n\nThe LLM group has a higher average exam scores\nThe groups are comparable on observable characteristics, on average1\nHowever, there may be unobservable factors (e.g., innate ability, motivation) that differ between the groups and affect exam scores\n\n\nThe gender variable is coded as 1 if the subject identifies as female, and 0 otherwise."
+    "text": "DiLLMa\nStep 2: Looking at Observable Characteristics\n\n\nVariables in the dataset\n\n\n\n\n\nVariable\nLLM\nNo LLM\nDifference\nt-stat.\np-value\n\n\n\nExam score\n7.04\n6.55\n0.50\n-5.99\n0.00\n\n\nAttendance rate\n74.15\n75.43\n-1.28\n1.42\n0.15\n\n\nFemale\n0.49\n0.50\n-0.01\n0.39\n0.70\n\n\nAge\n21.37\n21.34\n0.03\n-0.18\n0.86\n\n\nStudy hours\n20.09\n20.34\n-0.25\n0.35\n0.73\n\n\n\n\n\n\n\n\n“Eye test”\n\nThe LLM group has a higher average exam scores\nThe groups are comparable on observable characteristics, on average3\n\nHowever, there may be unobservable factors (e.g., innate ability, motivation) that differ between the groups and affect exam scores"
   },
   {
     "objectID": "lectures/lecture_3.html#think-about-it-for-a-moment",
@@ -207,14 +207,14 @@
     "href": "lectures/lecture_3.html#dillma-3",
     "title": "Regressions and Identification",
     "section": "DiLLMa",
-    "text": "DiLLMa\nStep 4: The Reveal\n\n\nControlling for ability1\n\n\n\n\n\n\n\n\n\n\nWhat do we find?\n\nStudents who used LLMs scored lower on average\nNaive comparison suggested a positive effect → now it’s negative\nEconomic effect: ~0.5 point decrease in exam scores\n\n\nAbility is typically unobservable in real-world settings, making it a classic example of an omitted variable."
+    "text": "DiLLMa\nStep 4: The Reveal\n\n\nControlling for ability4\n\n\n\n\n\n\n\n\n\n\n\nWhat do we find?\n\nStudents who used LLMs scored lower on average\nNaive comparison suggested a positive effect → now it’s negative\n\nEconomic effect: ~0.5 point decrease in exam scores"
   },
   {
     "objectID": "lectures/lecture_3.html#do-unobservable-factors-play-a-role",
     "href": "lectures/lecture_3.html#do-unobservable-factors-play-a-role",
     "title": "Regressions and Identification",
     "section": "Do unobservable factors play a role?",
-    "text": "Do unobservable factors play a role?\nLet’s dissect the results\n\n\nConditional means: -0.31 to -0.26\n\n\n\n\n\n\nGroup\nLLM\nNo LLM\nDifference\n\n\n\n\nLow ability\n5.83\n6.13\n-0.31\n\n\nHigh ability\n7.45\n7.72\n-0.26\n\n\n\n\n\n\n\nGroup composition\n\n\n\n\n\n\nGroup\nLLM\nNo LLM\nDifference\n\n\n\n\nLow ability\n122\n379\n-257\n\n\nHigh ability\n364\n135\n229\n\n\n\n\n\n\n\n\n\n\n\n\n\nKey insight\n\n\n\nWithin high-ability students: LLM users do worse\nWithin low-ability students: LLM users do worse"
+    "text": "Do unobservable factors play a role?\nLet’s dissect the results\n\n\nConditional means: -0.31 to -0.26\n\n\n\n\n\n\nGroup\nLLM\nNo LLM\nDifference\n\n\n\nLow ability\n5.83\n6.13\n-0.31\n\n\nHigh ability\n7.45\n7.72\n-0.26\n\n\n\n\n\n\n\n\nGroup composition\n\n\n\n\n\nGroup\nLLM\nNo LLM\nDifference\n\n\n\nLow ability\n122\n379\n-257\n\n\nHigh ability\n364\n135\n229\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNoteKey insight\n\n\n\n\nWithin high-ability students: LLM users do worse\nWithin low-ability students: LLM users do worse"
   },
   {
     "objectID": "lectures/lecture_3.html#do-unobservable-factors-play-a-role-1",
@@ -228,21 +228,21 @@
     "href": "lectures/lecture_3.html#what-did-we-just-discover-1",
     "title": "Regressions and Identification",
     "section": "What did we just discover?",
-    "text": "What did we just discover?\nRecap of findings\n\n\nResults summary\n\nNaive test: positive effect → “LLMs improve grades!”\nAdd ability control: effect flips negative → “Wait, no they don’t”\nConditional means plot: the reveal—LLMs hurt everyone, we were just fooled by who chooses to use them\n\n\nKey insight\n\n\n\n\n\n\nThis is Selection Bias\n\n\nThe groups differed systematically on ability. High-ability students selected into LLM use — and they would have done well anyway."
+    "text": "What did we just discover?\nRecap of findings\n\n\nResults summary\n\nNaive test: positive effect → “LLMs improve grades!”\nAdd ability control: effect flips negative → “Wait, no they don’t”\nConditional means plot: the reveal—LLMs hurt everyone, we were just fooled by who chooses to use them\n\n\nKey insight\n\n\n\n\n\n\nWarningThis is Selection Bias\n\n\n\nThe groups differed systematically on ability. High-ability students selected into LLM use — and they would have done well anyway."
   },
   {
     "objectID": "lectures/lecture_3.html#dillma-4",
     "href": "lectures/lecture_3.html#dillma-4",
     "title": "Regressions and Identification",
     "section": "DiLLMa",
-    "text": "DiLLMa\nWhat we just witnessed\n\n\nThe pattern\n\n\n\n\n\n\n\n\n\nAnalysis\nLLM Coefficient\nInterpretation\n\n\n\n\nNaive comparison\nPositive\nLLMs help!\n\n\nControl for ability\nNegative\nLLMs hurt!\n\n\n\n\n\nThe explanation\nThis is a textbook case of selection bias manifesting as omitted variable bias:\n\nSelection bias: High-ability students self-select into LLM use\nOVB: When ability is omitted, its effect is attributed to LLM use\nResult: The naive estimate is biased upward\n\n\n\n\n\n\n\n\nKey takeaway\n\n\nNaive comparisons can be misleading due to endogeneity issues like selection bias and OVB!"
+    "text": "DiLLMa\nWhat we just witnessed\n\n\nThe pattern\n\n\n\n\n\n\n\n\nAnalysis\nLLM Coefficient\nInterpretation\n\n\n\nNaive comparison\nPositive\nLLMs help!\n\n\nControl for ability\nNegative\nLLMs hurt!\n\n\n\n\n\n\nThe explanation\nThis is a textbook case of selection bias manifesting as omitted variable bias:\n\n\nSelection bias: High-ability students self-select into LLM use\n\nOVB: When ability is omitted, its effect is attributed to LLM use\n\nResult: The naive estimate is biased upward\n\n\n\n\n\n\n\n\n\nWarningKey takeaway\n\n\n\nNaive comparisons can be misleading due to endogeneity issues like selection bias and OVB!"
   },
   {
     "objectID": "lectures/lecture_3.html#dillma-5",
     "href": "lectures/lecture_3.html#dillma-5",
     "title": "Regressions and Identification",
     "section": "DiLLMa",
-    "text": "DiLLMa\nThe Sign-Flip Phenomenon\n\n\n\n\n\n\nCritical insight\n\n\nOmitted variable bias doesn’t just make estimates imprecise—it can completely flip the sign of your estimate!\n\n\n\nIn our example:\n\nTrue effect of LLM use: Negative (LLMs hurt learning)\nNaive estimate: Positive (because high-ability students use LLMs)\nBias: Positive (ability is positively correlated with both LLM use and exam scores)\n\nThe formula (intuition):\n\\[\\text{Naive estimate} = \\text{True effect} + \\text{Bias}\\] \\[\\text{Positive} = \\text{Negative} + \\text{(Large) Positive}\\]"
+    "text": "DiLLMa\nThe Sign-Flip Phenomenon\n\n\n\n\n\n\nImportantCritical insight\n\n\n\nOmitted variable bias doesn’t just make estimates imprecise—it can completely flip the sign of your estimate!\n\n\nIn our example:\n\n\nTrue effect of LLM use: Negative (LLMs hurt learning)\n\nNaive estimate: Positive (because high-ability students use LLMs)\n\nBias: Positive (ability is positively correlated with both LLM use and exam scores)\nThe formula (intuition):\n\\[\\text{Naive estimate} = \\text{True effect} + \\text{Bias}\\] \\[\\text{Positive} = \\text{Negative} + \\text{(Large) Positive}\\]"
   },
   {
     "objectID": "lectures/lecture_3.html#the-gold-standard-experiments",
@@ -256,14 +256,14 @@
     "href": "lectures/lecture_3.html#the-gold-standard-experiments-1",
     "title": "Regressions and Identification",
     "section": "The gold standard: Experiments",
-    "text": "The gold standard: Experiments\nDesigning and analyzing experiments\nTypes of experiments:\n\nField experiments\n\naim to be as similar as possible to real-world decision situations\n\nA/B testing\n\naim to evaluate different versions of the same product\n\nLab experiments\n\nare carried out in an artificial environment, usually a computer lab\n\n\n\n\nFor more in-depth information on experiments and other causal inference methods, see Békés and Kézdi (2021)."
+    "text": "The gold standard: Experiments\nDesigning and analyzing experiments\nTypes of experiments:\n\nField experiments\n\naim to be as similar as possible to real-world decision situations\n\n\nA/B testing\n\naim to evaluate different versions of the same product\n\n\n\nLab experiments\n\nare carried out in an artificial environment, usually a computer lab\n\n\n\n\n\nFor more in-depth information on experiments and other causal inference methods, see Békés and Kézdi (2021)."
   },
   {
     "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-2",
     "href": "lectures/lecture_3.html#the-gold-standard-experiments-2",
     "title": "Regressions and Identification",
     "section": "The gold standard: Experiments",
-    "text": "The gold standard: Experiments\nSetup of an experiment\n\nRandom assignment of treatment via assignment rule\nNumber of subjects? Ideally large, exact number via power analysis\n\nHow many subjects do I need to detect a certain effect size?\n\nProportion of treated subjects? Ideally 50/50\nCovariate balance\n\nDid random assignment work?"
+    "text": "The gold standard: Experiments\nSetup of an experiment\n\nRandom assignment of treatment via assignment rule\n\nNumber of subjects? Ideally large, exact number via power analysis\n\nHow many subjects do I need to detect a certain effect size?\n\n\nProportion of treated subjects? Ideally 50/50\nCovariate balance\n\nDid random assignment work?"
   },
   {
     "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-3",
@@ -277,35 +277,35 @@
     "href": "lectures/lecture_3.html#the-gold-standard-experiments-4",
     "title": "Regressions and Identification",
     "section": "The gold standard: Experiments",
-    "text": "The gold standard: Experiments\nDiLLMa experiment\nRandom assignment of LLM use\n\n\nNaive comparison\n\n\n\n\n\n\n\n\n\n\nWhat do we find?\n\nStudents who used LLMs scored lower on average\nNaive comparison suggests a negative effect of LLM use on exam scores\nEconomic effect: ~0.5 point decrease in exam scores\n\n\n\n\n\n\n\n\nBut…\n\n\nDid random assignment work? Are the groups balanced on observable & unobservable characteristics?"
+    "text": "The gold standard: Experiments\nDiLLMa experiment\nRandom assignment of LLM use\n\n\nNaive comparison\n\n\n\n\n\n\n\n\n\n\nWhat do we find?\n\nStudents who used LLMs scored lower on average\nNaive comparison suggests a negative effect of LLM use on exam scores\nEconomic effect: ~0.5 point decrease in exam scores\n\n\n\n\n\n\n\n\n\nWarningBut…\n\n\n\nDid random assignment work? Are the groups balanced on observable & unobservable characteristics?"
   },
   {
     "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-5",
     "href": "lectures/lecture_3.html#the-gold-standard-experiments-5",
     "title": "Regressions and Identification",
     "section": "The gold standard: Experiments",
-    "text": "The gold standard: Experiments\nDiLLMa experiment\nCovariate balance check\n\n\n\n\n\n\nVariable\nLLM\nNo LLM\nDifference\nt-stat.\np-value\n\n\n\n\nExam score\n6.43\n7.22\n-0.80\n8.75\n0.00\n\n\nAttendance rate\n74.62\n75.01\n-0.39\n0.43\n0.66\n\n\nFemale\n0.49\n0.49\n0.00\n-0.02\n0.98\n\n\nAge\n21.29\n21.43\n-0.13\n0.91\n0.36\n\n\nStudy hours\n19.92\n20.56\n-0.64\n0.89\n0.37\n\n\nAbility\n0.01\n0.03\n-0.02\n0.33\n0.74"
+    "text": "The gold standard: Experiments\nDiLLMa experiment\nCovariate balance check\n\n\n\n\n\nVariable\nLLM\nNo LLM\nDifference\nt-stat.\np-value\n\n\n\nExam score\n6.43\n7.22\n-0.80\n8.75\n0.00\n\n\nAttendance rate\n74.62\n75.01\n-0.39\n0.43\n0.66\n\n\nFemale\n0.49\n0.49\n0.00\n-0.02\n0.98\n\n\nAge\n21.29\n21.43\n-0.13\n0.91\n0.36\n\n\nStudy hours\n19.92\n20.56\n-0.64\n0.89\n0.37\n\n\nAbility\n0.01\n0.03\n-0.02\n0.33\n0.74"
   },
   {
     "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-6",
     "href": "lectures/lecture_3.html#the-gold-standard-experiments-6",
     "title": "Regressions and Identification",
     "section": "The gold standard: Experiments",
-    "text": "The gold standard: Experiments\nTakeaways\n\nRandom assignment assures that effect is not due to selection bias\nIn the experiment you control…\n\nwho receives the treatment (the treatment group),…\nand who doesn’t (the control group)\n\nYou can control other aspects of the situation to avoid other confounders\nYou can measure the effect of the treatment on the outcome\nPotential trade-off between internal and external validity"
+    "text": "The gold standard: Experiments\nTakeaways\n\nRandom assignment assures that effect is not due to selection bias\n\nIn the experiment you control…\n\nwho receives the treatment (the treatment group),…\nand who doesn’t (the control group)\n\n\nYou can control other aspects of the situation to avoid other confounders\nYou can measure the effect of the treatment on the outcome\nPotential trade-off between internal and external validity"
   },
   {
     "objectID": "lectures/lecture_3.html#what-to-do-if-controlling-random-assignment-is-not-possible-1",
     "href": "lectures/lecture_3.html#what-to-do-if-controlling-random-assignment-is-not-possible-1",
     "title": "Regressions and Identification",
     "section": "What to do if controlling random assignment is not possible?",
-    "text": "What to do if controlling random assignment is not possible?\nReality check\n\n\nThe reality of finance research\n\nMost financial phenomena cannot be experimentally manipulated\nWe rely on observational data\nNeed tools to make the best of imperfect situations\n\n\nTwo approaches\nOLS with controls (today)\n\nAdd observable confounders as control variables\nLimited: can’t control for unobservables\n\nQuasi-experimental methods (Lecture 4)\n\nExploit natural variation\nDifference-in-Differences, etc."
+    "text": "What to do if controlling random assignment is not possible?\nReality check\n\n\nThe reality of finance research\n\nMost financial phenomena cannot be experimentally manipulated\n\nWe rely on observational data\n\nNeed tools to make the best of imperfect situations\n\n\nTwo approaches\nOLS with controls (today)\n\nAdd observable confounders as control variables\nLimited: can’t control for unobservables\nQuasi-experimental methods (Lecture 4)\n\nExploit natural variation\n\nDifference-in-Differences, etc."
   },
   {
     "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-1",
     "href": "lectures/lecture_3.html#ordinary-least-squares-ols-1",
     "title": "Regressions and Identification",
     "section": "Ordinary Least Squares (OLS)",
-    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhat is OLS regression?\n\nOLS is the workhorse of explanatory analytics\nIt lets us answer “What would happen to the expected value of \\(Y\\) if we changed \\(X\\) by one unit?”\n\nPrediction vs explanation\n\nPrediction: use \\(X\\) to forecast \\(Y\\)\nStatistical explanation: describe the relationship between them via a functional form such as \\[\nY = \\beta_0 + \\beta_1 X + \\varepsilon.\n\\]\nThe coefficient \\(\\beta_1\\) is the slope — a one‑unit change in \\(X\\) is associated with a \\(\\beta_1\\) change in \\(Y\\)."
+    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhat is OLS regression?\n\nOLS is the workhorse of explanatory analytics\nIt lets us answer “What would happen to the expected value of \\(Y\\) if we changed \\(X\\) by one unit?”\nPrediction vs explanation\n\nPrediction: use \\(X\\) to forecast \\(Y\\)\n\nStatistical explanation: describe the relationship between them via a functional form such as \\[\nY = \\beta_0 + \\beta_1 X + \\varepsilon.\n\\]\n\nThe coefficient \\(\\beta_1\\) is the slope — a one‑unit change in \\(X\\) is associated with a \\(\\beta_1\\) change in \\(Y\\)."
   },
   {
     "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-2",
@@ -319,28 +319,28 @@
     "href": "lectures/lecture_3.html#ordinary-least-squares-ols-3",
     "title": "Regressions and Identification",
     "section": "Ordinary Least Squares (OLS)",
-    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhen does it work perfectly (OLS Assumptions)?\n\n\n\n\n\n\n\n\n\nAssumption\nWhat it requires\nRole\n\n\n\n\nLinearity\n\\(E[Y \\mid X] = \\beta_0 + \\beta_1 X\\)\nCorrect specification of functional form\n\n\nExogeneity\n\\(E[\\varepsilon \\mid X] = 0\\)\nEnsures \\(\\hat{\\beta}\\) is unbiased and consistent\n\n\nHomoscedasticity\n\\(Var(\\varepsilon \\mid X) = \\sigma^2\\)\nStandard errors are efficient and unbiased\n\n\nIndependence\nObservations are i.i.d.\nStandard error formulas are valid\n\n\nNormality (small samples)\n\\(\\varepsilon \\sim N(0, \\sigma^2)\\)\nValidates t-tests and confidence intervals"
+    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhen does it work perfectly (OLS Assumptions)?\n\n\n\n\n\n\n\n\nAssumption\nWhat it requires\nRole\n\n\n\nLinearity\n\\(E[Y \\mid X] = \\beta_0 + \\beta_1 X\\)\nCorrect specification of functional form\n\n\nExogeneity\n\\(E[\\varepsilon \\mid X] = 0\\)\nEnsures \\(\\hat{\\beta}\\) is unbiased and consistent\n\n\nHomoscedasticity\n\\(Var(\\varepsilon \\mid X) = \\sigma^2\\)\nStandard errors are efficient and unbiased\n\n\nIndependence\nObservations are i.i.d.\nStandard error formulas are valid\n\n\nNormality (small samples)\n\\(\\varepsilon \\sim N(0, \\sigma^2)\\)\nValidates t-tests and confidence intervals"
   },
   {
     "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-4",
     "href": "lectures/lecture_3.html#ordinary-least-squares-ols-4",
     "title": "Regressions and Identification",
     "section": "Ordinary Least Squares (OLS)",
-    "text": "Ordinary Least Squares (OLS)\nThe Skinny - For those who prefer plain English\nWhen does it work perfectly (OLS Assumptions)?\n\n\n\n\n\n\n\n\nAssumption\nPlain English\n\n\n\n\nLinearity\nThe relationship between X and Y is a straight line\n\n\nExogeneity\nX is not correlated with anything else that affects Y\n\n\nHomoscedasticity\nThe spread of errors is the same across all values of X\n\n\nIndependence\nOne observation doesn’t influence another\n\n\nNormality (small samples)\nErrors follow a bell curve—only matters for hypothesis testing with few observations"
+    "text": "Ordinary Least Squares (OLS)\nThe Skinny - For those who prefer plain English\nWhen does it work perfectly (OLS Assumptions)?\n\n\n\n\n\n\n\nAssumption\nPlain English\n\n\n\nLinearity\nThe relationship between X and Y is a straight line\n\n\nExogeneity\nX is not correlated with anything else that affects Y\n\n\nHomoscedasticity\nThe spread of errors is the same across all values of X\n\n\nIndependence\nOne observation doesn’t influence another\n\n\nNormality (small samples)\nErrors follow a bell curve—only matters for hypothesis testing with few observations"
   },
   {
     "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-5",
     "href": "lectures/lecture_3.html#ordinary-least-squares-ols-5",
     "title": "Regressions and Identification",
     "section": "Ordinary Least Squares (OLS)",
-    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhat if assumptions are violated?\n\n\n\n\n\n\n\n\n\nAssumption\nIf violated\nHow to check\n\n\n\n\nLinearity\nEstimates are biased; wrong model\nPlot residuals vs fitted values\n\n\nExogeneity\nEstimates are biased and inconsistent\nTheory and DAGs; no direct test\n\n\nHomoscedasticity\nStandard errors are wrong (often too small)\nPlot residuals vs fitted; Breusch-Pagan test\n\n\nIndependence\nStandard errors are wrong\nDurbin-Watson test; check data structure\n\n\nNormality\nt-tests and CIs invalid in small samples\nQ-Q plot of residuals"
+    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhat if assumptions are violated?\n\n\n\n\n\n\n\n\nAssumption\nIf violated\nHow to check\n\n\n\nLinearity\nEstimates are biased; wrong model\nPlot residuals vs fitted values\n\n\nExogeneity\nEstimates are biased and inconsistent\nTheory and DAGs; no direct test\n\n\nHomoscedasticity\nStandard errors are wrong (often too small)\nPlot residuals vs fitted; Breusch-Pagan test\n\n\nIndependence\nStandard errors are wrong\nDurbin-Watson test; check data structure\n\n\nNormality\nt-tests and CIs invalid in small samples\nQ-Q plot of residuals"
   },
   {
     "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-6",
     "href": "lectures/lecture_3.html#ordinary-least-squares-ols-6",
     "title": "Regressions and Identification",
     "section": "Ordinary Least Squares (OLS)",
-    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhat else could go wrong?\n\n\n\n\n\n\n\n\n\nIssue\nIf present\nHow to check\n\n\n\n\nMulticollinearity\nEstimates unbiased but imprecise; unstable coefficients\nCorrelation matrix; VIF &gt; 10\n\n\nOutliers\nSingle observations can distort estimates\nSummary stats; plots\n\n\nMeasurement error in X 1\nCoefficient biased toward zero (attenuation bias)\nTheory; compare multiple measures if available\n\n\nSmall sample size\nEstimates imprecise; normality assumption matters more\nCheck n relative to number of predictors\n\n\nMissing data\nBias if not missing completely at random\nCheck patterns; compare complete vs incomplete cases\n\n\n\n\nMeasurement error in X becomes an edogeneity issue when correlated with \\(\\epsilon\\). Measurement error in Y increases variance but does not bias coefficients."
+    "text": "Ordinary Least Squares (OLS)\nThe Skinny\nWhat else could go wrong?\n\n\n\n\n\n\n\n\nIssue\nIf present\nHow to check\n\n\n\nMulticollinearity\nEstimates unbiased but imprecise; unstable coefficients\nCorrelation matrix; VIF &gt; 10\n\n\nOutliers\nSingle observations can distort estimates\nSummary stats; plots\n\n\nMeasurement error in X 5\n\nCoefficient biased toward zero (attenuation bias)\nTheory; compare multiple measures if available\n\n\nSmall sample size\nEstimates imprecise; normality assumption matters more\nCheck n relative to number of predictors\n\n\nMissing data\nBias if not missing completely at random\nCheck patterns; compare complete vs incomplete cases"
   },
   {
     "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-7",
@@ -354,21 +354,21 @@
     "href": "lectures/lecture_3.html#ordinary-least-squares-ols-8",
     "title": "Regressions and Identification",
     "section": "Ordinary Least Squares (OLS)",
-    "text": "Ordinary Least Squares (OLS)\nWhat does the output tell me?\n\n\n\n\n\n\n\n\n\nComponent\nMeaning\nTypical notation\n\n\n\n\nRows (Coefficient, Standard Error)\nEstimate of \\(\\beta_j\\) and its SE (or t‑stat)\n-0.021 (0.004)\n\n\nSignificance stars\nIndicates p‑value thresholds\n*** = p &lt; .01\n\n\n\\(R^2\\)\nProportion of variance in \\(Y\\) explained by the model\n0.065\n\n\nAdjusted \\(R^2\\)\nCorrects \\(R^2\\) for number of predictors\n0.065\n\n\nF‑statistic\nJoint test that all non‑constant coefficients equal zero\n35.016\n\n\nRMSE\nStandard deviation of residuals (or “root mean squared error”)\n1.307"
+    "text": "Ordinary Least Squares (OLS)\nWhat does the output tell me?\n\n\n\n\n\n\n\n\nComponent\nMeaning\nTypical notation\n\n\n\nRows (Coefficient, Standard Error)\nEstimate of \\(\\beta_j\\) and its SE (or t‑stat)\n-0.021 (0.004)\n\n\nSignificance stars\nIndicates p‑value thresholds\n\n*** = p &lt; .01\n\n\n\\(R^2\\)\nProportion of variance in \\(Y\\) explained by the model\n0.065\n\n\nAdjusted \\(R^2\\)\n\nCorrects \\(R^2\\) for number of predictors\n0.065\n\n\nF‑statistic\nJoint test that all non‑constant coefficients equal zero\n35.016\n\n\nRMSE\nStandard deviation of residuals (or “root mean squared error”)\n1.307"
   },
   {
     "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-9",
     "href": "lectures/lecture_3.html#ordinary-least-squares-ols-9",
     "title": "Regressions and Identification",
     "section": "Ordinary Least Squares (OLS)",
-    "text": "Ordinary Least Squares (OLS)\nHow to interpret the output?\n\n\nTable output\n\n\n\n\nInterpretation\nPrecision: Given SE=0.004, even small differences in coefficients are detectable\nSignificance: *** indicates the coefficient differs from zero at the 1% level\nModel fit: \\(R^2\\) of 0.065 tells us only ~ 3% of the variation in scores is captured by the predictors\nt-stat: The slope is about 5 standard errors away from zero (0.021/0.004 = 5), indicating strong evidence against the null hypothesis of no effect\n\n\n\n\n\n\nTypically, we focus on the coefficient estimates, their precision (SEs), and significance levels to interpret OLS results."
+    "text": "Ordinary Least Squares (OLS)\nHow to interpret the output?\n\n\nTable output\n\n\n\n\n\nInterpretation\nPrecision: Given SE=0.004, even small differences in coefficients are detectable\nSignificance: *** indicates the coefficient differs from zero at the 1% level\nModel fit: \\(R^2\\) of 0.065 tells us only ~ 3% of the variation in scores is captured by the predictors\nt-stat: The slope is about 5 standard errors away from zero (0.021/0.004 = 5), indicating strong evidence against the null hypothesis of no effect\n\n\n\n\n\n\nNote\n\n\n\nTypically, we focus on the coefficient estimates, their precision (SEs), and significance levels to interpret OLS results."
   },
   {
     "objectID": "lectures/lecture_3.html#ordinary-least-squares-ols-10",
     "href": "lectures/lecture_3.html#ordinary-least-squares-ols-10",
     "title": "Regressions and Identification",
     "section": "Ordinary Least Squares (OLS)",
-    "text": "Ordinary Least Squares (OLS)\nTakeaways\n\nThe error term separates what is explained by the predictors from everything else\nExogeneity is the linchpin that turns OLS estimates into unbiased causal indicators\nSampling variability is quantified by standard errors, which underpin hypothesis tests, p‑values, and confidence intervals\nRegression tables encapsulate all of this: coefficients, precision, significance, model‑fit metrics"
+    "text": "Ordinary Least Squares (OLS)\nTakeaways\n\nThe error term separates what is explained by the predictors from everything else\n\nExogeneity is the linchpin that turns OLS estimates into unbiased causal indicators\n\nSampling variability is quantified by standard errors, which underpin hypothesis tests, p‑values, and confidence intervals\n\nRegression tables encapsulate all of this: coefficients, precision, significance, model‑fit metrics"
   },
   {
     "objectID": "lectures/lecture_3.html#ols-dillma",
@@ -382,14 +382,14 @@
     "href": "lectures/lecture_3.html#ols-dillma-1",
     "title": "Regressions and Identification",
     "section": "OLS DiLLMa",
-    "text": "OLS DiLLMa\nDiLLMa OLS results\n\n\nPrior findings recap\n\n\n\n\n\n\nReconciling OLS with comparison of means\n\nThe coefficient on llm in the naive OLS regression is equivalent to the difference in means between LLM users and non-users\nAdding controls adjusts for confounding variables, changing the estimated effect of LLM use on exam scores\nIncluding ability further refines the estimate by accounting for this key confounder and gives us the “true” effect of LLM use\nRandom assignment eliminates confounding, so the naive estimate from the randomized data reflects the causal effect of LLM use on exam scores\nIn an OLS setting we refer to the selection bias issue as omitted variable bias (OVB)"
+    "text": "OLS DiLLMa\nDiLLMa OLS results\n\n\nPrior findings recap\n\n\n\n\n\n\n\nReconciling OLS with comparison of means\n\nThe coefficient on llm in the naive OLS regression is equivalent to the difference in means between LLM users and non-users\nAdding controls adjusts for confounding variables, changing the estimated effect of LLM use on exam scores\nIncluding ability further refines the estimate by accounting for this key confounder and gives us the “true” effect of LLM use\nRandom assignment eliminates confounding, so the naive estimate from the randomized data reflects the causal effect of LLM use on exam scores\nIn an OLS setting we refer to the selection bias issue as omitted variable bias (OVB)"
   },
   {
     "objectID": "lectures/lecture_3.html#ols-dillma-2",
     "href": "lectures/lecture_3.html#ols-dillma-2",
     "title": "Regressions and Identification",
     "section": "OLS DiLLMa",
-    "text": "OLS DiLLMa\nThe Limits of “Controlling For”\n\n\n\n\n\n\nImportant caveat\n\n\nIn DiLLMa, we could observe ability and control for it. In real research, we usually cannot observe all confounders.\n\n\n\nThe problem with observational data:\n\n\n\n\nWhat we did in DiLLMa\nWhat happens in reality\n\n\n\n\nObserved ability\nAbility is unobserved\n\n\nControlled for it in OLS\nCan’t control for what we don’t see\n\n\nGot the “true” effect\nEstimate remains biased\n\n\n\n\nThe solution?\n\nExperiments (when possible)\nQuasi-experimental methods (when experiments aren’t possible) → Lecture 4"
+    "text": "OLS DiLLMa\nThe Limits of “Controlling For”\n\n\n\n\n\n\nWarningImportant caveat\n\n\n\nIn DiLLMa, we could observe ability and control for it. In real research, we usually cannot observe all confounders.\n\n\nThe problem with observational data:\n\n\n\nWhat we did in DiLLMa\nWhat happens in reality\n\n\n\nObserved ability\nAbility is unobserved\n\n\nControlled for it in OLS\nCan’t control for what we don’t see\n\n\nGot the “true” effect\nEstimate remains biased\n\n\n\n\nThe solution?\n\n\nExperiments (when possible)\n\nQuasi-experimental methods (when experiments aren’t possible) → Lecture 4"
   },
   {
     "objectID": "lectures/lecture_3.html#conclusion-1",
@@ -403,7 +403,7 @@
     "href": "lectures/lecture_3.html#conclusion-2",
     "title": "Regressions and Identification",
     "section": "Conclusion",
-    "text": "Conclusion\nWhat we learned today\n\n\nIdentification\n\nIdentification = isolating causal variation\nEndogeneity = X correlated with error term\nTwo main sources: selection bias & OVB\nCan flip the sign of estimates!\n\n\nTools\n\nExperiments: Gold standard, but often infeasible\nOLS with controls: Works if you observe all confounders\nNext lecture: What if you can’t experiment AND can’t observe all confounders?"
+    "text": "Conclusion\nWhat we learned today\n\n\nIdentification\n\nIdentification = isolating causal variation\nEndogeneity = X correlated with error term\nTwo main sources: selection bias & OVB\nCan flip the sign of estimates!\n\n\nTools\n\n\nExperiments: Gold standard, but often infeasible\n\nOLS with controls: Works if you observe all confounders\n\nNext lecture: What if you can’t experiment AND can’t observe all confounders?"
   },
   {
     "objectID": "lectures/lecture_3.html#conclusion-3",
@@ -424,28 +424,28 @@
     "href": "lectures/lecture_3.html#libby-boxes",
     "title": "Regressions and Identification",
     "section": "Libby Boxes",
-    "text": "Libby Boxes\nDiLLMa\n Back"
+    "text": "Libby Boxes\nDiLLMa\nBack"
   },
   {
     "objectID": "lectures/lecture_3.html#the-gold-standard-experiments-7",
     "href": "lectures/lecture_3.html#the-gold-standard-experiments-7",
     "title": "Regressions and Identification",
     "section": "The gold standard: Experiments",
-    "text": "The gold standard: Experiments\nDiLLMa experiment\nCovariate balance check - no random assignment!\n\n\n\n\n\n\nVariable\nLLM\nNo LLM\nDifference\nt-stat.\np-value\n\n\n\n\nExam score\n7.04\n6.55\n0.50\n-5.99\n0.00\n\n\nAttendance rate\n74.15\n75.43\n-1.28\n1.42\n0.15\n\n\nFemale\n0.49\n0.50\n-0.01\n0.39\n0.70\n\n\nAge\n21.37\n21.34\n0.03\n-0.18\n0.86\n\n\nStudy hours\n20.09\n20.34\n-0.25\n0.35\n0.73\n\n\nAbility\n0.56\n-0.50\n1.07\n-20.11\n0.00"
+    "text": "The gold standard: Experiments\nDiLLMa experiment\nCovariate balance check - no random assignment!\n\n\n\n\n\nVariable\nLLM\nNo LLM\nDifference\nt-stat.\np-value\n\n\n\nExam score\n7.04\n6.55\n0.50\n-5.99\n0.00\n\n\nAttendance rate\n74.15\n75.43\n-1.28\n1.42\n0.15\n\n\nFemale\n0.49\n0.50\n-0.01\n0.39\n0.70\n\n\nAge\n21.37\n21.34\n0.03\n-0.18\n0.86\n\n\nStudy hours\n20.09\n20.34\n-0.25\n0.35\n0.73\n\n\nAbility\n0.56\n-0.50\n1.07\n-20.11\n0.00"
   },
   {
     "objectID": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation",
     "href": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation",
     "title": "Regressions and Identification",
     "section": "Theory, hypotheses, and operationalisation",
-    "text": "Theory, hypotheses, and operationalisation\nWhat is a hypothesis?\n\nA hypothesis is a proposed explanation for a phenomenon or a prediction of a possible causal correlation\nIt is a tentative answer to a research question that guides the direction of study and investigation\nIts formulation is guided by existing (economic) theory\nA well-constructed hypothesis is testable, meaning it can be supported or rejected through experimentation"
+    "text": "Theory, hypotheses, and operationalisation\nWhat is a hypothesis?\n\nA hypothesis is a proposed explanation for a phenomenon or a prediction of a possible causal correlation\nIt is a tentative answer to a research question that guides the direction of study and investigation\nIts formulation is guided by existing (economic) theory\n\nA well-constructed hypothesis is testable, meaning it can be supported or rejected through experimentation"
   },
   {
     "objectID": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-1",
     "href": "lectures/lecture_3.html#theory-hypotheses-and-operationalisation-1",
     "title": "Regressions and Identification",
     "section": "Theory, hypotheses, and operationalisation",
-    "text": "Theory, hypotheses, and operationalisation\nHow do we test a hypothesis?\n\nStepst-testVisual\n\n\n\nWe need a baseline to test against: The null hypothesis (\\(H_0\\))\nWhy null? It states that there is no effect or no difference, which serves as a baseline assumption\n\n\\(H_0\\) is what you test your \\(H_1\\) against, e.g. \\(H_0 = 0\\)\n\\(H_1\\) is the/your alternative hypothesis - what you might believe to be true\n\nA statistical test rejects \\(H_0\\) if there is enough evidence against it\n\nIf we reject \\(H_0\\), we accept \\(H_1\\)\n\n\n\n\nThe t-test measures how far the sample mean is away from \\(H_0\\)\nHypothesis:\n\nOne-sided (\\(H_0 \\leq 0\\), \\(H_1&gt;0\\)): \\(t = \\frac{X-0}{SE(X)}\\)\nTwo-sided (\\(H_0 = 0\\), \\(H_1 \\neq 0\\)): \\(t = \\frac{X_{treated}-X_{control}}{SE(X_{treated}-X_{control})}\\)"
+    "text": "Theory, hypotheses, and operationalisation\nHow do we test a hypothesis?\n\n\nSteps\nt-test\nVisual\n\n\n\n\nWe need a baseline to test against: The null hypothesis (\\(H_0\\))\nWhy null? It states that there is no effect or no difference, which serves as a baseline assumption\n\n\n\\(H_0\\) is what you test your \\(H_1\\) against, e.g. \\(H_0 = 0\\)\n\n\n\\(H_1\\) is the/your alternative hypothesis - what you might believe to be true\n\n\nA statistical test rejects \\(H_0\\) if there is enough evidence against it\n\nIf we reject \\(H_0\\), we accept \\(H_1\\)\n\n\n\n\n\n\nThe t-test measures how far the sample mean is away from \\(H_0\\)\nHypothesis:\n\nOne-sided (\\(H_0 \\leq 0\\), \\(H_1&gt;0\\)): \\(t = \\frac{X-0}{SE(X)}\\)\n\nTwo-sided (\\(H_0 = 0\\), \\(H_1 \\neq 0\\)): \\(t = \\frac{X_{treated}-X_{control}}{SE(X_{treated}-X_{control})}\\)"
   },
   {
     "objectID": "lectures/lecture_1.html#introduction-1",
@@ -759,64 +759,64 @@
     "objectID": "lectures/lecture_2.html#data-exploration-and-visualization-1",
     "href": "lectures/lecture_2.html#data-exploration-and-visualization-1",
     "title": "Data Exploration and Visualization",
-    "section": "Data Exploration and Visualization",
-    "text": "Data Exploration and Visualization\nToday’s Journey\n\nWhy visualize? The power and peril\nDescribing variables: Building blocks\nDesign principles that matter\nTables: The unsung hero\n\nLiterature\n\nHuntington-Klein (2022) (Chapters 3 & 4)"
+    "section": "",
+    "text": "Why visualize? The power and peril\nDescribing variables: Building blocks\nDesign principles that matter\nTables: The unsung hero\n\n\n\nHuntington-Klein (2022) (Chapters 3 & 4)"
   },
   {
     "objectID": "lectures/lecture_2.html#data-exploration-and-visualization-2",
     "href": "lectures/lecture_2.html#data-exploration-and-visualization-2",
     "title": "Data Exploration and Visualization",
-    "section": "Data Exploration and Visualization",
-    "text": "Data Exploration and Visualization\nRecap - Where did we leave things?\n\n\nLast time: The Research Pipeline\n\n\nRaw & Clean Data\n\nData acquisition (WRDS, identifiers)\nMerging datasets (CUSIP, GVKEY, PERMNO)\nUnderstanding and creating tidy data\n\nToday’s Menu\n\nData exploration & visualization\nDescriptive statistics\nEffective communication of results\n\n\nToday we learn how to LOOK at what we’ve built"
+    "section": "",
+    "text": "Data acquisition (WRDS, identifiers)\nMerging datasets (CUSIP, GVKEY, PERMNO)\nUnderstanding and creating tidy data\n\n\n\nData exploration & visualization\nDescriptive statistics\nEffective communication of results\n\n\nToday we learn how to LOOK at what we’ve built"
   },
   {
     "objectID": "lectures/lecture_2.html#data-exploration-and-visualization-3",
     "href": "lectures/lecture_2.html#data-exploration-and-visualization-3",
     "title": "Data Exploration and Visualization",
-    "section": "Data Exploration and Visualization",
-    "text": "Data Exploration and Visualization\nLearning Objectives\nBy the end of today, you will be able to\n\nExplain why visualization matters for research AND practice\nIdentify misleading visualizations and graph abuse\nDescribe distributions and relationships effectively\nApply core design principles to financial data\nCreate publication-quality summary statistics tables"
+    "section": "",
+    "text": "Explain why visualization matters for research AND practice\nIdentify misleading visualizations and graph abuse\nDescribe distributions and relationships effectively\nApply core design principles to financial data\nCreate publication-quality summary statistics tables"
   },
   {
     "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-1",
     "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-1",
     "title": "Data Exploration and Visualization",
     "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nVisualization in Practice\n\n\nJust Eat Takeaway Analyst Presentation\n\n\n\n\n\n\nWhat do you notice?\n\n\n\n\n\n\nKey observation\n\n\nAlmost every slide contains a visualization!\n\n\n\n\n\n\n\n\n\nKey question\n\n\nWhy do they do this?\n\n\n\n\n\n\nFull presentation available here: Just Eat Takeaway H1 2022 Results"
+    "text": "Why Visualize? The Power and Peril\nVisualization in Practice\n\n\nJust Eat Takeaway Analyst Presentation\n\n\n\n\n\n\nWhat do you notice?\n\n\n\n\n\n\nTipKey observation\n\n\n\nAlmost every slide contains a visualization!\n\n\n\n\n\n\n\n\nImportantKey question\n\n\n\nWhy do they do this?\n\n\n\n\n\n\n\nFull presentation available here: Just Eat Takeaway H1 2022 Results"
   },
   {
     "objectID": "lectures/lecture_2.html#visualization-in-practice-1",
     "href": "lectures/lecture_2.html#visualization-in-practice-1",
     "title": "Data Exploration and Visualization",
     "section": "Visualization in Practice",
-    "text": "Visualization in Practice\nGrowth Story\n\n\nGross Trsansaction Value Over Time\n\n\n\n\n\n\nWhat story does this tell?\n\n“~2X growth since pre-pandemic”\nClear trend, immediate impact\nVisual &gt; table of numbers\n\n\n\n\nWhat makes this effective?\n\nClean design\nClear annotation\nColor use to highlight key info"
+    "text": "Visualization in Practice\nGrowth Story\n\n\nGross Trsansaction Value Over Time\n\n\n\n\n\n\nWhat story does this tell?\n\n“~2X growth since pre-pandemic”\nClear trend, immediate impact\nVisual &gt; table of numbers\n\n\n\n\n\nWhat makes this effective?\n\nClean design\nClear annotation\nColor use to highlight key info"
   },
   {
     "objectID": "lectures/lecture_2.html#visualization-in-practice-2",
     "href": "lectures/lecture_2.html#visualization-in-practice-2",
     "title": "Data Exploration and Visualization",
     "section": "Visualization in Practice",
-    "text": "Visualization in Practice\nGeographic Breakdown\n\n\nMarket Leadership Across Regions\n\n\n\n\n\n\nMultiple dimensions in one view\n\nGeography\nMarket position\nRevenue by segment\n\n\n\n\nCognitive efficiency?\n\nWould take paragraphs to describe in text\nLatest disclosures before takeover by Prosus 🤦"
+    "text": "Visualization in Practice\nGeographic Breakdown\n\n\nMarket Leadership Across Regions\n\n\n\n\n\n\nMultiple dimensions in one view\n\nGeography\nMarket position\nRevenue by segment\n\n\n\n\n\nCognitive efficiency?\n\nWould take paragraphs to describe in text\n\nLatest disclosures before takeover by Prosus 🤦"
   },
   {
     "objectID": "lectures/lecture_2.html#visualization-in-practice-3",
     "href": "lectures/lecture_2.html#visualization-in-practice-3",
     "title": "Data Exploration and Visualization",
     "section": "Visualization in Practice",
-    "text": "Visualization in Practice\nComparative Performance\n\n\nEBITDA by region over time\n\n\n\n\n\n\nWhat does this show?\n\nMultiple entities (regions)\nTime dimension\nPositive vs. negative values\nClear color coding\n\n\n\n\nHow long would this table be?"
+    "text": "Visualization in Practice\nComparative Performance\n\n\nEBITDA by region over time\n\n\n\n\n\n\nWhat does this show?\n\nMultiple entities (regions)\nTime dimension\nPositive vs. negative values\nClear color coding\n\n\n\n\n\nHow long would this table be?"
   },
   {
     "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-2",
     "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-2",
     "title": "Data Exploration and Visualization",
     "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nThe Case FOR Visualization\nWhat is visualization (vis)?\n\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively (Munzner 2025).\n\nWhy visualize?\n\nCommunication: Tell data-driven stories\nVerification: Confirm expected patterns\nExploration: Find unexpected patterns\nFalsification: Assess validity of models\n\n\n\nFor more theory and details on visualization analysis and design, see Munzner (2025)"
+    "text": "Why Visualize? The Power and Peril\nThe Case FOR Visualization\nWhat is visualization (vis)?\n\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively (Munzner 2025).\n\nWhy visualize?\n\n\nCommunication: Tell data-driven stories\n\nVerification: Confirm expected patterns\n\nExploration: Find unexpected patterns\n\nFalsification: Assess validity of models\n\n\n\nFor more theory and details on visualization analysis and design, see Munzner (2025)"
   },
   {
     "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-3",
     "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-3",
     "title": "Data Exploration and Visualization",
     "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nBut… Visualization Can Mislead\n\n\n\n\n\n\n\nSource: Washington Post, 2025"
+    "text": "Why Visualize? The Power and Peril\nBut… Visualization Can Mislead\n\n\n\n\n\n\nSource: Washington Post, 2025"
   },
   {
     "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-4",
@@ -837,28 +837,28 @@
     "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-6",
     "title": "Data Exploration and Visualization",
     "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nInsights from Beattie and Jones (1992)\nThe use and abuse of graphs in annual reports: theoretical framework and empirical study\n\nStudy of 240 large UK companies’ annual reports\nAverage: 5.9 graphs per report\nKey finding: Companies with ‘good’ performance significantly more likely to use graphs\nSelectivity: 65% graph at least one key financial variable\nBut which variables do they choose?"
+    "text": "Why Visualize? The Power and Peril\nInsights from Beattie and Jones (1992)\n\nThe use and abuse of graphs in annual reports: theoretical framework and empirical study\n\nStudy of 240 large UK companies’ annual reports\nAverage: 5.9 graphs per report\n\nKey finding: Companies with ‘good’ performance significantly more likely to use graphs\n\nSelectivity: 65% graph at least one key financial variable\nBut which variables do they choose?"
   },
   {
     "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-7",
     "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-7",
     "title": "Data Exploration and Visualization",
     "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nTwo Forms of Distortion\nBeattie and Jones (1992) Framework\n\n\nSelectivity\nChoosing WHICH data to visualize\n\nGraph the good news, table the bad news\nExample: Graph revenue growth, table margin decline\n\n\nMeasurement distortion\nHOW data is presented\n\nAxis manipulation\nVisual exaggeration\nFound in 30% of graphs!\nAverage exaggeration: 10.7%"
+    "text": "Why Visualize? The Power and Peril\nTwo Forms of Distortion\n\nBeattie and Jones (1992) Framework\n\n\nSelectivity\nChoosing WHICH data to visualize\n\nGraph the good news, table the bad news\nExample: Graph revenue growth, table margin decline\n\n\nMeasurement distortion\nHOW data is presented\n\nAxis manipulation\nVisual exaggeration\nFound in 30% of graphs!\nAverage exaggeration: 10.7%"
   },
   {
     "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-8",
     "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-8",
     "title": "Data Exploration and Visualization",
     "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nDistortion Example Overview\n\n\n\n\n\n\n\nSource: Huang et al. (2011)"
+    "text": "Why Visualize? The Power and Peril\nDistortion Example Overview\n\n\n\n\n\n\nSource: Huang et al. (2011)"
   },
   {
     "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-9",
     "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-9",
     "title": "Data Exploration and Visualization",
     "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nAnscombe’s Quartet - The Famous Example\nIdentical Statistics, Different Stories\n\n\nAnscombe’s Quartet Data\n\n\n\n\n\n\nVariable\nN\nMean\nSD\nP0\nP25\nP50\nP75\nP100\n\n\n\n\nx1\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny1\n11\n7.5\n2.03\n4.26\n6.31\n7.58\n8.57\n10.84\n\n\nx2\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny2\n11\n7.5\n2.03\n3.10\n6.70\n8.14\n8.95\n9.26\n\n\nx3\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny3\n11\n7.5\n2.03\n5.39\n6.25\n7.11\n7.98\n12.74\n\n\nx4\n11\n9.0\n3.32\n8.00\n8.00\n8.00\n8.00\n19.00\n\n\ny4\n11\n7.5\n2.03\n5.25\n6.17\n7.04\n8.19\n12.50\n\n\n\n\n\n\n\nVisuals Matter\n\n\n\n\n\n\n\n\n\n\n\n\nVisual inspection also reveals differences in variance, outliers, and non-linearity that summary statistics miss. Helpful for model (OLS) diagnostics! Wait for it, Lecture 3."
+    "text": "Why Visualize? The Power and Peril\nAnscombe’s Quartet - The Famous Example\nIdentical Statistics, Different Stories\n\n\nAnscombe’s Quartet Data\n\n\n\n\n\nVariable\nN\nMean\nSD\nP0\nP25\nP50\nP75\nP100\n\n\n\nx1\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny1\n11\n7.5\n2.03\n4.26\n6.31\n7.58\n8.57\n10.84\n\n\nx2\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny2\n11\n7.5\n2.03\n3.10\n6.70\n8.14\n8.95\n9.26\n\n\nx3\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny3\n11\n7.5\n2.03\n5.39\n6.25\n7.11\n7.98\n12.74\n\n\nx4\n11\n9.0\n3.32\n8.00\n8.00\n8.00\n8.00\n19.00\n\n\ny4\n11\n7.5\n2.03\n5.25\n6.17\n7.04\n8.19\n12.50\n\n\n\n\n\n\n\n\nVisuals Matter\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisual inspection also reveals differences in variance, outliers, and non-linearity that summary statistics miss. Helpful for model (OLS) diagnostics! Wait for it, Lecture 3."
   },
   {
     "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-10",
@@ -872,7 +872,7 @@
     "href": "lectures/lecture_2.html#describing-variables",
     "title": "Data Exploration and Visualization",
     "section": "Describing Variables",
-    "text": "Describing Variables\nTypes of Variables\n\n\nWhat according to Munzner (2025)\n\n\n\n\n\n\nWhat we typically deal with…\n\nContinuous: Price, returns, income\nCount: Number of mergers, trades\nOrdinal: Credit ratings (AAA, AA, A…)\nCategorical: Industry, country\nBinary: Default/no default"
+    "text": "Describing Variables\nTypes of Variables\n\n\nWhat according to Munzner (2025)\n\n\n\n\n\n\n\nWhat we typically deal with…\n\nContinuous: Price, returns, income\nCount: Number of mergers, trades\nOrdinal: Credit ratings (AAA, AA, A…)\nCategorical: Industry, country\nBinary: Default/no default"
   },
   {
     "objectID": "lectures/lecture_2.html#describing-variables-1",
@@ -893,21 +893,21 @@
     "href": "lectures/lecture_2.html#describing-variables-3",
     "title": "Data Exploration and Visualization",
     "section": "Describing Variables",
-    "text": "Describing Variables\nVisualizing Distributions - Continuous Variables\n\n\nHistograms\n\n\n\n\n\n\n\n\n\n\nThe Classic Choice\n\nDivides data into bins\nHeight → frequency in each bin\nDesign choices matter!:\n\nBin width too narrow → noise\nBin width too wide → oversmoothing"
+    "text": "Describing Variables\nVisualizing Distributions - Continuous Variables\n\n\nHistograms\n\n\n\n\n\n\n\n\n\n\nThe Classic Choice\n\nDivides data into bins\nHeight → frequency in each bin\n\nDesign choices matter!:\n\nBin width too narrow → noise\nBin width too wide → oversmoothing"
   },
   {
     "objectID": "lectures/lecture_2.html#describing-variables-4",
     "href": "lectures/lecture_2.html#describing-variables-4",
     "title": "Data Exploration and Visualization",
     "section": "Describing Variables",
-    "text": "Describing Variables\nVisualizing Distributions - Density Plots\n\n\n\n\n\n\n\n\n\n\n\n\nThe Smooth Alternative\n\nContinuous curve estimate\nNo arbitrary bin choices\nEasier to compare multiple distributions"
+    "text": "Describing Variables\nVisualizing Distributions - Density Plots\n\n\n\n\n\n\n\n\n\n\n\nThe Smooth Alternative\n\nContinuous curve estimate\nNo arbitrary bin choices\nEasier to compare multiple distributions"
   },
   {
     "objectID": "lectures/lecture_2.html#describing-variables-5",
     "href": "lectures/lecture_2.html#describing-variables-5",
     "title": "Data Exploration and Visualization",
     "section": "Describing Variables",
-    "text": "Describing Variables\nVisualizing Distributions - Density Plots\n\n\n\n\n\n\n\n\n\n\n\n\nThe Smooth Alternative\n\nContinuous curve estimate\nNo arbitrary bin choices\nEasier to compare multiple distributions"
+    "text": "Describing Variables\nVisualizing Distributions - Density Plots\n\n\n\n\n\n\n\n\n\n\n\nThe Smooth Alternative\n\nContinuous curve estimate\nNo arbitrary bin choices\nEasier to compare multiple distributions"
   },
   {
     "objectID": "lectures/lecture_2.html#describing-variables-6",
@@ -935,77 +935,77 @@
     "href": "lectures/lecture_2.html#describing-variables-9",
     "title": "Data Exploration and Visualization",
     "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nConditional Relationships\n\n\n\n\n\n\n\n\n\nTerm\nMeaning\nExample\n\n\n\n\nUnconditional (or marginal) distribution\nThe overall spread of a variable, ignoring all other variables.\nHeight distribution of all children.\n\n\nConditional distribution\nThe spread of one variable given a specific value of another variable.\nDistributions of vitamin E intake among those who exercise vigorously versus those who do not.\n\n\nUnconditional mean\nThe average value of a variable, ignoring all other variables.\nAverage height of all children.\n\n\nConditional mean\nThe average value of a variable given a specific value of another variable.\nAverage vitamin E intake among those who exercise vigorously versus those who do not.\n\n\n\n\n\n\nSource: Adapted from Huntington-Klein (2022), Ch. 4"
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nConditional Relationships\n\n\n\n\n\n\n\n\nTerm\nMeaning\nExample\n\n\n\nUnconditional (or marginal) distribution\nThe overall spread of a variable, ignoring all other variables.\nHeight distribution of all children.\n\n\nConditional distribution\nThe spread of one variable given a specific value of another variable.\nDistributions of vitamin E intake among those who exercise vigorously versus those who do not.\n\n\nUnconditional mean\nThe average value of a variable, ignoring all other variables.\nAverage height of all children.\n\n\nConditional mean\nThe average value of a variable given a specific value of another variable.\nAverage vitamin E intake among those who exercise vigorously versus those who do not.\n\n\n\n\n\n\nSource: Adapted from Huntington-Klein (2022), Ch. 4"
   },
   {
     "objectID": "lectures/lecture_2.html#describing-variables-10",
     "href": "lectures/lecture_2.html#describing-variables-10",
     "title": "Data Exploration and Visualization",
     "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nCorrelation vs. Causation\n\n\nCorrelation vs. Causation\n\n\n\n\n\n\nThe Most Important Distinction in Statistics\n\nCorrelation: X and Y move together\nCausation: X causes Y\n\n\n\n\nMore on that during Lecture 3 (identification)"
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nCorrelation vs. Causation\n\n\nCorrelation vs. Causation\n\n\n\n\n\n\nThe Most Important Distinction in Statistics\n\nCorrelation: X and Y move together\nCausation: X causes Y\n\n\n\n\n\nMore on that during Lecture 3 (identification)"
   },
   {
     "objectID": "lectures/lecture_2.html#describing-variables-11",
     "href": "lectures/lecture_2.html#describing-variables-11",
     "title": "Data Exploration and Visualization",
     "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nTime Series Plots\n\n\nDaily Study Hours Over Time”\n\n\n\n\n\n\n\n\n\n\nBasics of Time Series Plots\n\nX-axis: Time\nY-axis: Variable of interest\nConnect the dots in chronological order\n\nEssential for …\n\nEvent studies (Lecture 5)\n(Parallel) Trend analysis (Lecture 4)\nStructural breaks\nSeasonality"
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nTime Series Plots\n\n\nDaily Study Hours Over Time”\n\n\n\n\n\n\n\n\n\n\nBasics of Time Series Plots\n\nX-axis: Time\nY-axis: Variable of interest\nConnect the dots in chronological order\nEssential for …\n\nEvent studies (Lecture 5)\n\n(Parallel) Trend analysis (Lecture 4)\nStructural breaks\nSeasonality"
   },
   {
     "objectID": "lectures/lecture_2.html#describing-variables-12",
     "href": "lectures/lecture_2.html#describing-variables-12",
     "title": "Data Exploration and Visualization",
     "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nMultiple Time Series - Comparison\n\n\nVW vs. Competitors - TEASER A2\n\n\nWhat this reveals\n\nContagion effects\nRelative performance\nIndustry-wide vs. firm-specific shocks"
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nMultiple Time Series - Comparison\n\n\nVW vs. Competitors - TEASER A2\n\n\n\n\nWhat this reveals\n\nContagion effects\nRelative performance\nIndustry-wide vs. firm-specific shocks"
   },
   {
     "objectID": "lectures/lecture_2.html#design-principles-that-matter-1",
     "href": "lectures/lecture_2.html#design-principles-that-matter-1",
     "title": "Data Exploration and Visualization",
     "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)"
+    "text": "Design Principles That Matter\n\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)"
   },
   {
     "objectID": "lectures/lecture_2.html#design-principles-that-matter-2",
     "href": "lectures/lecture_2.html#design-principles-that-matter-2",
     "title": "Data Exploration and Visualization",
     "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)\n\nWhy? - Why am I visualizing?\n\nCommunication, exploration, verification"
+    "text": "Design Principles That Matter\n\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)\n\nWhy? - Why am I visualizing?\n\nCommunication, exploration, verification"
   },
   {
     "objectID": "lectures/lecture_2.html#sesign-principles-that-matter",
     "href": "lectures/lecture_2.html#sesign-principles-that-matter",
     "title": "Data Exploration and Visualization",
     "section": "Sesign Principles That Matter",
-    "text": "Sesign Principles That Matter\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)\n\nWhy?- Why am I visualizing?\n\nCommunication, exploration, verification\n\nHow? - How should I encode the data?\n\nPosition, color, size, shape"
+    "text": "Sesign Principles That Matter\n\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)\n\nWhy?- Why am I visualizing?\n\nCommunication, exploration, verification\n\nHow? - How should I encode the data?\n\nPosition, color, size, shape"
   },
   {
     "objectID": "lectures/lecture_2.html#design-principles-that-matter-3",
     "href": "lectures/lecture_2.html#design-principles-that-matter-3",
     "title": "Data Exploration and Visualization",
     "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nThe Data-Ink Ratio\nEdward Tufte’s Core Principle\n\\[ \\text{Data-ink ratio} = \\frac{\\text{ink used to display data}}{\\text{total ink used}}\\]\n\n\nGoal: Maximize this ratio\n\nRemove chart junk\nEliminate non-data ink\nLet the data speak\n\n\nExample\n\n\n\nSource"
+    "text": "Design Principles That Matter\nThe Data-Ink Ratio\nEdward Tufte’s Core Principle\n\\[ \\text{Data-ink ratio} = \\frac{\\text{ink used to display data}}{\\text{total ink used}}\\]\n\n\nGoal: Maximize this ratio\n\nRemove chart junk\nEliminate non-data ink\nLet the data speak\n\n\nExample\n\n\nSource"
   },
   {
     "objectID": "lectures/lecture_2.html#design-principles-that-matter-4",
     "href": "lectures/lecture_2.html#design-principles-that-matter-4",
     "title": "Data Exploration and Visualization",
     "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nChoosing the Right Plot Type\nMatch Visualization to Data Structure\n\n\n\n\nData Structure\nBest Visualization\n\n\n\n\nOne continuous variable\nHistogram, density plot, box plot\n\n\nOne categorical variable\nBar chart\n\n\nTwo continuous variables\nScatter plot\n\n\nContinuous over time\nLine plot\n\n\nMultiple groups over time\nLine plot or small multiples\n\n\nPart-to-whole\nStacked bar (avoid pie charts!)\n\n\n\n\n\n\nThis is a simplified refernce guide for your covience; real-world data may require hybrid approaches."
+    "text": "Design Principles That Matter\nChoosing the Right Plot Type\nMatch Visualization to Data Structure\n\n\n\nData Structure\nBest Visualization\n\n\n\nOne continuous variable\nHistogram, density plot, box plot\n\n\nOne categorical variable\nBar chart\n\n\nTwo continuous variables\nScatter plot\n\n\nContinuous over time\nLine plot\n\n\nMultiple groups over time\nLine plot or small multiples\n\n\nPart-to-whole\nStacked bar (avoid pie charts!)\n\n\n\n\n\n\nThis is a simplified refernce guide for your covience; real-world data may require hybrid approaches."
   },
   {
     "objectID": "lectures/lecture_2.html#design-principles-that-matter-5",
     "href": "lectures/lecture_2.html#design-principles-that-matter-5",
     "title": "Data Exploration and Visualization",
     "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nColor Theory Basics\nStrategic Use of Color\nThree palette types:\n\nSequential: Light to dark (e.g., revenue growth)\nDiverging: Two-color scale with neutral middle (e.g., positive/negative returns)\nCategorical: Distinct colors for groups (e.g., different firms)\n\n\n\n\n\n\n\n\nRule\n\n\nUse color to enhance, not decorate"
+    "text": "Design Principles That Matter\nColor Theory Basics\nStrategic Use of Color\nThree palette types:\n\n\nSequential: Light to dark (e.g., revenue growth)\n\nDiverging: Two-color scale with neutral middle (e.g., positive/negative returns)\n\nCategorical: Distinct colors for groups (e.g., different firms)\n\n\n\n\n\n\n\nImportantRule\n\n\n\nUse color to enhance, not decorate"
   },
   {
     "objectID": "lectures/lecture_2.html#design-principles-that-matter-6",
     "href": "lectures/lecture_2.html#design-principles-that-matter-6",
     "title": "Data Exploration and Visualization",
     "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nAccessibility - Colorblind Considerations\n~8% of men have color vision deficiency\n\nAvoid red-green combinations\nUse colorblind-safe palettes:\n\nViridis (sequential)\nColorBrewer (all types)\n\n\n\n\nMake sure your visualizations are interpretable by everyone! (inclusivity matters)"
+    "text": "Design Principles That Matter\nAccessibility - Colorblind Considerations\n~8% of men have color vision deficiency\n\nAvoid red-green combinations\nUse colorblind-safe palettes:\n\nViridis (sequential)\nColorBrewer (all types)\n\n\n\n\n\nMake sure your visualizations are interpretable by everyone! (inclusivity matters)"
   },
   {
     "objectID": "lectures/lecture_2.html#design-principles-that-matter-7",
@@ -1019,14 +1019,14 @@
     "href": "lectures/lecture_2.html#design-principles-that-matter-8",
     "title": "Data Exploration and Visualization",
     "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nAxis Integrity\nY-axis should start at zero for bar charts\n\n\nExceptions\n\nLine plots (time series can start at sensible minimum)\nWhen showing small changes in large numbers\nBUT: Always be transparent about scale choices\n\n\nBest practice\n\nUse non-zero axis when changes matter\nBUT: Clearly label and acknowledge the choice\nNever hide the axis range"
+    "text": "Design Principles That Matter\nAxis Integrity\nY-axis should start at zero for bar charts\n\n\nExceptions\n\nLine plots (time series can start at sensible minimum)\nWhen showing small changes in large numbers\n\nBUT: Always be transparent about scale choices\n\n\nBest practice\n\nUse non-zero axis when changes matter\nBUT: Clearly label and acknowledge the choice\nNever hide the axis range"
   },
   {
     "objectID": "lectures/lecture_2.html#design-principles-that-matter-9",
     "href": "lectures/lecture_2.html#design-principles-that-matter-9",
     "title": "Data Exploration and Visualization",
     "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nTypography Matters\n\\[ \\text{Readable} &gt; \\text{Beautiful} \\]\n\n\nFont guidelines\n\nMinimum size: 8pt for print, 12pt for presentations\nFont families:\n\nSans-serif for plots (Arial, Helvetica)\nSerif for text if desired (Times, Garamond)\n\nConsistency: Use same fonts throughout paper/presentation\n\n\nLabels\n\nAxis labels: Clear, concise\nTitle: Informative, standalone\nLegend: Only if necessary (prefer direct labels)"
+    "text": "Design Principles That Matter\nTypography Matters\n\\[ \\text{Readable} &gt; \\text{Beautiful} \\]\n\n\nFont guidelines\n\nMinimum size: 8pt for print, 12pt for presentations\nFont families:\n\nSans-serif for plots (Arial, Helvetica)\nSerif for text if desired (Times, Garamond)\n\n\n\nConsistency: Use same fonts throughout paper/presentation\n\n\nLabels\n\nAxis labels: Clear, concise\nTitle: Informative, standalone\nLegend: Only if necessary (prefer direct labels)"
   },
   {
     "objectID": "lectures/lecture_2.html#design-principles-that-matter-10",
@@ -1047,35 +1047,35 @@
     "href": "lectures/lecture_2.html#tables-2",
     "title": "Data Exploration and Visualization",
     "section": "Tables",
-    "text": "Tables\nThe Unsung Hero of Academic Communication\nSummary Statistics Table - Anatomy\nStandard Format (imo)\n\n\n\nVariable\nN\nMean\nSD\nMin\nP25\nMedian\nP75\nMax\n\n\n\n\n\n\n\nWhat this shows\n\nN: Sample size (are there missing values?)\nMean: Central tendency\nSD: Dispersion\nMin/Max: Range (outliers?)\nPercentiles: Distribution shape\n\n\nWhat to include\n\nDependent variable(s)\nKey All other variables\nIf panel data: Note firm-year structure\nNotes on data source, transformations, etc.\nAdhere to journal/MSc thesis style guide"
+    "text": "Tables\nThe Unsung Hero of Academic Communication\nSummary Statistics Table - Anatomy\nStandard Format (imo)\n\n\nVariable\nN\nMean\nSD\nMin\nP25\nMedian\nP75\nMax\n\n\n\n\nWhat this shows\n\n\nN: Sample size (are there missing values?)\n\nMean: Central tendency\n\nSD: Dispersion\n\nMin/Max: Range (outliers?)\n\nPercentiles: Distribution shape\n\n\nWhat to include\n\nDependent variable(s)\n\nKey All other variables\nIf panel data: Note firm-year structure\n\nNotes on data source, transformations, etc.\nAdhere to journal/MSc thesis style guide"
   },
   {
     "objectID": "lectures/lecture_2.html#tables-3",
     "href": "lectures/lecture_2.html#tables-3",
     "title": "Data Exploration and Visualization",
     "section": "Tables",
-    "text": "Tables\nTable Design Principles\nMaking Tables Readable\n\n\nAlignment\n\nNumbers: Right-align\nText: Left-align\nHeaders: Center acceptable\n\n\nPrecision\n\n2-3 decimal places usually sufficient\nBe consistent across columns\nConsistent between coefficients and fit stats\n\n\n\n\nFormatting\n\nUse rules (horizontal lines) sparingly\nWhite space is your friend\nBold for emphasis (e.g., column headers)\n\n\nNotes\n\nDefine variables\nExplain sample restrictions\nNote data sources"
+    "text": "Tables\nTable Design Principles\nMaking Tables Readable\n\n\nAlignment\n\nNumbers: Right-align\nText: Left-align\nHeaders: Center acceptable\n\n\nPrecision\n\n2-3 decimal places usually sufficient\nBe consistent across columns\nConsistent between coefficients and fit stats\n\n\n\n\n\nFormatting\n\nUse rules (horizontal lines) sparingly\nWhite space is your friend\nBold for emphasis (e.g., column headers)\n\n\nNotes\n\nDefine variables\nExplain sample restrictions\nNote data sources"
   },
   {
     "objectID": "lectures/lecture_2.html#tables-4",
     "href": "lectures/lecture_2.html#tables-4",
     "title": "Data Exploration and Visualization",
     "section": "Tables",
-    "text": "Tables\nTable Design Principles\nExample & Teaser for Assignment 6\n\nHuck (2024), Table 2"
+    "text": "Tables\nTable Design Principles\nExample & Teaser for Assignment 6\n\n\nHuck (2024), Table 2"
   },
   {
     "objectID": "lectures/lecture_2.html#takeaways-1",
     "href": "lectures/lecture_2.html#takeaways-1",
     "title": "Data Exploration and Visualization",
     "section": "Takeaways",
-    "text": "Takeaways\nWhat to Remember\n\nVisualization is powerful - for communication AND deception\nDescribe first, model later - understand distributions and relationships\nDesign principles matter - data-ink ratio, color, accessibility\nTables are essential - especially in academic work\nIteration improves quality - first draft is never the last draft\n\n\n\n\n\n\n\nThe big picture\n\n\nGood visualization and tables are core skills, not optional extras."
+    "text": "Takeaways\nWhat to Remember\n\n\nVisualization is powerful - for communication AND deception\n\nDescribe first, model later - understand distributions and relationships\n\nDesign principles matter - data-ink ratio, color, accessibility\n\nTables are essential - especially in academic work\n\nIteration improves quality - first draft is never the last draft\n\n\n\n\n\n\n\nImportantThe big picture\n\n\n\nGood visualization and tables are core skills, not optional extras."
   },
   {
     "objectID": "lectures/lecture_2.html#next-week-preview",
     "href": "lectures/lecture_2.html#next-week-preview",
     "title": "Data Exploration and Visualization",
     "section": "Next Week Preview",
-    "text": "Next Week Preview\nRegression Methods and Identification\nBuilding on today\n\nWe can now DESCRIBE data\nNext: We learn to MODEL relationships\nOLS assumptions\nWhat is identification?\nEndogeneity and causation\n\nThe connection\n\nToday: “What does the data show?”\nNext week: “What does it mean?”"
+    "text": "Next Week Preview\nRegression Methods and Identification\nBuilding on today\n\nWe can now DESCRIBE data\nNext: We learn to MODEL relationships\nOLS assumptions\nWhat is identification?\nEndogeneity and causation\nThe connection\n\nToday: “What does the data show?”\nNext week: “What does it mean?”"
   },
   {
     "objectID": "lectures/lecture_2.html#references",
@@ -1089,14 +1089,14 @@
     "href": "lectures/lecture_2.html#appendix-1",
     "title": "Data Exploration and Visualization",
     "section": "Appendix",
-    "text": "Appendix\nTypes of Variables\n\n\n\n\n\n\n\n\n\n\nType\nWhat it represents\nKey characteristics\nTypical examples\n\n\n\n\nContinuous\nReal‑valued measurements that can take any value within a range (often infinite).\nNo natural “next” value; can be split to arbitrary precision.\nMonthly income, height, temperature.\n\n\nCount\nNon‑negative integers recording counts of occurrences.\nCannot be negative; usually discrete, but can sometimes be treated as continuous when counts are large.\nNumber of mergers in a year, number of accidents.\n\n\nOrdinal\nCategories with a meaningful order but unknown spacing.\n“Higher” vs “lower” is defined but not how much higher.\nNeuroticism level (low / medium / high), education level.\n\n\nCategorical (nominal)\nDistinct, unordered categories.\nNo inherent ordering.\nFlower colour, blood type, eye colour.\n\n\nBinary\nSpecial case of categorical with exactly two possible values (often “yes”/“no”).\nSimplifies analysis; can be expanded into several binary variables.\nMilitary service (yes/no), treatment assignment.\n\n\nQualitative\nText, images, or other non‑numeric information that cannot be straightforwardly categorised.\nRequires transformation or summarisation before quantitative analysis.\nNewspaper headline, interview transcript.\n\n\n\n\n\n\n\nSource: Adapted from Huntington-Klein (2022), Ch. 3"
+    "text": "Appendix\nTypes of Variables\n\n\n\n\n\n\n\n\n\nType\nWhat it represents\nKey characteristics\nTypical examples\n\n\n\nContinuous\nReal‑valued measurements that can take any value within a range (often infinite).\nNo natural “next” value; can be split to arbitrary precision.\nMonthly income, height, temperature.\n\n\nCount\nNon‑negative integers recording counts of occurrences.\nCannot be negative; usually discrete, but can sometimes be treated as continuous when counts are large.\nNumber of mergers in a year, number of accidents.\n\n\nOrdinal\nCategories with a meaningful order but unknown spacing.\n“Higher” vs “lower” is defined but not how much higher.\nNeuroticism level (low / medium / high), education level.\n\n\n\nCategorical (nominal)\nDistinct, unordered categories.\nNo inherent ordering.\nFlower colour, blood type, eye colour.\n\n\nBinary\nSpecial case of categorical with exactly two possible values (often “yes”/“no”).\nSimplifies analysis; can be expanded into several binary variables.\nMilitary service (yes/no), treatment assignment.\n\n\nQualitative\nText, images, or other non‑numeric information that cannot be straightforwardly categorised.\nRequires transformation or summarisation before quantitative analysis.\nNewspaper headline, interview transcript.\n\n\n\n\n\n\n\nSource: Adapted from Huntington-Klein (2022), Ch. 3"
   },
   {
     "objectID": "lectures/lecture_2.html#appendix-2",
     "href": "lectures/lecture_2.html#appendix-2",
     "title": "Data Exploration and Visualization",
     "section": "Appendix",
-    "text": "Appendix\nPlot types overview\nProportions\n\n\n\n\n\nSingle Distribution"
+    "text": "Appendix\nPlot types overview\nProportions\n\n\n\n\nSingle Distribution"
   },
   {
     "objectID": "lectures/lecture_2.html#appendix-3",
@@ -1123,8 +1123,8 @@
     "objectID": "lectures/lecture_4.html#overview-1",
     "href": "lectures/lecture_4.html#overview-1",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Overview",
-    "text": "Overview\nToday’s learning objectives\n\nWhat are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments"
+    "section": "",
+    "text": "What are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments"
   },
   {
     "objectID": "lectures/lecture_4.html#overview-2",
@@ -1137,15 +1137,15 @@
     "objectID": "lectures/lecture_4.html#overview-3",
     "href": "lectures/lecture_4.html#overview-3",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Overview",
-    "text": "Overview\nToday’s learning objectives\n\nWhat are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments"
+    "section": "",
+    "text": "What are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments"
   },
   {
     "objectID": "lectures/lecture_4.html#what-to-do-if-random-assignment-is-not-possible-1",
     "href": "lectures/lecture_4.html#what-to-do-if-random-assignment-is-not-possible-1",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "What to do if random assignment is not possible?",
-    "text": "What to do if random assignment is not possible?\nBuilding the OLS model\nOLS model building blocks\n\n\n\n\nI took this figure from Huntington-Klein (2022) chapter 13!"
+    "text": "What to do if random assignment is not possible?\nBuilding the OLS model\nOLS model building blocks\n\n\n\nI took this figure from Huntington-Klein (2022) chapter 13!"
   },
   {
     "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-1",
@@ -1159,7 +1159,7 @@
     "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-2",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Control Variables in Regression Analysis",
-    "text": "Control Variables in Regression Analysis\nGood controls - Examples\n\n\nConfounder - “Common cause”\n\n\n“Hidden common cause”\n\n\n\nDiLLMA example: controlling for study hours and attendance rate\n\n\n\nFor more details on causal diagrams check Huntington-Klein (2022) chapters 6-9 and bad controls Cinelli, Forney, and Pearl (2024)!"
+    "text": "Control Variables in Regression Analysis\nGood controls - Examples\n\n\nConfounder - “Common cause”\n\n\n\n“Hidden common cause”\n\n\n\n\n\nDiLLMA example: controlling for study hours and attendance rate\n\n\n\nFor more details on causal diagrams check Huntington-Klein (2022) chapters 6-9 and bad controls Cinelli, Forney, and Pearl (2024)!"
   },
   {
     "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-3",
@@ -1173,84 +1173,84 @@
     "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-4",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Control Variables in Regression Analysis",
-    "text": "Control Variables in Regression Analysis\nBad controls - Example\n\n\nMediator\n\n\nVariables that lie on the causal path between treatment and outcome\nControlling for mediator can block part of the treatment effect, leading to biased estimates\n\n\nSimple Mediator Example\n\n\nBias arises from controlling fro a variable that lies on the causal path X → C → Y\nIf we include reported earnings as a control in a regression of market return on accounting choices, we remove part of the effect of accounting on returns.\n\n\n#TODO: Add more examples"
+    "text": "Control Variables in Regression Analysis\nBad controls - Example\n\n\nMediator\n\n\nVariables that lie on the causal path between treatment and outcome\nControlling for mediator can block part of the treatment effect, leading to biased estimates\n\n\nSimple Mediator Example\n\n\nBias arises from controlling fro a variable that lies on the causal path X → C → Y\nIf we include reported earnings as a control in a regression of market return on accounting choices, we remove part of the effect of accounting on returns.\n\n\n\n#TODO: Add more examples"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-1",
     "href": "lectures/lecture_4.html#difference-in-differences-did-1",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nKey concepts\n\n\n\n\n\n\nWhat is Difference‑in‑Differences (DID)?\n\n\nDifference‑in‑Differences (DID) is a quasi‑experimental method that exploits within‑group variation over time and cross‑group variation to identify a causal effect when random assignment is infeasible."
+    "text": "Difference-in-Differences (DiD)\nKey concepts\n\n\n\n\n\n\nNoteWhat is Difference‑in‑Differences (DID)?\n\n\n\nDifference‑in‑Differences (DID) is a quasi‑experimental method that exploits within‑group variation over time and cross‑group variation to identify a causal effect when random assignment is infeasible."
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-2",
     "href": "lectures/lecture_4.html#difference-in-differences-did-2",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nWhy Differnces - Isn’t one difference enough?\n\n\nBefore vs After (time variation)\nWhat is it?\nCompare outcomes before and after treatment implementation, e.g. pre- and post-policy change\nWhy not enough for causal inference?\nAll variation in Treatment is explained by Time!\n\nTreated vs Control (group variation)\nWhat is it?\nCompare outcomes between treated and control groups, e.g. those affected by a policy change vs those not affected\nWhy not enough for causal inference?\nDifferences between Treated and Control groups may be driven by time-invariant confounders, e.g. ability, demographics, location, etc.\n\nCombining both, allows to isolating the causal impact of the treatment a.k.a. average treatment effect on the treated (ATT)"
+    "text": "Difference-in-Differences (DiD)\nWhy Differnces - Isn’t one difference enough?\n\n\nBefore vs After (time variation)\nWhat is it?\nCompare outcomes before and after treatment implementation, e.g. pre- and post-policy change\nWhy not enough for causal inference?\nAll variation in Treatment is explained by Time!\n\n\nTreated vs Control (group variation)\nWhat is it?\nCompare outcomes between treated and control groups, e.g. those affected by a policy change vs those not affected\nWhy not enough for causal inference?\nDifferences between Treated and Control groups may be driven by time-invariant confounders, e.g. ability, demographics, location, etc.\n\n\n\nCombining both, allows to isolating the causal impact of the treatment a.k.a. average treatment effect on the treated (ATT)"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-3",
     "href": "lectures/lecture_4.html#difference-in-differences-did-3",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nWhy Differnces - Isn’t one difference enough?\nA picture is worth a thousand words\n\n\n\n\n\n\n\nDiD only recovers the causal effect if the “parallel trends assumption” holds!"
+    "text": "Difference-in-Differences (DiD)\nWhy Differnces - Isn’t one difference enough?\nA picture is worth a thousand words\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nDiD only recovers the causal effect if the “parallel trends assumption” holds!"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-4",
     "href": "lectures/lecture_4.html#difference-in-differences-did-4",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nDiLLMa - Setting continued\n\nWe observe students’ exam scores before and after LLMs were introduced 1\nSome courses allowed LLM use (treatment), others banned it (control)\nGoal: Estimate the causal effect of allowing LLM use on exam scores\n\nIn short\nCompare grade changes in allowed vs. banned courses, before and after LLMs became available\n\nDiD isolates the treated group’s response, conditional on the assumption that the untreated group’s changes represent the non-treatment counterfactual for the treated group\n\nIt is worth noting that the underlying data is a panel dataset with multiple observations per student."
+    "text": "Difference-in-Differences (DiD)\nDiLLMa - Setting continued\n\nWe observe students’ exam scores before and after LLMs were introduced 1\n\nSome courses allowed LLM use (treatment), others banned it (control)\n\nGoal: Estimate the causal effect of allowing LLM use on exam scores\n\nIn short\nCompare grade changes in allowed vs. banned courses, before and after LLMs became available\n\nDiD isolates the treated group’s response, conditional on the assumption that the untreated group’s changes represent the non-treatment counterfactual for the treated group"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-5",
     "href": "lectures/lecture_4.html#difference-in-differences-did-5",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nThe two-by-two set-up\n\n\n\n\n\n\n\n\n\n\n(1) After\n(2) Before\n(1) - (2)\n\n\n\n\n(a) Treatment\nY\\(_{treated,\\ after}\\)\nY\\(_{treated,\\ before}\\)\n\\(\\Delta_{treated}\\)\n\n\n(b) Control\nY\\(_{control,\\ after}\\)\nY\\(_{control,\\ before}\\)\n\\(\\Delta_{control}\\)\n\n\n(a) - (b)\n\\(\\Delta_{after}\\)\n\\(\\Delta_{before}\\)\nDiD\n\n\n\nA typical DiD regression looks like this\n\\[Y = \\beta_0 + \\beta_1 Treated + \\beta_2 After + \\beta_3 Treated \\times After + \\epsilon\\]\n\nThe difference-in-differences regression gives you the same estimate as if you took differences in the group averages\nIt takes also care of any unobserved constant differences between subjects and time trends!"
+    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nThe two-by-two set-up\n\n\n\n\n\n\n\n\n\n(1) After\n(2) Before\n(1) - (2)\n\n\n\n(a) Treatment\nY\\(_{treated,\\ after}\\)\n\nY\\(_{treated,\\ before}\\)\n\n\\(\\Delta_{treated}\\)\n\n\n(b) Control\nY\\(_{control,\\ after}\\)\n\nY\\(_{control,\\ before}\\)\n\n\\(\\Delta_{control}\\)\n\n\n(a) - (b)\n\\(\\Delta_{after}\\)\n\\(\\Delta_{before}\\)\nDiD\n\n\nA typical DiD regression looks like this\n\\[Y = \\beta_0 + \\beta_1 Treated + \\beta_2 After + \\beta_3 Treated \\times After + \\epsilon\\]\n\nThe difference-in-differences regression gives you the same estimate as if you took differences in the group averages\nIt takes also care of any unobserved constant differences between subjects and time trends!"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-6",
     "href": "lectures/lecture_4.html#difference-in-differences-did-6",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nThe two-by-two set-up\n\n\n\n\n\n\n\n\n\n\n(1) After\n(2) Before\n(1) - (2)\n\n\n\n\n(a) Treatment\n\\(\\beta_0 + \\beta_1+\\beta_2+\\beta_3\\)\n\\(\\beta_0 + \\beta_1\\)\n\\(\\beta_2+\\beta_3\\)\n\n\n(b) Control\n\\(\\beta_0 + \\beta_2\\)\n\\(\\beta_0\\)\n\\(\\beta_2\\)\n\n\n(a) - (b)\n\\(\\beta_1+\\beta_3\\)\n\\(\\beta_1\\)\n\\(\\beta_3\\)\n\n\n\nA typical DiD regression looks like this\n\\[Y = \\beta_0 + \\beta_1 Treated + \\beta_2 After + \\beta_3 Treated \\times After + \\epsilon\\]\n\nThe difference-in-differences regression gives you the same estimate as if you took differences in the group averages\nIt takes also care of any unobserved constant differences between subjects and time trends!"
+    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nThe two-by-two set-up\n\n\n\n\n\n\n\n\n\n(1) After\n(2) Before\n(1) - (2)\n\n\n\n(a) Treatment\n\\(\\beta_0 + \\beta_1+\\beta_2+\\beta_3\\)\n\\(\\beta_0 + \\beta_1\\)\n\\(\\beta_2+\\beta_3\\)\n\n\n(b) Control\n\\(\\beta_0 + \\beta_2\\)\n\\(\\beta_0\\)\n\\(\\beta_2\\)\n\n\n(a) - (b)\n\\(\\beta_1+\\beta_3\\)\n\\(\\beta_1\\)\n\\(\\beta_3\\)\n\n\nA typical DiD regression looks like this\n\\[Y = \\beta_0 + \\beta_1 Treated + \\beta_2 After + \\beta_3 Treated \\times After + \\epsilon\\]\n\nThe difference-in-differences regression gives you the same estimate as if you took differences in the group averages\nIt takes also care of any unobserved constant differences between subjects and time trends!"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-7",
     "href": "lectures/lecture_4.html#difference-in-differences-did-7",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nExample data summary\n\n\nSame variables as in previous lecture, but now panel data with multiple observations per student\nTreatment assigned at the course level (some instructors allow LLM use, others ban it)\nData contains two periods: pre-LLM (before) and post-LLM (after), each consisting of two exam scores per student\nThe unit of analysis is the student-time level\nThe key variables are:\n\ntreated: Indicator for whether the course allows LLM use (1 = yes, 0 = no)\nafter: Indicator for whether the observation is from the post-LLM period (1 = after, 0 = before)\nexam_score: The student’s exam score"
+    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nExample data summary\n\n\nSame variables as in previous lecture, but now panel data with multiple observations per student\n\nTreatment assigned at the course level (some instructors allow LLM use, others ban it)\nData contains two periods: pre-LLM (before) and post-LLM (after), each consisting of two exam scores per student\nThe unit of analysis is the student-time level\nThe key variables are:\n\n\ntreated: Indicator for whether the course allows LLM use (1 = yes, 0 = no)\n\nafter: Indicator for whether the observation is from the post-LLM period (1 = after, 0 = before)\n\nexam_score: The student’s exam score"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-8",
     "href": "lectures/lecture_4.html#difference-in-differences-did-8",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\n\n\nComparing means\n\n\n\n\n\n\nAfter\nBefore\nDifference\n\n\n\n\nTreated group\n6.57\n7.12\n-0.55\n\n\nControl group\n7.42\n7.22\n0.20\n\n\nDifference\n-0.85\n-0.10\n-0.75\n\n\n\n\n\n\nEstimation"
+    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\n\n\nComparing means\n\n\n\n\n\nAfter\nBefore\nDifference\n\n\n\nTreated group\n6.57\n7.12\n-0.55\n\n\nControl group\n7.42\n7.22\n0.20\n\n\nDifference\n-0.85\n-0.10\n-0.75\n\n\n\n\n\n\n\nEstimation"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-.smaller",
     "href": "lectures/lecture_4.html#difference-in-differences-did-.smaller",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD) .{smaller}",
-    "text": "Difference-in-Differences (DiD) .{smaller}\n2-way fixed effects model\n\\[Y = \\alpha_i + \\alpha_t + \\beta_3 Treated \\times After + \\epsilon\\]\n\n\nWhat is absorbed by fixed effects?\n\n\\(\\beta_0\\) disappears - not meaningful in panel data with fixed effects\n\\(\\beta_1\\) disappears - time-invariant differences are absorbed by individual fixed effects\n\\(\\beta_2\\) disappears - time fixed effects capture common shocks over time\n\n\nWhy use fixed effects?\n\nControls for unobserved heterogeneity across individuals and over time\nFocuses on within-individual variation to identify treatment effects\nMore robust to omitted variable bias from time-invariant confounders"
+    "text": "Difference-in-Differences (DiD) .{smaller}\n2-way fixed effects model\n\\[Y = \\alpha_i + \\alpha_t + \\beta_3 Treated \\times After + \\epsilon\\]\n\n\nWhat is absorbed by fixed effects?\n\n\n\\(\\beta_0\\) disappears - not meaningful in panel data with fixed effects\n\n\\(\\beta_1\\) disappears - time-invariant differences are absorbed by individual fixed effects\n\n\\(\\beta_2\\) disappears - time fixed effects capture common shocks over time\n\n\nWhy use fixed effects?\n\nControls for unobserved heterogeneity across individuals and over time\nFocuses on within-individual variation to identify treatment effects\nMore robust to omitted variable bias from time-invariant confounders"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-9",
     "href": "lectures/lecture_4.html#difference-in-differences-did-9",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\n2-way fixed effects model\n\n\n\nEstimation with fixed effects\n\n\n\n\nWhat changes with fixed effects?\n\nThe DiD estimate remains similar, indicating robustness to fixed effects\nControls for unobserved individual heterogeneity and time effects\nTime-invariant confounders are addressed (ability drops out!)\nBut what about standard errors?\n\n\n\n\n\nFor an exellent deep-dive into fixed effects models, see e.g. Breuer and DeHaan (2024) or Verbeek (2021)"
+    "text": "Difference-in-Differences (DiD)\n2-way fixed effects model\n\n\n\nEstimation with fixed effects\n\n\n\n\n\nWhat changes with fixed effects?\n\nThe DiD estimate remains similar, indicating robustness to fixed effects\nControls for unobserved individual heterogeneity and time effects\nTime-invariant confounders are addressed (ability drops out!)\nBut what about standard errors?\n\n\n\nFor an exellent deep-dive into fixed effects models, see e.g. Breuer and DeHaan (2024) or Verbeek (2021)"
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-10",
     "href": "lectures/lecture_4.html#difference-in-differences-did-10",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nIdentification\nParallel trends assumption\n\n\nUnconditional means\n\n\n\n\n\n\n\n\n\n\nEvent study approach\n\n\n\n\n\n\n\n\nThe parallel trends assumption states that, in the absence of treatment, the average change in the outcome variable would have been the same for both the treatment and control groups."
+    "text": "Difference-in-Differences (DiD)\nIdentification\nParallel trends assumption\n\n\nUnconditional means\n\n\n\n\n\n\n\n\n\n\nEvent study approach\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThe parallel trends assumption states that, in the absence of treatment, the average change in the outcome variable would have been the same for both the treatment and control groups."
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-11",
@@ -1264,7 +1264,7 @@
     "href": "lectures/lecture_4.html#difference-in-differences-did-12",
     "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nTakeaways so far\n\nDiD leverages both cross-sectional and time-series variation to identify causal effects (ATT)\nThe canonical DiD model can be extended with fixed effects to control for time-invariant heterogeneity\nThe parallel trends assumption is crucial for valid DiD inference\nProper standard error adjustments are essential for accurate inference in DiD settings\nIs that all? Not quite…\n\n\n\n\n\n\n\nLimitations\n\n\nLimitations arise in rollout (staggered) designs, where treatment timing varies across groups; TWFE can perform poorly in such settings (to be discussed later)."
+    "text": "Difference-in-Differences (DiD)\nTakeaways so far\n\nDiD leverages both cross-sectional and time-series variation to identify causal effects (ATT)\nThe canonical DiD model can be extended with fixed effects to control for time-invariant heterogeneity\n\nThe parallel trends assumption is crucial for valid DiD inference\nProper standard error adjustments are essential for accurate inference in DiD settings\nIs that all? Not quite…\n\n\n\n\n\n\n\nImportantLimitations\n\n\n\nLimitations arise in rollout (staggered) designs, where treatment timing varies across groups; TWFE can perform poorly in such settings (to be discussed later)."
   },
   {
     "objectID": "lectures/lecture_4.html#difference-in-differences-did-13",
@@ -1312,8 +1312,8 @@
     "objectID": "lectures/lecture_6.html#overview-2",
     "href": "lectures/lecture_6.html#overview-2",
     "title": "Replication Workshop",
-    "section": "Overview",
-    "text": "Overview\nQuarto showcase\n\nWalktrough of a quarto document that includes the Dielgate analyses\nShow how to handle references\nPut on GitHub"
+    "section": "",
+    "text": "Walktrough of a quarto document that includes the Dielgate analyses\nShow how to handle references\nPut on GitHub"
   },
   {
     "objectID": "lectures/lecture_6.html#overview-3",
@@ -1363,5 +1363,54 @@
     "title": "Replication Workshop",
     "section": "References",
     "text": "References"
+  },
+  {
+    "objectID": "lectures/lecture_6.html",
+    "href": "lectures/lecture_6.html",
+    "title": "Replication Workshop",
+    "section": "",
+    "text": "Walktrough of a quarto document that includes the Dielgate analyses\nShow how to handle references\nPut on GitHub"
+  },
+  {
+    "objectID": "lectures/lecture_4.html",
+    "href": "lectures/lecture_4.html",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "",
+    "text": "What are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments\n\n\n\n\n\n\n\n\n\nWhat are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#footnotes",
+    "href": "lectures/lecture_4.html#footnotes",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Footnotes",
+    "text": "Footnotes\n\nIt is worth noting that the underlying data is a panel dataset with multiple observations per student.↩︎"
+  },
+  {
+    "objectID": "lectures/lecture_2.html",
+    "href": "lectures/lecture_2.html",
+    "title": "Data Exploration and Visualization",
+    "section": "",
+    "text": "Why visualize? The power and peril\nDescribing variables: Building blocks\nDesign principles that matter\nTables: The unsung hero\n\n\n\nHuntington-Klein (2022) (Chapters 3 & 4)\n\n\n\n\n\n\n\n\n\n\nData acquisition (WRDS, identifiers)\nMerging datasets (CUSIP, GVKEY, PERMNO)\nUnderstanding and creating tidy data\n\n\n\nData exploration & visualization\nDescriptive statistics\nEffective communication of results\n\n\nToday we learn how to LOOK at what we’ve built\n\n\n\n\n\n\n\n\nExplain why visualization matters for research AND practice\nIdentify misleading visualizations and graph abuse\nDescribe distributions and relationships effectively\nApply core design principles to financial data\nCreate publication-quality summary statistics tables"
+  },
+  {
+    "objectID": "lectures/lecture_3.html",
+    "href": "lectures/lecture_3.html",
+    "title": "Regressions and Identification",
+    "section": "",
+    "text": "Identification: What it means and why it matters\nThe identification problem: Endogeneity\n\nSelection bias\nOmitted variable bias\n\n\nDiLLMa: seeing the problem in action\nThe gold standard: Experiments\nOrdinary Least Squares (OLS) regression\n\n\n\nHuntington-Klein (2022) (Chapters 5 & 13)\n\nVerbeek (2021) (Chapters 2.1)\n\n\n\n\n\n\n\n\n\n\nFrom messy to tidy data\nExploratory data analysis with focus on visualization\n\n\n\nIdentification & OLS regression\nExperiments\nDiLLMa (example)\n\n\n\n\n\n\n\nUnderstand the concept of identification in causal inference\nRecognize endogeneity issues such as selection bias and omitted variable bias\nExplain the importance of random assignment in experiments\nDescribe the basics of Ordinary Least Squares (OLS) regression\nInterpret OLS regression output and understand when estimates are trustworthy\n\n\n\n\n\n\n\nTipHands-on Practice\n\n\n\nIn Assignment 3, you’ll apply these concepts: run OLS regressions, test assumptions, and create publication-quality tables.\n\n\n\n\n\n\n\n\n\n\n\n\n\nConcept\nMeaning\nExample\n\n\n\nData‑Generating Process (DGP)\nThe complete set of rules that determine how the data you observe are created\nNewton’s law of gravity\n\n\nVariation\nThe differences in a variable’s value across observations.\nHow people’s incomes differ by hair color across individuals.\n\n\nIdentification\nThe process of ensuring that the variation you exploit is causal, not a spurious alternative\nChocolate consumption and Nobel laureates (this is spurious)\n\n\n\n\n\n\nIdentification is the bridge between:\n\n\nTheory / prior knowledge (what we already know about the DGP)\n\nData (what we observe)\n\nCausal or associational conclusions that are scientifically defensible\n\n\n\n\n\nIdentification refers to the process of determining the specific variation in data that answers a research question\nIt involves isolating the part of the data that reflects the causal relationship of interest\n\n\n\nEstimating the effect of LLM use on exam scores1\n\nNeed to isolate variation in LLM use that is not confounded by other factors (e.g., student ability)\n\n\n\n\nAssumes that observations are produced by underlying laws or processes\n\nUsed to identify which parts of the DGP explain the data and refine research designs\n\nAssumptions help block non-essential variations, focusing on the aspect of data that aligns with the research question.\n\n\n\nPart of DGP is understood (helps form assumptions); part is unknown (area of exploration)\n\nResearch relies on known aspects of DGP to interpret data and identify genuine causal effects\n\nTechniques like controlling for variables, subgroup analyses, or hypothetical scenarios help test specific segments of DGP\n\nContinued research and empirical testing refine and validate assumptions about parts of the DGP"
+  },
+  {
+    "objectID": "lectures/lecture_3.html#footnotes",
+    "href": "lectures/lecture_3.html#footnotes",
+    "title": "Regressions and Identification",
+    "section": "Footnotes",
+    "text": "Footnotes\n\nFor an alternative example see Huntington-Klein (2022) (Chapter 5)↩︎\nOther sources include measurement error and simultaneity (X causes Y and Y causes X -&gt; Think: Police and Crime rates).↩︎\nThe gender variable is coded as 1 if the subject identifies as female, and 0 otherwise.↩︎\nAbility is typically unobservable in real-world settings, making it a classic example of an omitted variable.↩︎\nMeasurement error in X becomes an edogeneity issue when correlated with \\(\\epsilon\\). Measurement error in Y increases variance but does not bias coefficients.↩︎"
+  },
+  {
+    "objectID": "lectures/lecture_5.html",
+    "href": "lectures/lecture_5.html",
+    "title": "Event Studies (CAR) and Fama–MacBeth",
+    "section": "",
+    "text": "https://bookdown.org/mike/data_analysis/sec-event-studies.html"
   }
 ]

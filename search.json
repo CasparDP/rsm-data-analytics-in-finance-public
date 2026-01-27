@@ -1,920 +1,80 @@
 [
   {
-    "objectID": "lectures/lecture_6.html#overview",
-    "href": "lectures/lecture_6.html#overview",
-    "title": "Replication Workshop",
+    "objectID": "assignment-workflow.html",
+    "href": "assignment-workflow.html",
+    "title": "Data Analytics for Finance",
+    "section": "",
+    "text": "BM17FI · Rotterdam School of Management\n        \n        \n    \n    \n    \n        Frequently Asked Questions"
+  },
+  {
+    "objectID": "assignment-workflow.html#step-1-access-the-assignment",
+    "href": "assignment-workflow.html#step-1-access-the-assignment",
+    "title": "Data Analytics for Finance",
+    "section": "Step 1: Access the Assignment",
+    "text": "Step 1: Access the Assignment\n\nCheck your (Canvas) email for the login credentials to access JupyterHub.\nLog in to JupyterHub using the provided credentials.\n\n\n\n\nJupytherHub Login"
+  },
+  {
+    "objectID": "assignment-workflow.html#step-2-fetch-the-assignment",
+    "href": "assignment-workflow.html#step-2-fetch-the-assignment",
+    "title": "Data Analytics for Finance",
+    "section": "Step 2: Fetch the Assignment",
+    "text": "Step 2: Fetch the Assignment\n\nIn your JupyterHub environment, navigate to/click on “NBGRADER” -&gt; “List Assignments”.\nFind the assignment you need to work on and click “Fetch” to download it to your workspace.\nAfter fetching, you will see the assignment files in your JupyterHub file browser (left side of your screen). Each assignment will have a folder named after the assignment (e.g., 01-assignment).\nClick on the assignment folder to open it.\n\n\n\n\nJupytherHub Fetch Assignment"
+  },
+  {
+    "objectID": "assignment-workflow.html#step-3-work-on-the-assignment",
+    "href": "assignment-workflow.html#step-3-work-on-the-assignment",
+    "title": "Data Analytics for Finance",
+    "section": "Step 3: Work on the Assignment",
+    "text": "Step 3: Work on the Assignment\n\nOpen the assignment notebook (e.g., 01-assignment.ipynb) by clicking on it.\nComplete the tasks as specified in the notebook. Make sure to follow any instructions provided and write your code in the designated cells.\nSave your work frequently by clicking the save icon or using Ctrl + S.\nDo not any cells except the ones you are supposed to fill in your code, e.g. ““# YOUR CODE HERE”“.\n\n\n\n\nJupytherHub Enter Code\n\n\n\n\n\n\n\n\nTipTrouble with Jupyter notebooks?\n\n\n\nIf you cannot execute the code in the notebook, you should check the following things:\n\nMake sure you are connected to the JupyterLab.\nMake sure the kernel is running. You can check this by looking at the top right corner of the notebook. It should say “Stata” or something similar. If it says “No kernel”, you can select the kernel by clicking on the kernel name and selecting the “State kernel” from the list.\nIf your kernel is running, but you still cannot execute the code, you can try to restart the kernel and clear the output. You can do this by clicking on the kernel tab and selecting “Restart kernel and clear output” from the list. This will restart the kernel and clear the output, and you can try to execute the code again.\nImportant:\n\nAfter restarting the kernel, you need to re-run all previous cells before the one you want to execute.\nRestarting the kernel will NOT delete your code or changes in the notebook; it only resets the execution environment.\n\nIt may also well be that the server is overloaded. In that case, please try again later. Typically, the server is less busy in the evenings or during weekends. Peak times are right before assignment deadlines. Take this into account when planning your work.\n\n\n\n\n\nExample of the correct kernel\n\n\n\nJupytherHub Kernel\n\n\n\nExample of restarting the kernel\n\n\n\nJupytherHub Restart Kernel"
+  },
+  {
+    "objectID": "assignment-workflow.html#step-4-submit-the-assignment",
+    "href": "assignment-workflow.html#step-4-submit-the-assignment",
+    "title": "Data Analytics for Finance",
+    "section": "Step 4: Submit the Assignment",
+    "text": "Step 4: Submit the Assignment\n\nOnce you have completed the assignment, return to “NBGRADER” -&gt; “List Assignments”.\nYou will see a “Submit” button next to the assignment you are working on. Click “Submit” to upload your completed assignment for evaluation.\n\n\n\n\nJupytherHub Submit Assignment\n\n\n\n\n\n\n\n\nTipBefore You Submit\n\n\n\n\nDouble-check your work to ensure all required cells are filled out.\nMake sure your code runs without errors.\nClick on the assignment name, e.g. 01-assignment. You will see another button “Validate”, beow the “Submit” button. Click “Validate” to check if your assignment meets the submission criteria.\nAny failed “test” will be shown. You can fix the issues before submitting. Or submit as is.\nOnce you are satisfied with your work, proceed to submit."
+  },
+  {
+    "objectID": "assignment-workflow.html#step-5-feedback-and-grading",
+    "href": "assignment-workflow.html#step-5-feedback-and-grading",
+    "title": "Data Analytics for Finance",
+    "section": "Step 5: Feedback and Grading",
+    "text": "Step 5: Feedback and Grading\n\nAfter submission, your assignment will be graded by the instructor.\nYou will receive feedback regarding your accomplished points through JupyterHub once the grading is complete.\nTo review the feedback, navigate to the assignment folder. In this folder, you will find a file named feedback.html. Open this file to see detailed feedback on your assignment. Open it by using a right-click and selecting “Open in new browser tab”. The new tab in the browser will show your feedback.\n\n\n\n\nJupytherHub Feedback\n\n\n\n\n\n\n\n\nImportantWhat to Do If You Encounter Issues?\n\n\n\n\nIf you face any technical issues while working on the assignment(s), contact me (peter@rsm.nl) via email. Make sure to provide a detailed description of the issue you are facing, so I can assist you effectively or reach out to the JupyterHub support team if necessary.\nFor questions related to the assignment content, feel free to ask during office hours."
+  },
+  {
+    "objectID": "lectures/lecture_5.html#overview",
+    "href": "lectures/lecture_5.html#overview",
+    "title": "Event Studies (CAR) and Fama–MacBeth",
     "section": "Overview",
     "text": "Overview"
   },
   {
-    "objectID": "lectures/lecture_6.html#overview-1",
-    "href": "lectures/lecture_6.html#overview-1",
-    "title": "Replication Workshop",
-    "section": "Overview",
-    "text": "Overview\nRecap of previous lectures"
-  },
-  {
-    "objectID": "lectures/lecture_6.html#overview-2",
-    "href": "lectures/lecture_6.html#overview-2",
-    "title": "Replication Workshop",
-    "section": "Overview",
-    "text": "Overview\nQuarto showcase\n\nWalktrough of a quarto document that includes the Dielgate analyses\nShow how to handle references\nPut on GitHub"
-  },
-  {
-    "objectID": "lectures/lecture_6.html#overview-3",
-    "href": "lectures/lecture_6.html#overview-3",
-    "title": "Replication Workshop",
-    "section": "Overview",
-    "text": "Overview\nToday’s learning objectives"
-  },
-  {
-    "objectID": "lectures/lecture_6.html#overview-4",
-    "href": "lectures/lecture_6.html#overview-4",
-    "title": "Replication Workshop",
-    "section": "Overview",
-    "text": "Overview\nWhat’s on the menu today?"
-  },
-  {
-    "objectID": "lectures/lecture_6.html#ingredients",
-    "href": "lectures/lecture_6.html#ingredients",
-    "title": "Replication Workshop",
-    "section": "Ingredients",
-    "text": "Ingredients"
-  },
-  {
-    "objectID": "lectures/lecture_6.html#goals-what-do-we-want-to-replicate",
-    "href": "lectures/lecture_6.html#goals-what-do-we-want-to-replicate",
-    "title": "Replication Workshop",
-    "section": "Goals: What do we want to replicate?",
-    "text": "Goals: What do we want to replicate?"
-  },
-  {
-    "objectID": "lectures/lecture_6.html#jupyter-notebook---walkthrough",
-    "href": "lectures/lecture_6.html#jupyter-notebook---walkthrough",
-    "title": "Replication Workshop",
-    "section": "Jupyter Notebook - Walkthrough",
-    "text": "Jupyter Notebook - Walkthrough"
-  },
-  {
-    "objectID": "lectures/lecture_6.html#what-can-we-add-discussion",
-    "href": "lectures/lecture_6.html#what-can-we-add-discussion",
-    "title": "Replication Workshop",
-    "section": "What can we add? Discussion",
-    "text": "What can we add? Discussion"
-  },
-  {
-    "objectID": "lectures/lecture_6.html#references",
-    "href": "lectures/lecture_6.html#references",
-    "title": "Replication Workshop",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#overview",
-    "href": "lectures/lecture_4.html#overview",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Overview",
-    "text": "Overview"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#overview-1",
-    "href": "lectures/lecture_4.html#overview-1",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Overview",
-    "text": "Overview\nToday’s learning objectives\n\nWhat are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#overview-2",
-    "href": "lectures/lecture_4.html#overview-2",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "objectID": "lectures/lecture_5.html#overview-1",
+    "href": "lectures/lecture_5.html#overview-1",
+    "title": "Event Studies (CAR) and Fama–MacBeth",
     "section": "Overview",
     "text": "Overview\nRecap of previous lecture"
   },
   {
-    "objectID": "lectures/lecture_4.html#overview-3",
-    "href": "lectures/lecture_4.html#overview-3",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "objectID": "lectures/lecture_5.html#overview-2",
+    "href": "lectures/lecture_5.html#overview-2",
+    "title": "Event Studies (CAR) and Fama–MacBeth",
     "section": "Overview",
-    "text": "Overview\nToday’s learning objectives\n\nWhat are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments"
+    "text": "Overview\nToday’s learning objectives"
   },
   {
-    "objectID": "lectures/lecture_4.html#what-to-do-if-random-assignment-is-not-possible-1",
-    "href": "lectures/lecture_4.html#what-to-do-if-random-assignment-is-not-possible-1",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "What to do if random assignment is not possible?",
-    "text": "What to do if random assignment is not possible?\nBuilding the OLS model\nOLS model building blocks\n\n\n\n\nI took this figure from Huntington-Klein (2022) chapter 13!"
+    "objectID": "lectures/lecture_5.html#overview-3",
+    "href": "lectures/lecture_5.html#overview-3",
+    "title": "Event Studies (CAR) and Fama–MacBeth",
+    "section": "Overview",
+    "text": "Overview\nKey concepts"
   },
   {
-    "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-1",
-    "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-1",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Control Variables in Regression Analysis",
-    "text": "Control Variables in Regression Analysis\nGood vs. Bad controls\n\n\nGood controls\n\nVariables that are correlated with the outcome but not with the treatment\nHelp reduce omitted variable bias\nImprove precision of estimates\n\n\nBad controls\n\nVariables that are affected by the treatment (mediators)\nVariables that are correlated with both treatment and outcome (colliders)\nCan introduce bias into estimates"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-2",
-    "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-2",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Control Variables in Regression Analysis",
-    "text": "Control Variables in Regression Analysis\nGood controls - Examples\n\n\nConfounder - “Common cause”\n\n\n“Hidden common cause”\n\n\n\nDiLLMA example: controlling for study hours and attendance rate\n\n\n\nFor more details on causal diagrams check Huntington-Klein (2022) chapters 6-9 and bad controls Cinelli, Forney, and Pearl (2024)!"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-3",
-    "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-3",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Control Variables in Regression Analysis",
-    "text": "Control Variables in Regression Analysis\nBad controls - Examples\n\n\nMediator\n\n\nVariables that lie on the causal path between treatment and outcome\nControlling for mediator can block part of the treatment effect, leading to biased estimates\n\n\nCollider\n\n\nVariables that are influenced by both treatment and outcome\nControlling for collider can open a backdoor path, introducing spurious associations and bias"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-4",
-    "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-4",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Control Variables in Regression Analysis",
-    "text": "Control Variables in Regression Analysis\nBad controls - Example\n\n\nMediator\n\n\nVariables that lie on the causal path between treatment and outcome\nControlling for mediator can block part of the treatment effect, leading to biased estimates\n\n\nSimple Mediator Example\n\n\nBias arises from controlling fro a variable that lies on the causal path X → C → Y\nIf we include reported earnings as a control in a regression of market return on accounting choices, we remove part of the effect of accounting on returns.\n\n\n#TODO: Add more examples"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-1",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-1",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nKey concepts\n\n\n\n\n\n\nWhat is Difference‑in‑Differences (DID)?\n\n\nDifference‑in‑Differences (DID) is a quasi‑experimental method that exploits within‑group variation over time and cross‑group variation to identify a causal effect when random assignment is infeasible."
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-2",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-2",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nWhy Differnces - Isn’t one difference enough?\n\n\nBefore vs After (time variation)\nWhat is it?\nCompare outcomes before and after treatment implementation, e.g. pre- and post-policy change\nWhy not enough for causal inference?\nAll variation in Treatment is explained by Time!\n\nTreated vs Control (group variation)\nWhat is it?\nCompare outcomes between treated and control groups, e.g. those affected by a policy change vs those not affected\nWhy not enough for causal inference?\nDifferences between Treated and Control groups may be driven by time-invariant confounders, e.g. ability, demographics, location, etc.\n\nCombining both, allows to isolating the causal impact of the treatment a.k.a. average treatment effect on the treated (ATT)"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-3",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-3",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nWhy Differnces - Isn’t one difference enough?\nA picture is worth a thousand words\n\n\n\n\n\n\n\nDiD only recovers the causal effect if the “parallel trends assumption” holds!"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-4",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-4",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nDiLLMa - Setting continued\n\nWe observe students’ exam scores before and after LLMs were introduced 1\nSome courses allowed LLM use (treatment), others banned it (control)\nGoal: Estimate the causal effect of allowing LLM use on exam scores\n\nIn short\nCompare grade changes in allowed vs. banned courses, before and after LLMs became available\n\nDiD isolates the treated group’s response, conditional on the assumption that the untreated group’s changes represent the non-treatment counterfactual for the treated group\n\nIt is worth noting that the underlying data is a panel dataset with multiple observations per student."
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-5",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-5",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nThe two-by-two set-up\n\n\n\n\n\n\n\n\n\n\n(1) After\n(2) Before\n(1) - (2)\n\n\n\n\n(a) Treatment\nY\\(_{treated,\\ after}\\)\nY\\(_{treated,\\ before}\\)\n\\(\\Delta_{treated}\\)\n\n\n(b) Control\nY\\(_{control,\\ after}\\)\nY\\(_{control,\\ before}\\)\n\\(\\Delta_{control}\\)\n\n\n(a) - (b)\n\\(\\Delta_{after}\\)\n\\(\\Delta_{before}\\)\nDiD\n\n\n\nA typical DiD regression looks like this\n\\[Y = \\beta_0 + \\beta_1 Treated + \\beta_2 After + \\beta_3 Treated \\times After + \\epsilon\\]\n\nThe difference-in-differences regression gives you the same estimate as if you took differences in the group averages\nIt takes also care of any unobserved constant differences between subjects and time trends!"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-6",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-6",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nThe two-by-two set-up\n\n\n\n\n\n\n\n\n\n\n(1) After\n(2) Before\n(1) - (2)\n\n\n\n\n(a) Treatment\n\\(\\beta_0 + \\beta_1+\\beta_2+\\beta_3\\)\n\\(\\beta_0 + \\beta_1\\)\n\\(\\beta_2+\\beta_3\\)\n\n\n(b) Control\n\\(\\beta_0 + \\beta_2\\)\n\\(\\beta_0\\)\n\\(\\beta_2\\)\n\n\n(a) - (b)\n\\(\\beta_1+\\beta_3\\)\n\\(\\beta_1\\)\n\\(\\beta_3\\)\n\n\n\nA typical DiD regression looks like this\n\\[Y = \\beta_0 + \\beta_1 Treated + \\beta_2 After + \\beta_3 Treated \\times After + \\epsilon\\]\n\nThe difference-in-differences regression gives you the same estimate as if you took differences in the group averages\nIt takes also care of any unobserved constant differences between subjects and time trends!"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-7",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-7",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nExample data summary\n\n\nSame variables as in previous lecture, but now panel data with multiple observations per student\nTreatment assigned at the course level (some instructors allow LLM use, others ban it)\nData contains two periods: pre-LLM (before) and post-LLM (after), each consisting of two exam scores per student\nThe unit of analysis is the student-time level\nThe key variables are:\n\ntreated: Indicator for whether the course allows LLM use (1 = yes, 0 = no)\nafter: Indicator for whether the observation is from the post-LLM period (1 = after, 0 = before)\nexam_score: The student’s exam score"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-8",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-8",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\n\n\nComparing means\n\n\n\n\n\n\nAfter\nBefore\nDifference\n\n\n\n\nTreated group\n6.57\n7.12\n-0.55\n\n\nControl group\n7.42\n7.22\n0.20\n\n\nDifference\n-0.85\n-0.10\n-0.75\n\n\n\n\n\n\nEstimation"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-.smaller",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-.smaller",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD) .{smaller}",
-    "text": "Difference-in-Differences (DiD) .{smaller}\n2-way fixed effects model\n\\[Y = \\alpha_i + \\alpha_t + \\beta_3 Treated \\times After + \\epsilon\\]\n\n\nWhat is absorbed by fixed effects?\n\n\\(\\beta_0\\) disappears - not meaningful in panel data with fixed effects\n\\(\\beta_1\\) disappears - time-invariant differences are absorbed by individual fixed effects\n\\(\\beta_2\\) disappears - time fixed effects capture common shocks over time\n\n\nWhy use fixed effects?\n\nControls for unobserved heterogeneity across individuals and over time\nFocuses on within-individual variation to identify treatment effects\nMore robust to omitted variable bias from time-invariant confounders"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-9",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-9",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\n2-way fixed effects model\n\n\n\nEstimation with fixed effects\n\n\n\n\nWhat changes with fixed effects?\n\nThe DiD estimate remains similar, indicating robustness to fixed effects\nControls for unobserved individual heterogeneity and time effects\nTime-invariant confounders are addressed (ability drops out!)\nBut what about standard errors?\n\n\n\n\n\nFor an exellent deep-dive into fixed effects models, see e.g. Breuer and DeHaan (2024) or Verbeek (2021)"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-10",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-10",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nIdentification\nParallel trends assumption\n\n\nUnconditional means\n\n\n\n\n\n\n\n\n\n\nEvent study approach\n\n\n\n\n\n\n\n\nThe parallel trends assumption states that, in the absence of treatment, the average change in the outcome variable would have been the same for both the treatment and control groups."
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-11",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-11",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nStandard errors in DiD"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-12",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-12",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nTakeaways so far\n\nDiD leverages both cross-sectional and time-series variation to identify causal effects (ATT)\nThe canonical DiD model can be extended with fixed effects to control for time-invariant heterogeneity\nThe parallel trends assumption is crucial for valid DiD inference\nProper standard error adjustments are essential for accurate inference in DiD settings\nIs that all? Not quite…\n\n\n\n\n\n\n\nLimitations\n\n\nLimitations arise in rollout (staggered) designs, where treatment timing varies across groups; TWFE can perform poorly in such settings (to be discussed later)."
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-13",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-13",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nStandard errors in DiD - Issues"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-14",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-14",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nStandard errors in DiD - A new hope"
-  },
-  {
-    "objectID": "lectures/lecture_4.html#difference-in-differences-did-15",
-    "href": "lectures/lecture_4.html#difference-in-differences-did-15",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
-    "section": "Difference-in-Differences (DiD)",
-    "text": "Difference-in-Differences (DiD)\nBeyond your MSc repliciation - Your contribution\nNew approaches\nHow to learn about the new approaches?\n(baker2022difference?)\nHow to learn about applicating them?\n\nA way to extend your MSc replication project is to apply some of the new DiD methods to the DiLLMa dataset and compare the results with the traditional TWFE approach."
-  },
-  {
-    "objectID": "lectures/lecture_4.html#references",
-    "href": "lectures/lecture_4.html#references",
-    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "objectID": "lectures/lecture_5.html#references",
+    "href": "lectures/lecture_5.html#references",
+    "title": "Event Studies (CAR) and Fama–MacBeth",
     "section": "References",
-    "text": "References\n\n\nBreuer, Matthias, and ED DeHaan. 2024. “Using and Interpreting Fixed Effects Models.” Journal of Accounting Research 62 (4): 1183–1226.\n\n\nCinelli, Carlos, Andrew Forney, and Judea Pearl. 2024. “A Crash Course in Good and Bad Controls.” Sociological Methods & Research 53 (3): 1071–1104.\n\n\nHuntington-Klein, Nick. 2022. The Effect: An Introduction to Research Design and Causality. 2nd ed. Chapman; Hall/CRC.\n\n\nVerbeek, Marno. 2021. Panel Methods for Finance: A Guide to Panel Data Econometrics for Financial Applications. De Gruyter."
-  },
-  {
-    "objectID": "lectures/lecture_2.html#data-exploration-and-visualization-1",
-    "href": "lectures/lecture_2.html#data-exploration-and-visualization-1",
-    "title": "Data Exploration and Visualization",
-    "section": "Data Exploration and Visualization",
-    "text": "Data Exploration and Visualization\nToday’s Journey\n\nWhy visualize? The power and peril\nDescribing variables: Building blocks\nDesign principles that matter\nTables: The unsung hero\n\nLiterature\n\nHuntington-Klein (2022) (Chapters 3 & 4)"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#data-exploration-and-visualization-2",
-    "href": "lectures/lecture_2.html#data-exploration-and-visualization-2",
-    "title": "Data Exploration and Visualization",
-    "section": "Data Exploration and Visualization",
-    "text": "Data Exploration and Visualization\nRecap - Where did we leave things?\n\n\nLast time: The Research Pipeline\n\n\nRaw & Clean Data\n\nData acquisition (WRDS, identifiers)\nMerging datasets (CUSIP, GVKEY, PERMNO)\nUnderstanding and creating tidy data\n\nToday’s Menu\n\nData exploration & visualization\nDescriptive statistics\nEffective communication of results\n\n\nToday we learn how to LOOK at what we’ve built"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#data-exploration-and-visualization-3",
-    "href": "lectures/lecture_2.html#data-exploration-and-visualization-3",
-    "title": "Data Exploration and Visualization",
-    "section": "Data Exploration and Visualization",
-    "text": "Data Exploration and Visualization\nLearning Objectives\nBy the end of today, you will be able to\n\nExplain why visualization matters for research AND practice\nIdentify misleading visualizations and graph abuse\nDescribe distributions and relationships effectively\nApply core design principles to financial data\nCreate publication-quality summary statistics tables"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-1",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-1",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nVisualization in Practice\n\n\nJust Eat Takeaway Analyst Presentation\n\n\n\n\n\n\nWhat do you notice?\n\n\n\n\n\n\nKey observation\n\n\nAlmost every slide contains a visualization!\n\n\n\n\n\n\n\n\n\nKey question\n\n\nWhy do they do this?\n\n\n\n\n\n\nFull presentation available here: Just Eat Takeaway H1 2022 Results"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#visualization-in-practice-1",
-    "href": "lectures/lecture_2.html#visualization-in-practice-1",
-    "title": "Data Exploration and Visualization",
-    "section": "Visualization in Practice",
-    "text": "Visualization in Practice\nGrowth Story\n\n\nGross Trsansaction Value Over Time\n\n\n\n\n\n\nWhat story does this tell?\n\n“~2X growth since pre-pandemic”\nClear trend, immediate impact\nVisual &gt; table of numbers\n\n\n\n\nWhat makes this effective?\n\nClean design\nClear annotation\nColor use to highlight key info"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#visualization-in-practice-2",
-    "href": "lectures/lecture_2.html#visualization-in-practice-2",
-    "title": "Data Exploration and Visualization",
-    "section": "Visualization in Practice",
-    "text": "Visualization in Practice\nGeographic Breakdown\n\n\nMarket Leadership Across Regions\n\n\n\n\n\n\nMultiple dimensions in one view\n\nGeography\nMarket position\nRevenue by segment\n\n\n\n\nCognitive efficiency?\n\nWould take paragraphs to describe in text\nLatest disclosures before takeover by Prosus 🤦"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#visualization-in-practice-3",
-    "href": "lectures/lecture_2.html#visualization-in-practice-3",
-    "title": "Data Exploration and Visualization",
-    "section": "Visualization in Practice",
-    "text": "Visualization in Practice\nComparative Performance\n\n\nEBITDA by region over time\n\n\n\n\n\n\nWhat does this show?\n\nMultiple entities (regions)\nTime dimension\nPositive vs. negative values\nClear color coding\n\n\n\n\nHow long would this table be?"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-2",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-2",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nThe Case FOR Visualization\nWhat is visualization (vis)?\n\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively (Munzner 2025).\n\nWhy visualize?\n\nCommunication: Tell data-driven stories\nVerification: Confirm expected patterns\nExploration: Find unexpected patterns\nFalsification: Assess validity of models\n\n\n\nFor more theory and details on visualization analysis and design, see Munzner (2025)"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-3",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-3",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nBut… Visualization Can Mislead\n\n\n\n\n\n\n\nSource: Washington Post, 2025"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-4",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-4",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nBut… Visualization Can Mislead\nWhen keepin’ it vis goes wrong\n\n\nOpenAI\n\n\n\n\n\n\nAnthropic"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-5",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-5",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nBut… Visualization Can Mislead\nWhen keepin’ it vis goes wrong\n\n\nPizza toppings in the UK\n\n\n\n\n\n\nFemale height distribution"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-6",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-6",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nInsights from Beattie and Jones (1992)\nThe use and abuse of graphs in annual reports: theoretical framework and empirical study\n\nStudy of 240 large UK companies’ annual reports\nAverage: 5.9 graphs per report\nKey finding: Companies with ‘good’ performance significantly more likely to use graphs\nSelectivity: 65% graph at least one key financial variable\nBut which variables do they choose?"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-7",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-7",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nTwo Forms of Distortion\nBeattie and Jones (1992) Framework\n\n\nSelectivity\nChoosing WHICH data to visualize\n\nGraph the good news, table the bad news\nExample: Graph revenue growth, table margin decline\n\n\nMeasurement distortion\nHOW data is presented\n\nAxis manipulation\nVisual exaggeration\nFound in 30% of graphs!\nAverage exaggeration: 10.7%"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-8",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-8",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nDistortion Example Overview\n\n\n\n\n\n\n\nSource: Huang et al. (2011)"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-9",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-9",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nAnscombe’s Quartet - The Famous Example\nIdentical Statistics, Different Stories\n\n\nAnscombe’s Quartet Data\n\n\n\n\n\n\nVariable\nN\nMean\nSD\nP0\nP25\nP50\nP75\nP100\n\n\n\n\nx1\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny1\n11\n7.5\n2.03\n4.26\n6.31\n7.58\n8.57\n10.84\n\n\nx2\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny2\n11\n7.5\n2.03\n3.10\n6.70\n8.14\n8.95\n9.26\n\n\nx3\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny3\n11\n7.5\n2.03\n5.39\n6.25\n7.11\n7.98\n12.74\n\n\nx4\n11\n9.0\n3.32\n8.00\n8.00\n8.00\n8.00\n19.00\n\n\ny4\n11\n7.5\n2.03\n5.25\n6.17\n7.04\n8.19\n12.50\n\n\n\n\n\n\n\nVisuals Matter\n\n\n\n\n\n\n\n\n\n\n\n\nVisual inspection also reveals differences in variance, outliers, and non-linearity that summary statistics miss. Helpful for model (OLS) diagnostics! Wait for it, Lecture 3."
-  },
-  {
-    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-10",
-    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-10",
-    "title": "Data Exploration and Visualization",
-    "section": "Why Visualize? The Power and Peril",
-    "text": "Why Visualize? The Power and Peril\nAnscombe’s Quartet - The Famous Example\nKey Takeaways\n\nSummaries lose information\nDetails matter\nVisualization reveals structure that statistics hide"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables",
-    "href": "lectures/lecture_2.html#describing-variables",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nTypes of Variables\n\n\nWhat according to Munzner (2025)\n\n\n\n\n\n\nWhat we typically deal with…\n\nContinuous: Price, returns, income\nCount: Number of mergers, trades\nOrdinal: Credit ratings (AAA, AA, A…)\nCategorical: Industry, country\nBinary: Default/no default"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-1",
-    "href": "lectures/lecture_2.html#describing-variables-1",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nUnderstanding Distributions\n\n\nCommon Distribution Shapes\n\n\n\n\n\n\n\n\n\n\nWhat is a distribution?\n\nThe pattern of values a variable can take\nKey question: How is the data spread out?\nExamples:\n\nAre most returns clustered around zero?\nDo some firms have extremely high market caps?\nIs income evenly distributed or skewed?"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-2",
-    "href": "lectures/lecture_2.html#describing-variables-2",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nVisualizing Distributions - Continuous Variables\n\n\nHistograms\n\n\n\n\n\n\n\n\n\n\nThe Classic Choice\n\nDivides data into bins\nHeight → frequency in each bin"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-3",
-    "href": "lectures/lecture_2.html#describing-variables-3",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nVisualizing Distributions - Continuous Variables\n\n\nHistograms\n\n\n\n\n\n\n\n\n\n\nThe Classic Choice\n\nDivides data into bins\nHeight → frequency in each bin\nDesign choices matter!:\n\nBin width too narrow → noise\nBin width too wide → oversmoothing"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-4",
-    "href": "lectures/lecture_2.html#describing-variables-4",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nVisualizing Distributions - Density Plots\n\n\n\n\n\n\n\n\n\n\n\n\nThe Smooth Alternative\n\nContinuous curve estimate\nNo arbitrary bin choices\nEasier to compare multiple distributions"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-5",
-    "href": "lectures/lecture_2.html#describing-variables-5",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nVisualizing Distributions - Density Plots\n\n\n\n\n\n\n\n\n\n\n\n\nThe Smooth Alternative\n\nContinuous curve estimate\nNo arbitrary bin choices\nEasier to compare multiple distributions"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-6",
-    "href": "lectures/lecture_2.html#describing-variables-6",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nThe Numbers Behind the Picture\nSummary Statistics\n\n\nLocation (central tendency)\n\nMean: Average value\nMedian: 50th percentile\nMode: Most frequent value\n\n\nSpread (variability):\n\nStandard deviation: Average distance from mean\nVariance: SD squared\nRange: Max - Min\nInterquartile range (IQR): Q3 - Q1\n\n\nPercentile\n→ value below which X% of observations fall\nExamples:\n\n25th percentile (Q1): Bottom quarter\n50th percentile (Median): Middle\n75th percentile (Q3): Top quarter\n1st/99th percentile: Extreme values (outliers?)\n\n\nPutting it all together (Box Plot)"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-7",
-    "href": "lectures/lecture_2.html#describing-variables-7",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nMoving Beyond Univariate Analysis\n\n\nKey questions\n\nHow do two variables move together?\nIs there a pattern?\nIs the relationship linear or nonlinear?\n\n\nTools\n\nScatter plots\nCorrelation\nTime series plots (for temporal relationships)"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-8",
-    "href": "lectures/lecture_2.html#describing-variables-8",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nThe Scatter Plot\n\n\nTwo Continuous Variables\n\n\n\n\n\n\n\n\n\n\nWhat to look for\n\nDirection (positive/negative)\nStrength (tight cluster vs. diffuse)\nLinearity (straight line or curve?)\nOutliers"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-9",
-    "href": "lectures/lecture_2.html#describing-variables-9",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nConditional Relationships\n\n\n\n\n\n\n\n\n\nTerm\nMeaning\nExample\n\n\n\n\nUnconditional (or marginal) distribution\nThe overall spread of a variable, ignoring all other variables.\nHeight distribution of all children.\n\n\nConditional distribution\nThe spread of one variable given a specific value of another variable.\nDistributions of vitamin E intake among those who exercise vigorously versus those who do not.\n\n\nUnconditional mean\nThe average value of a variable, ignoring all other variables.\nAverage height of all children.\n\n\nConditional mean\nThe average value of a variable given a specific value of another variable.\nAverage vitamin E intake among those who exercise vigorously versus those who do not.\n\n\n\n\n\n\nSource: Adapted from Huntington-Klein (2022), Ch. 4"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-10",
-    "href": "lectures/lecture_2.html#describing-variables-10",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nCorrelation vs. Causation\n\n\nCorrelation vs. Causation\n\n\n\n\n\n\nThe Most Important Distinction in Statistics\n\nCorrelation: X and Y move together\nCausation: X causes Y\n\n\n\n\nMore on that during Lecture 3 (identification)"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-11",
-    "href": "lectures/lecture_2.html#describing-variables-11",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nTime Series Plots\n\n\nDaily Study Hours Over Time”\n\n\n\n\n\n\n\n\n\n\nBasics of Time Series Plots\n\nX-axis: Time\nY-axis: Variable of interest\nConnect the dots in chronological order\n\nEssential for …\n\nEvent studies (Lecture 5)\n(Parallel) Trend analysis (Lecture 4)\nStructural breaks\nSeasonality"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#describing-variables-12",
-    "href": "lectures/lecture_2.html#describing-variables-12",
-    "title": "Data Exploration and Visualization",
-    "section": "Describing Variables",
-    "text": "Describing Variables\nDescribing Relationships Between Variables\nMultiple Time Series - Comparison\n\n\nVW vs. Competitors - TEASER A2\n\n\nWhat this reveals\n\nContagion effects\nRelative performance\nIndustry-wide vs. firm-specific shocks"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-1",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-1",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-2",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-2",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)\n\nWhy? - Why am I visualizing?\n\nCommunication, exploration, verification"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#sesign-principles-that-matter",
-    "href": "lectures/lecture_2.html#sesign-principles-that-matter",
-    "title": "Data Exploration and Visualization",
-    "section": "Sesign Principles That Matter",
-    "text": "Sesign Principles That Matter\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)\n\nWhy?- Why am I visualizing?\n\nCommunication, exploration, verification\n\nHow? - How should I encode the data?\n\nPosition, color, size, shape"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-3",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-3",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nThe Data-Ink Ratio\nEdward Tufte’s Core Principle\n\\[ \\text{Data-ink ratio} = \\frac{\\text{ink used to display data}}{\\text{total ink used}}\\]\n\n\nGoal: Maximize this ratio\n\nRemove chart junk\nEliminate non-data ink\nLet the data speak\n\n\nExample\n\n\n\nSource"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-4",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-4",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nChoosing the Right Plot Type\nMatch Visualization to Data Structure\n\n\n\n\nData Structure\nBest Visualization\n\n\n\n\nOne continuous variable\nHistogram, density plot, box plot\n\n\nOne categorical variable\nBar chart\n\n\nTwo continuous variables\nScatter plot\n\n\nContinuous over time\nLine plot\n\n\nMultiple groups over time\nLine plot or small multiples\n\n\nPart-to-whole\nStacked bar (avoid pie charts!)\n\n\n\n\n\n\nThis is a simplified refernce guide for your covience; real-world data may require hybrid approaches."
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-5",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-5",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nColor Theory Basics\nStrategic Use of Color\nThree palette types:\n\nSequential: Light to dark (e.g., revenue growth)\nDiverging: Two-color scale with neutral middle (e.g., positive/negative returns)\nCategorical: Distinct colors for groups (e.g., different firms)\n\n\n\n\n\n\n\n\nRule\n\n\nUse color to enhance, not decorate"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-6",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-6",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nAccessibility - Colorblind Considerations\n~8% of men have color vision deficiency\n\nAvoid red-green combinations\nUse colorblind-safe palettes:\n\nViridis (sequential)\nColorBrewer (all types)\n\n\n\n\nMake sure your visualizations are interpretable by everyone! (inclusivity matters)"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-7",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-7",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nAccessibility - Colorblind Considerations\n~8% of men have color vision deficiency\n\n\nAvoid red-green combinations\n\n\n\n\n\n\n\n\n\n\nUse colorblind-safe palettes: Viridis"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-8",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-8",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nAxis Integrity\nY-axis should start at zero for bar charts\n\n\nExceptions\n\nLine plots (time series can start at sensible minimum)\nWhen showing small changes in large numbers\nBUT: Always be transparent about scale choices\n\n\nBest practice\n\nUse non-zero axis when changes matter\nBUT: Clearly label and acknowledge the choice\nNever hide the axis range"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-9",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-9",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nTypography Matters\n\\[ \\text{Readable} &gt; \\text{Beautiful} \\]\n\n\nFont guidelines\n\nMinimum size: 8pt for print, 12pt for presentations\nFont families:\n\nSans-serif for plots (Arial, Helvetica)\nSerif for text if desired (Times, Garamond)\n\nConsistency: Use same fonts throughout paper/presentation\n\n\nLabels\n\nAxis labels: Clear, concise\nTitle: Informative, standalone\nLegend: Only if necessary (prefer direct labels)"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#design-principles-that-matter-10",
-    "href": "lectures/lecture_2.html#design-principles-that-matter-10",
-    "title": "Data Exploration and Visualization",
-    "section": "Design Principles That Matter",
-    "text": "Design Principles That Matter\nThe Iteration Process"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#tables-1",
-    "href": "lectures/lecture_2.html#tables-1",
-    "title": "Data Exploration and Visualization",
-    "section": "Tables",
-    "text": "Tables\nThe Unsung Hero of Academic Communication\n\n\nTables are better when…\n\nExact values matter (not just patterns)\nMany variables to compare\nFormal hypothesis testing results\nStandard format expected (e.g., regression output)\n\n\nPlots are better when…\n\nPattern matters more than precision\nLarge amounts of data\nRelationships are key"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#tables-2",
-    "href": "lectures/lecture_2.html#tables-2",
-    "title": "Data Exploration and Visualization",
-    "section": "Tables",
-    "text": "Tables\nThe Unsung Hero of Academic Communication\nSummary Statistics Table - Anatomy\nStandard Format (imo)\n\n\n\nVariable\nN\nMean\nSD\nMin\nP25\nMedian\nP75\nMax\n\n\n\n\n\n\n\nWhat this shows\n\nN: Sample size (are there missing values?)\nMean: Central tendency\nSD: Dispersion\nMin/Max: Range (outliers?)\nPercentiles: Distribution shape\n\n\nWhat to include\n\nDependent variable(s)\nKey All other variables\nIf panel data: Note firm-year structure\nNotes on data source, transformations, etc.\nAdhere to journal/MSc thesis style guide"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#tables-3",
-    "href": "lectures/lecture_2.html#tables-3",
-    "title": "Data Exploration and Visualization",
-    "section": "Tables",
-    "text": "Tables\nTable Design Principles\nMaking Tables Readable\n\n\nAlignment\n\nNumbers: Right-align\nText: Left-align\nHeaders: Center acceptable\n\n\nPrecision\n\n2-3 decimal places usually sufficient\nBe consistent across columns\nConsistent between coefficients and fit stats\n\n\n\n\nFormatting\n\nUse rules (horizontal lines) sparingly\nWhite space is your friend\nBold for emphasis (e.g., column headers)\n\n\nNotes\n\nDefine variables\nExplain sample restrictions\nNote data sources"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#tables-4",
-    "href": "lectures/lecture_2.html#tables-4",
-    "title": "Data Exploration and Visualization",
-    "section": "Tables",
-    "text": "Tables\nTable Design Principles\nExample & Teaser for Assignment 6\n\nHuck (2024), Table 2"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#takeaways-1",
-    "href": "lectures/lecture_2.html#takeaways-1",
-    "title": "Data Exploration and Visualization",
-    "section": "Takeaways",
-    "text": "Takeaways\nWhat to Remember\n\nVisualization is powerful - for communication AND deception\nDescribe first, model later - understand distributions and relationships\nDesign principles matter - data-ink ratio, color, accessibility\nTables are essential - especially in academic work\nIteration improves quality - first draft is never the last draft\n\n\n\n\n\n\n\nThe big picture\n\n\nGood visualization and tables are core skills, not optional extras."
-  },
-  {
-    "objectID": "lectures/lecture_2.html#next-week-preview",
-    "href": "lectures/lecture_2.html#next-week-preview",
-    "title": "Data Exploration and Visualization",
-    "section": "Next Week Preview",
-    "text": "Next Week Preview\nRegression Methods and Identification\nBuilding on today\n\nWe can now DESCRIBE data\nNext: We learn to MODEL relationships\nOLS assumptions\nWhat is identification?\nEndogeneity and causation\n\nThe connection\n\nToday: “What does the data show?”\nNext week: “What does it mean?”"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#references",
-    "href": "lectures/lecture_2.html#references",
-    "title": "Data Exploration and Visualization",
-    "section": "References",
-    "text": "References\n\n\nBeattie, Vivien, and Michael John Jones. 1992. “The Use and Abuse of Graphs in Annual Reports: Theoretical Framework and Empirical Study.” Accounting and Business Research 22 (88): 291–303.\n\n\nHuang, Shaio-Yan, Shi-Ming Huang, Tung-Hsien Wu, and Tung-Yen Hsieh. 2011. “The Data Quality Evaluation of Graph Information.” Journal of Computer Information Systems 51 (4): 81–91.\n\n\nHuck, John R. 2024. “The Psychological Externalities of Investing: Evidence from Stock Returns and Crime.” The Review of Financial Studies 37 (7): 2273–2314.\n\n\nHuntington-Klein, Nick. 2022. The Effect: An Introduction to Research Design and Causality. 2nd ed. Chapman; Hall/CRC.\n\n\nMunzner, Tamara. 2025. “Visualization Analysis and Design.” In Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Courses, 1–2."
-  },
-  {
-    "objectID": "lectures/lecture_2.html#appendix-1",
-    "href": "lectures/lecture_2.html#appendix-1",
-    "title": "Data Exploration and Visualization",
-    "section": "Appendix",
-    "text": "Appendix\nTypes of Variables\n\n\n\n\n\n\n\n\n\n\nType\nWhat it represents\nKey characteristics\nTypical examples\n\n\n\n\nContinuous\nReal‑valued measurements that can take any value within a range (often infinite).\nNo natural “next” value; can be split to arbitrary precision.\nMonthly income, height, temperature.\n\n\nCount\nNon‑negative integers recording counts of occurrences.\nCannot be negative; usually discrete, but can sometimes be treated as continuous when counts are large.\nNumber of mergers in a year, number of accidents.\n\n\nOrdinal\nCategories with a meaningful order but unknown spacing.\n“Higher” vs “lower” is defined but not how much higher.\nNeuroticism level (low / medium / high), education level.\n\n\nCategorical (nominal)\nDistinct, unordered categories.\nNo inherent ordering.\nFlower colour, blood type, eye colour.\n\n\nBinary\nSpecial case of categorical with exactly two possible values (often “yes”/“no”).\nSimplifies analysis; can be expanded into several binary variables.\nMilitary service (yes/no), treatment assignment.\n\n\nQualitative\nText, images, or other non‑numeric information that cannot be straightforwardly categorised.\nRequires transformation or summarisation before quantitative analysis.\nNewspaper headline, interview transcript.\n\n\n\n\n\n\n\nSource: Adapted from Huntington-Klein (2022), Ch. 3"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#appendix-2",
-    "href": "lectures/lecture_2.html#appendix-2",
-    "title": "Data Exploration and Visualization",
-    "section": "Appendix",
-    "text": "Appendix\nPlot types overview\nProportions\n\n\n\n\n\nSingle Distribution"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#appendix-3",
-    "href": "lectures/lecture_2.html#appendix-3",
-    "title": "Data Exploration and Visualization",
-    "section": "Appendix",
-    "text": "Appendix\nPlot types overview\nMultiple Distributions"
-  },
-  {
-    "objectID": "lectures/lecture_2.html#appendix-4",
-    "href": "lectures/lecture_2.html#appendix-4",
-    "title": "Data Exploration and Visualization",
-    "section": "Appendix",
-    "text": "Appendix\nPlot types overview\nProportions - 2 + Groups"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Analytics for Finance",
-    "section": "",
-    "text": "BM17FI · Rotterdam School of Management\n        \n        \n    \n    \n    \n        COURSE PORTAL"
-  },
-  {
-    "objectID": "index.html#course-overview",
-    "href": "index.html#course-overview",
-    "title": "Data Analytics for Finance",
-    "section": "Course Overview",
-    "text": "Course Overview\nWelcome to the Data Analytics for Finance course materials. This website contains all the lecture slides, assignments, and resources for the course."
-  },
-  {
-    "objectID": "index.html#course-outline",
-    "href": "index.html#course-outline",
-    "title": "Data Analytics for Finance",
-    "section": "Course outline",
-    "text": "Course outline\nThis course is designed to equip students with comprehensive data analysis skills using Stata and a thorough understanding of research methods in finance. The course emphasizes both theoretical foundations and practical implementation of econometric techniques essential for empirical finance research.\nStudents will learn how to apply statistical analysis techniques with proper understanding of underlying assumptions, interpret data effectively, and address common methodological challenges in financial research. These skills directly support students’ ability to successfully complete their master thesis replication projects and prepare them for data-intensive roles in the financial industry."
-  },
-  {
-    "objectID": "index.html#learning-goals",
-    "href": "index.html#learning-goals",
-    "title": "Data Analytics for Finance",
-    "section": "Learning goals",
-    "text": "Learning goals\nBy the end of this course, students will be able to:\n\nData Management: Clean, transform, and merge complex datasets using different identifiers (CUSIP, GVKEY, PERMNO) in Stata\nEconometric Theory: Understand and verify the assumptions underlying statistical methods used in finance research\nPanel Methods: Implement and interpret fixed effects models with appropriate standard error corrections\nCausal Inference: Apply difference-in-differences and event study methodologies to identify causal effects\nResearch Communication: Create publication-quality tables and visualizations for effective presentation of empirical findings\nReplication Skills: Execute replications of published research with proper documentation and Stata code"
-  },
-  {
-    "objectID": "index.html#schedule",
-    "href": "index.html#schedule",
-    "title": "Data Analytics for Finance",
-    "section": "Schedule",
-    "text": "Schedule\nThe course consists of 6 sessions, each lasting 2 hours 45 minutes. The sessions will be held in person on campus. The course includes individual assignments that reinforce the concepts learned in class."
-  },
-  {
-    "objectID": "index.html#lectures",
-    "href": "index.html#lectures",
-    "title": "Data Analytics for Finance",
-    "section": "Lectures",
-    "text": "Lectures\n\nFrom Messy Data to Research Insights\nData Exploration and Visualization\nRegressions and Identification\nDe Do Do Do, De Di i Di - Panel Data Methods\nEvent Studies (CAR) and Fama–MacBeth\nReplication Workshop"
-  },
-  {
-    "objectID": "index.html#materials",
-    "href": "index.html#materials",
-    "title": "Data Analytics for Finance",
-    "section": "Materials",
-    "text": "Materials\n\nCanvas\nCanvas will be used for announcements and sharing of resources.\n\n\nWebsite\nAll lecture slides, and additional resources are available on this website. Students are encouraged to review the materials before and after each session to reinforce their understanding.\n\n\nAssignments\nAssignments will be available via Jupyter Hub. You will receive a personal invitation to access the platform via Canvas."
-  },
-  {
-    "objectID": "index.html#assessment",
-    "href": "index.html#assessment",
-    "title": "Data Analytics for Finance",
-    "section": "Assessment",
-    "text": "Assessment\n\nIndividual assignments\n\nSix (weekly) assignments throughout the course\nAll assignments must be completed\n\n\n\nAssignment Overview:\n\nDieselgate - Data Wrangling\nDieselgate - Data Visualization\nDieselgate - Regression Analysis\nDieselgate - Difference-in-Differences\nDieselgate - Event Study\nReplication Exercise - Replicating a Published Study with a Twist\n\n\n\nPass Requirements:\n\nOverall course grade ≥ 5.5\nAssignment grades ≥ 50%"
-  },
-  {
-    "objectID": "index.html#software-and-tools",
-    "href": "index.html#software-and-tools",
-    "title": "Data Analytics for Finance",
-    "section": "Software and Tools",
-    "text": "Software and Tools\nStudents will use:\n\nStata (version 17 or higher) - All econometric analysis\nData from financial databases available through university subscriptions\n\nAll software is available through university resources. Basic familiarity with statistics is expected."
-  },
-  {
-    "objectID": "index.html#resources",
-    "href": "index.html#resources",
-    "title": "Data Analytics for Finance",
-    "section": "Resources",
-    "text": "Resources\n\nRequired Textbooks\n\nHuntington-Klein, N. (2022). The Effect: An Introduction to Research Design and Causality (2nd ed.). Chapman and Hall/CRC.\n\nFree online version available at theeffectbook.net\nRequired reading for causal inference concepts\nSpecific chapters assigned for each session\n\n\nAdditional resources, recommended readings, and useful links."
-  },
-  {
-    "objectID": "lectures/lecture_1.html#introduction-1",
-    "href": "lectures/lecture_1.html#introduction-1",
-    "title": "From Messy Data to Research Insights",
-    "section": "Introduction",
-    "text": "Introduction\nWho am I?\n\n\n\n\n \n\n\n\nCaspar David Peter\n\n\n🏢     Rotterdam School of Management\n\n\n👷     Associate Professor\n\n\n🏫     Doctorate (WHU)\n\n\n🏫     Dipl.-Ök. (RUB)\n\n\n👶     Bochum, Germany\n\n\n🏠     Rotterdam, Netherlands\n\n\n🍞🧈 Economic consequences of transparency"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#setting-the-stage-1",
-    "href": "lectures/lecture_1.html#setting-the-stage-1",
-    "title": "From Messy Data to Research Insights",
-    "section": "Setting the Stage",
-    "text": "Setting the Stage\nWhy are we here?\n\n\nThe struggle is real\n\n\nWhat we gonna do about it?\n\nL1-2: Data wrangling & visualization (the foundation)\nL3-4: Regression & panel methods (the workhorse)\nL5: Event studies & Fama-MacBeth (specialized tools)\nL6: Replication workshop (putting it together)"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#setting-the-stage-2",
-    "href": "lectures/lecture_1.html#setting-the-stage-2",
-    "title": "From Messy Data to Research Insights",
-    "section": "Setting the Stage",
-    "text": "Setting the Stage\nLogistics\n\n\nLectures\n\nDates & Times & Rooms: Timetable\nFomat: 6 × ~ 3-hour sessions\nNo mandatory attendance, but highly recommended!\n\n\nResources\n\nCourse Canvas page\nCourse website\nTextbooks: Huntington-Klein (2022) and Verbeek (2021)\nRequired readings (see lecture slides)"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#setting-the-stage-3",
-    "href": "lectures/lecture_1.html#setting-the-stage-3",
-    "title": "From Messy Data to Research Insights",
-    "section": "Setting the Stage",
-    "text": "Setting the Stage\nLogistics\n\n\nAssignments\n\n6 assignments (weekly, after each lecture)\nAssignment 6 is a “replication” project\nAccess via browser (JupyterHub)\nNo local installation needed!\nDeadlines/Details in assignment documents\n\n\nHow to succeed\n\n\nComplete assignments on time \nPass/Fail: Assignments completion (equally weighted), i.e. grade = 5.5\n\n1 “joker” assignment allowed\nFail if &gt;1 assignment missing or not submitted on time\nFail if overall assignmnet score &lt; 5.5"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#setting-the-stage-4",
-    "href": "lectures/lecture_1.html#setting-the-stage-4",
-    "title": "From Messy Data to Research Insights",
-    "section": "Setting the Stage",
-    "text": "Setting the Stage\nPhilosophy of the course\n\nThis is NOT a coding course!\n\n\n\nWhat this course is NOT\n\nA Stata coding tutorial\nA software certification\nAbout memorizing syntax\n\n\nWhat this course IS\n\nA course about research design and empirical methods\nLearning how to think about data and causality EVERYWHERE\nUnderstanding what steps you need to take and why\nA fallback when you get stuck in your thesis work"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#setting-the-stage-5",
-    "href": "lectures/lecture_1.html#setting-the-stage-5",
-    "title": "From Messy Data to Research Insights",
-    "section": "Setting the Stage",
-    "text": "Setting the Stage\nElephant in the room: Stata\nThe role of coding\n\nImplementation is how we deepen understanding\nHands-on practice makes abstract concepts concrete\nBut if you understand the concepts, you can implement in any language (Python, R, Stata, Julia…)\n\nWhy Stata?\n\nResearch lingua franca in finance/accounting—most papers use it\nYour thesis supervisor likely uses it\nReplication packages are overwhelmingly in Stata"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#setting-the-stage-6",
-    "href": "lectures/lecture_1.html#setting-the-stage-6",
-    "title": "From Messy Data to Research Insights",
-    "section": "Setting the Stage",
-    "text": "Setting the Stage\nTakeaway\n\nIf you understand what you’re trying to do and why, the coding is the easy part. If you don’t understand the research design, no amount of syntax knowledge will save you.\n\nOn (NOT) using LLMs\n\nThe course manual is clear on this topic\n“…if you don’t understand what you’re asking for, you won’t know if the answer is right.”\nCan I check if you used LLMs? No.\nBut latest during your thesis writing and defense, it will show if you don’t understand what you did."
-  },
-  {
-    "objectID": "lectures/lecture_1.html#setting-the-stage-7",
-    "href": "lectures/lecture_1.html#setting-the-stage-7",
-    "title": "From Messy Data to Research Insights",
-    "section": "Setting the Stage",
-    "text": "Setting the Stage\nCore Skills 2025 - World Economic Forum\n\nFuture of Jobs Report2025"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#organizing-research-2",
-    "href": "lectures/lecture_1.html#organizing-research-2",
-    "title": "From Messy Data to Research Insights",
-    "section": "Organizing Research",
-    "text": "Organizing Research\nYour future self will thank you!\n\n\nProject structure\n\n\nKey principles (adjust to your needs)\n\nRaw data is sacred—never modify it directly\nRunning order, e.g. number your scripts in execution order\nOne script = one purpose\nDocument every decision that involves judgment in the code with comments"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#organizing-research-3",
-    "href": "lectures/lecture_1.html#organizing-research-3",
-    "title": "From Messy Data to Research Insights",
-    "section": "Organizing Research",
-    "text": "Organizing Research\nReproducibility & Quarto\n\n\nThesis requirements\n\nGoal: Replicability of the scientific results\nAll steps from raw data to final results must be documented\nMSc thesis ideally one source file (e.g., “.qmd” file)\n\nIncludes code, output, and narrative (references, etc.)\n\nMore details in the thesis manual!\n\n\nAssignments\n\nAssignments are on JupyterHub\n\n“.ipynb” files (Jupyter Notebooks)\nRun code cells interactively in the browser\n\nFollow same principles as for thesis work\n\nThey combine code, output, and narrative\nRun from top to bottom to reproduce results\n\nAssignments mimick thesis workflow as closely as possible"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#organizing-research-4",
-    "href": "lectures/lecture_1.html#organizing-research-4",
-    "title": "From Messy Data to Research Insights",
-    "section": "Organizing Research",
-    "text": "Organizing Research\nStata, Python, and Quarto"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-1",
-    "href": "lectures/lecture_1.html#data-structure-tidy-data-1",
-    "title": "From Messy Data to Research Insights",
-    "section": "Data Structure & Tidy Data",
-    "text": "Data Structure & Tidy Data\nWhat is tidy data?\n\n\n\n\n\n\nDefinition\n\n\n\nEach variable is a column\nEach observation is a row\nEach type of observational unit is a table\n\n\n\n\nWhy is tidy data important?\n\nAlmost every statistical command expects tidy data\n(Data) Cleaning means getting from raw to tidy data\nEasier to understand, document, and share"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-2",
-    "href": "lectures/lecture_1.html#data-structure-tidy-data-2",
-    "title": "From Messy Data to Research Insights",
-    "section": "Data Structure & Tidy Data",
-    "text": "Data Structure & Tidy Data\nTidy versus “messy” data\n\n\n“Messy” data (wide format)\n\n\n\n\nStudent ID\nScore_22\nScore_23\nScore_2024\n\n\n\n\nS001abc\n85\n90.0\n92.0\n\n\nS002_\n78.0\n81\n85\n\n\nS 003\n92\n95\n98.0\n\n\n\n\n\nTidy data (long format)\n\n\n\n\nStudent ID\nYear\nScore\n\n\n\n\nS001\n2022\n85\n\n\nS001\n2023\n90\n\n\nS001\n2024\n92\n\n\nS002\n2022\n78\n\n\nS002\n2023\n81\n\n\nS002\n2024\n85\n\n\nS003\n2022\n92\n\n\nS003\n2023\n95\n\n\nS003\n2024\n98"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-3",
-    "href": "lectures/lecture_1.html#data-structure-tidy-data-3",
-    "title": "From Messy Data to Research Insights",
-    "section": "Data Structure & Tidy Data",
-    "text": "Data Structure & Tidy Data\n(Typical) Finance data structures\n\nCross-sectional: One observation per firm (snapshot)\nTime series: Multiple observations over time for one firm\nPanel data: Multiple firms × multiple time periods → firm-year observations\n\n\nMost of your thesis work will use panel data. We’ll return to this in Lecture 4"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-4",
-    "href": "lectures/lecture_1.html#data-structure-tidy-data-4",
-    "title": "From Messy Data to Research Insights",
-    "section": "Data Structure & Tidy Data",
-    "text": "Data Structure & Tidy Data\nWhat else is there?\n\n\nOther data structures\n\nHierarchical / nested data\n\nXBRL data\nJSON data\nLists in R/Python\nDictionaries in Python\n\nSpatial data\n\nShapefiles, GeoJSON\nGIS software (ArcGIS, QGIS)\n\n\n\nDatabase types\n\nRelational databases\n\nSQL databases, e.g. PostgreSQL (WRDS), MySQL (backend of many web apps)\nNoSQL databases, e.g. MongoDB (document storage)\n\nTime-series databases\n\nInfluxDB, TimescaleDB\n\n\n\n\nThese are beyond the scope of this course!"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-5",
-    "href": "lectures/lecture_1.html#data-structure-tidy-data-5",
-    "title": "From Messy Data to Research Insights",
-    "section": "Data Structure & Tidy Data",
-    "text": "Data Structure & Tidy Data\nEach on teach one: Where to get finance data?\nKey data sources\n\n\nWRDS (Wharton Research Data Services)\n\nPrices: CRSP (US), Compustat Global, and Datastream/LSEG (global)\nIntraday prices: TAQ\nListed firms’ fundamentals: CRSP, Compustat, Bureau van Dijk\nPrivate firms: Bureau van Dijk (Orbis, Amadeus)\nInstitutional ownership: Thomson Reuters Institutional (13F) Holdings\nBoard and Executives: BoardEx, ExecuComp, Incentive Lab\nAnalyst forecasts: I/B/E/S\nAuditor data: Audit Analytics\n10-K/SEC filings: EDGAR\nESG data: MSCI ESG, Sustainalytics\n\n\nLibrary & other sources\n\nMutual funds, ETFs, etc.: Morningstar Direct: Mutual funds, ETFs, etc.\nMergers & Acquisitions: SDC Platinum\nText data:\n\nREddit (via API)\nSEC filings (via EDGAR or WRDS)\nNews data (via Bloomberg, Refinitiv, or other providers)\n\nMacroeconomic data: FRED, World Bank, IMF, OECD"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-6",
-    "href": "lectures/lecture_1.html#data-structure-tidy-data-6",
-    "title": "From Messy Data to Research Insights",
-    "section": "Data Structure & Tidy Data",
-    "text": "Data Structure & Tidy Data\nEach on teach one: How to access Data?\nAccess via Library\n\nOn-campus access: Direct access via IP recognition\nOff-campus access: Remote desktop via RSM VPN\nSee Erasmus Data Service Centre (EDSC)\n\nAccessing WRDS\n\n\nWRDS via web interface\n\nPoint-and-click data extraction\nExport to CSV, Stata, SAS, R, Python\nGood for one-off downloads\n\n\nWRDS via API\n\nProgrammatic access via Python, R, Stata (and SAS)\nGood for reproducible research workflows\nSee WRDS documentation for details\n\n\n\n\nThe course assignments will provide data files directly, so you don’t need to set up WRDS access for this course."
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-1",
-    "href": "lectures/lecture_1.html#merging-identifiers-1",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nWhy do we care?\n\nReal-world data is messy and fragmented\nDifferent databases use different identifiers\nMerging datasets is essential for comprehensive analysis\nUnderstanding identifiers helps avoid merge errors and data inconsistencies\n\n\nMost important step to get from raw data to analysis-ready data!"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-2",
-    "href": "lectures/lecture_1.html#merging-identifiers-2",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nThe Identifier Zoo\n\n\n\nCommon Identifiers Across Major Finance Databases\n\n\nSource\nCRSP\nCompustat\nThomson Refinitiv\n\n\n\n\nCRSP\nLinking within the CRSP Environment\nCRSP/Compustat Merged (CCM)\nMFLINKs for Mutual Fund Linking; Linking through CUSIP; 13F Linking Program\n\n\nCompustat\nCRSP/Compustat Merged (CCM); Using Compustat Historical Identifiers\nLinking within the Compustat Environment using GVKEY\nLink through CUSIP\n\n\nCapital IQ\nCIQ company ID linked to GVKEY and then to CRSP\nLinking within Capital IQ\nLink through CUSIP, ISIN or Ticker\n\n\nIBES\nIBES CRSP Link\nLink through CRSP\nLink through Security Mapping\n\n\nAudit Analytics\nLink through Compustat\nLink through CIK Link (primary); Link through Ticker (secondary)\nLink these two products using Compustat\n\n\nBoardEx\nLink with CRSP and Compustat\nLink with CRSP and Compustat\nTR Insiders Boardex Link\n\n\nBond: TRACE / Mergent FISD\nBond CRSP Link\nLink through CRSP\nLink through CRSP\n\n\nBureau van Dijk\nLink through ISIN (CUSIP) for US Companies\nLink through CRSP\nLink through ISIN or SEDOL\n\n\n\n\n\nSource: WRDS Linking Matrix"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-3",
-    "href": "lectures/lecture_1.html#merging-identifiers-3",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nThe Identifier Zoo\nWhy so many?\n\nDifferent databases, different purposes, historical reasons\nCRSP uses PERMNO, Compustat uses GVKEY, SEC filings use CIK, everyone uses CUSIP (but which version?)\n\n\n\n\n\nIdentifier\nSource1\nWhat it identifies\nPersistence\n\n\n\n\nCUSIP\nCompustat\nSecurity\nCan change!\n\n\nGVKEY\nCompustat\nCompany\nStable\n\n\nPERMNO\nCRSP\nSecurity\nStable\n\n\nISIN\nRefinitiv\nSecurity\nCan change!\n\n\nTICKER\nRefinitiv\nSecurity\nCan change!\n\n\n\n\nIdentifiers may be available in multiple databases; source indicates common origin."
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-4",
-    "href": "lectures/lecture_1.html#merging-identifiers-4",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nThe Identifier Zoo\nWhy so many?\n\nDifferent databases, different purposes, historical reasons\nCRSP uses PERMNO, Compustat uses GVKEY, SEC filings use CIK, everyone uses CUSIP (but which version?)\n\n\n\n\n\n\n\nKey insights\n\n\n\nAlways check which identifier(s) your datasets use before merging!\nCheck WRDS to find linking tables between identifiers (e.g., CRSP-Compustat link)\nSaves a ton of work and headache later!"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-5",
-    "href": "lectures/lecture_1.html#merging-identifiers-5",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nMerge Types\nFundamentals\n\n\n1:1 Merge (a.k.a. inner-join)\n\n\nWhat to watch out for?\n\nEnsure both datasets have unique keys\nCheck for unexpected duplicates before merging\nNon-matches: Decide how to handle them (drop)"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-6",
-    "href": "lectures/lecture_1.html#merging-identifiers-6",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nMerge Types\nFundamentals\n\n\n1:m Merge (a.k.a. left-join)\n\n\nm:1 Merge (a.k.a. right-join)\n\n\nWhat to watch out for?\n\nEnsure both datasets have unique keys\nCheck for unexpected duplicates before merging\nUnderstand the direction of the merge (which dataset is “master”)\nDecide how to handle non-matches (keep/drop)\n\nKeep all from “master” dataset"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-7",
-    "href": "lectures/lecture_1.html#merging-identifiers-7",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nMerge Types\nFundamentals\n\n\nm:m Merge\n\n\nWhat to watch out for?\n\nAvoid m:m merges whenever possible!\nUsually indicates a problem with the data or merge keys\nCan lead to data explosion and incorrect results\nIf unavoidable, carefully check the results and understand implications"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-8",
-    "href": "lectures/lecture_1.html#merging-identifiers-8",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nExample"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-9",
-    "href": "lectures/lecture_1.html#merging-identifiers-9",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nExample"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#merging-identifiers-10",
-    "href": "lectures/lecture_1.html#merging-identifiers-10",
-    "title": "From Messy Data to Research Insights",
-    "section": "Merging & Identifiers",
-    "text": "Merging & Identifiers\nReality check\nBest practices for merging data\n\nCheck uniqueness before merging\nCheck match rates after merging\nInvestigate unmatched observations—are they expected?\n\nExamples\n\nMerging firm fundamentals (Compustat) with stock prices (CRSP)\n\nUse CRSP-Compustat link table (gvkey ↔︎ permno)\n\nOr download the merged dataset directly from WRDS!😉\n\nOne gvkey (Compustat) per firm to multiple daily prices (1:m) per year\nLeft-join: Keep all firm-(years) from Compustat, add prices from CRSP"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#vw-dieselgate",
-    "href": "lectures/lecture_1.html#vw-dieselgate",
-    "title": "From Messy Data to Research Insights",
-    "section": "VW Dieselgate",
-    "text": "VW Dieselgate\nWhat happened?\n\n\nStill making headlines today\n\n\n\nFT (2025)\n\n\n\nSeptember 2015\nSeptember 3\nVW engineers privately admitted to the US Environmental Protection Agency that 480,000 diesel cars had been fitted with illegal defeat devices to understate emissions\nSeptember 18\nEPA publicly announced it had found software-based defeat devices on model year 2009-2015 VW and Audi diesel cars with 2-litre engines\nSeptember 23\nMartin Winterkorn resigned as CEO, stating “I am not aware of any wrongdoing on my part”\nAsk FT (2026)"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#vw-dieselgate-1",
-    "href": "lectures/lecture_1.html#vw-dieselgate-1",
-    "title": "From Messy Data to Research Insights",
-    "section": "VW Dieselgate",
-    "text": "VW Dieselgate\nThe timeline\n\n\n\nSee also FT (2015)"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#vw-dieselgate-2",
-    "href": "lectures/lecture_1.html#vw-dieselgate-2",
-    "title": "From Messy Data to Research Insights",
-    "section": "VW Dieselgate",
-    "text": "VW Dieselgate\nWhy this matters for finance research and pratice\n\n\nResearch implications/opportunities\n\nEvent study opportunity (Lecture 5 preview)\nCross-firm contagion (did other automakers suffer?)\nData challenges: Matching news to stock prices, firms to industries, prices to accounting data\n\n\nPractical implications\n\nRisk management: How to price in such events?\nRegulatory oversight: Detecting fraud early\nCorporate governance: Preventing future scandals\nLegal consequences: Class-action lawsuits, fines"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#vw-dieselgate-3",
-    "href": "lectures/lecture_1.html#vw-dieselgate-3",
-    "title": "From Messy Data to Research Insights",
-    "section": "VW Dieselgate",
-    "text": "VW Dieselgate\nWhat does it have to do with the assignments?\nAssignments 1-5 use VW Dieselgate as a running example…\n\nAssignment 1: Data wrangling & visualization\nAssignment 2: visualization\nAssignment 3: Cross-sectional regression analysis (OLS)\nAssignment 4: Panel data regression analysis (DiD)\nAssignment 5: Event study analysis"
-  },
-  {
-    "objectID": "lectures/lecture_1.html#vw-dieselgate-4",
-    "href": "lectures/lecture_1.html#vw-dieselgate-4",
-    "title": "From Messy Data to Research Insights",
-    "section": "VW Dieselgate",
-    "text": "VW Dieselgate\nAssignment 1 walkthrough\nThe skinny\n\n\nData\n\nWRDS Compustat + CRSP\nauto_firms_raw.csv: Company identifiers and industry codes from Compustat\nauto_firms_prices.csv: Daily stock prices for automakers\nAll data provided in the assignment folder on JupyterHub\n\n\nYour tasks\n\nClean the header file (filter to relevant firms—German automakers including VW)\nMerge price data to get one analysis-ready “tidy” dataset\nCreate basic variables (returns, log prices) and publication-quality tables\nTeaser lecture 2: Time-series plot of VW’s stock price with event annotation\n\n\n\nAll details in the assignment document."
-  },
-  {
-    "objectID": "lectures/lecture_1.html#references",
-    "href": "lectures/lecture_1.html#references",
-    "title": "From Messy Data to Research Insights",
-    "section": "References",
-    "text": "References\n\n\nHuntington-Klein, Nick. 2022. The Effect: An Introduction to Research Design and Causality. 2nd ed. Chapman; Hall/CRC.\n\n\nVerbeek, Marno. 2021. Panel Methods for Finance: A Guide to Panel Data Econometrics for Financial Applications. De Gruyter."
-  },
-  {
-    "objectID": "lectures/lecture_1.html#appendix-1",
-    "href": "lectures/lecture_1.html#appendix-1",
-    "title": "From Messy Data to Research Insights",
-    "section": "Appendix",
-    "text": "Appendix\nWrds Web Interface example\nAccessing WRDS via web interface - Compustat"
+    "text": "References"
   },
   {
     "objectID": "lectures/lecture_3.html#regressions-and-identification-1",
@@ -1288,37 +448,919 @@
     "text": "Theory, hypotheses, and operationalisation\nHow do we test a hypothesis?\n\nStepst-testVisual\n\n\n\nWe need a baseline to test against: The null hypothesis (\\(H_0\\))\nWhy null? It states that there is no effect or no difference, which serves as a baseline assumption\n\n\\(H_0\\) is what you test your \\(H_1\\) against, e.g. \\(H_0 = 0\\)\n\\(H_1\\) is the/your alternative hypothesis - what you might believe to be true\n\nA statistical test rejects \\(H_0\\) if there is enough evidence against it\n\nIf we reject \\(H_0\\), we accept \\(H_1\\)\n\n\n\n\nThe t-test measures how far the sample mean is away from \\(H_0\\)\nHypothesis:\n\nOne-sided (\\(H_0 \\leq 0\\), \\(H_1&gt;0\\)): \\(t = \\frac{X-0}{SE(X)}\\)\nTwo-sided (\\(H_0 = 0\\), \\(H_1 \\neq 0\\)): \\(t = \\frac{X_{treated}-X_{control}}{SE(X_{treated}-X_{control})}\\)"
   },
   {
-    "objectID": "lectures/lecture_5.html#overview",
-    "href": "lectures/lecture_5.html#overview",
-    "title": "Event Studies (CAR) and Fama–MacBeth",
+    "objectID": "lectures/lecture_1.html#introduction-1",
+    "href": "lectures/lecture_1.html#introduction-1",
+    "title": "From Messy Data to Research Insights",
+    "section": "Introduction",
+    "text": "Introduction\nWho am I?\n\n\n\n\n \n\n\n\nCaspar David Peter\n\n\n🏢     Rotterdam School of Management\n\n\n👷     Associate Professor\n\n\n🏫     Doctorate (WHU)\n\n\n🏫     Dipl.-Ök. (RUB)\n\n\n👶     Bochum, Germany\n\n\n🏠     Rotterdam, Netherlands\n\n\n🍞🧈 Economic consequences of transparency"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#setting-the-stage-1",
+    "href": "lectures/lecture_1.html#setting-the-stage-1",
+    "title": "From Messy Data to Research Insights",
+    "section": "Setting the Stage",
+    "text": "Setting the Stage\nWhy are we here?\n\n\nThe struggle is real\n\n\nWhat we gonna do about it?\n\nL1-2: Data wrangling & visualization (the foundation)\nL3-4: Regression & panel methods (the workhorse)\nL5: Event studies & Fama-MacBeth (specialized tools)\nL6: Replication workshop (putting it together)"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#setting-the-stage-2",
+    "href": "lectures/lecture_1.html#setting-the-stage-2",
+    "title": "From Messy Data to Research Insights",
+    "section": "Setting the Stage",
+    "text": "Setting the Stage\nLogistics\n\n\nLectures\n\nDates & Times & Rooms: Timetable\nFomat: 6 × ~ 3-hour sessions\nNo mandatory attendance, but highly recommended!\n\n\nResources\n\nCourse Canvas page\nCourse website\nTextbooks: Huntington-Klein (2022) and Verbeek (2021)\nRequired readings (see lecture slides)"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#setting-the-stage-3",
+    "href": "lectures/lecture_1.html#setting-the-stage-3",
+    "title": "From Messy Data to Research Insights",
+    "section": "Setting the Stage",
+    "text": "Setting the Stage\nLogistics\n\n\nAssignments\n\n6 assignments (weekly, after each lecture)\nAssignment 6 is a “replication” project\nAccess via browser (JupyterHub)\nNo local installation needed!\nDeadlines/Details in assignment documents\nWe do a walkthrough later today\n\n\nHow to succeed\n\n\nComplete assignments on time \nGrading\n\nAll assignments must be completed\nAssignmnets are equally weighted\nFail if overall assignmnet score &lt; 5.5"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#setting-the-stage-4",
+    "href": "lectures/lecture_1.html#setting-the-stage-4",
+    "title": "From Messy Data to Research Insights",
+    "section": "Setting the Stage",
+    "text": "Setting the Stage\nPhilosophy of the course\n\nThis is NOT a coding course!\n\n\n\nWhat this course is NOT\n\nA Stata coding tutorial\nA software certification\nAbout memorizing syntax\n\n\nWhat this course IS\n\nA course about research design and empirical methods\nLearning how to think about data and causality EVERYWHERE\nUnderstanding what steps you need to take and why\nA fallback when you get stuck in your thesis work"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#setting-the-stage-5",
+    "href": "lectures/lecture_1.html#setting-the-stage-5",
+    "title": "From Messy Data to Research Insights",
+    "section": "Setting the Stage",
+    "text": "Setting the Stage\nElephant in the room: Stata\nThe role of coding\n\nImplementation is how we deepen understanding\nHands-on practice makes abstract concepts concrete\nBut if you understand the concepts, you can implement in any language (Python, R, Stata, Julia…)\n\nWhy Stata?\n\nResearch lingua franca in finance/accounting—most papers use it\nYour thesis supervisor likely uses it\nReplication packages are overwhelmingly in Stata"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#setting-the-stage-6",
+    "href": "lectures/lecture_1.html#setting-the-stage-6",
+    "title": "From Messy Data to Research Insights",
+    "section": "Setting the Stage",
+    "text": "Setting the Stage\nTakeaway\n\nIf you understand what you’re trying to do and why, the coding is the easy part. If you don’t understand the research design, no amount of syntax knowledge will save you.\n\nOn (NOT) using LLMs\n\nThe course manual is clear on this topic\n“…if you don’t understand what you’re asking for, you won’t know if the answer is right.”\nCan I check if you used LLMs? No.\nBut latest during your thesis writing and defense, it will show if you don’t understand what you did."
+  },
+  {
+    "objectID": "lectures/lecture_1.html#setting-the-stage-7",
+    "href": "lectures/lecture_1.html#setting-the-stage-7",
+    "title": "From Messy Data to Research Insights",
+    "section": "Setting the Stage",
+    "text": "Setting the Stage\nCore Skills 2025 - World Economic Forum\n\nFuture of Jobs Report2025"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#organizing-research-2",
+    "href": "lectures/lecture_1.html#organizing-research-2",
+    "title": "From Messy Data to Research Insights",
+    "section": "Organizing Research",
+    "text": "Organizing Research\nYour future self will thank you!\n\n\nProject structure\n\n\nKey principles (adjust to your needs)\n\nRaw data is sacred—never modify it directly\nRunning order, e.g. number your scripts in execution order\nOne script = one purpose\nDocument every decision that involves judgment in the code with comments"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#organizing-research-3",
+    "href": "lectures/lecture_1.html#organizing-research-3",
+    "title": "From Messy Data to Research Insights",
+    "section": "Organizing Research",
+    "text": "Organizing Research\nReproducibility & Quarto\n\n\nThesis requirements\n\nGoal: Replicability of the scientific results\nAll steps from raw data to final results must be documented\nMSc thesis ideally one source file (e.g., “.qmd” file)\n\nIncludes code, output, and narrative (references, etc.)\n\nMore details in the thesis manual!\n\n\nAssignments\n\nAssignments are on JupyterHub\n\n“.ipynb” files (Jupyter Notebooks)\nRun code cells interactively in the browser\n\nFollow same principles as for thesis work\n\nThey combine code, output, and narrative\nRun from top to bottom to reproduce results\n\nAssignments mimick thesis workflow as closely as possible"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#organizing-research-4",
+    "href": "lectures/lecture_1.html#organizing-research-4",
+    "title": "From Messy Data to Research Insights",
+    "section": "Organizing Research",
+    "text": "Organizing Research\nStata, Python, and Quarto"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-1",
+    "href": "lectures/lecture_1.html#data-structure-tidy-data-1",
+    "title": "From Messy Data to Research Insights",
+    "section": "Data Structure & Tidy Data",
+    "text": "Data Structure & Tidy Data\nWhat is tidy data?\n\n\n\n\n\n\nDefinition\n\n\n\nEach variable is a column\nEach observation is a row\nEach type of observational unit is a table\n\n\n\n\nWhy is tidy data important?\n\nAlmost every statistical command expects tidy data\n(Data) Cleaning means getting from raw to tidy data\nEasier to understand, document, and share"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-2",
+    "href": "lectures/lecture_1.html#data-structure-tidy-data-2",
+    "title": "From Messy Data to Research Insights",
+    "section": "Data Structure & Tidy Data",
+    "text": "Data Structure & Tidy Data\nTidy versus “messy” data\n\n\n“Messy” data (wide format)\n\n\n\n\nStudent ID\nScore_22\nScore_23\nScore_2024\n\n\n\n\nS001abc\n85\n90.0\n92.0\n\n\nS002_\n78.0\n81\n85\n\n\nS 003\n92\n95\n98.0\n\n\n\n\n\nTidy data (long format)\n\n\n\n\nStudent ID\nYear\nScore\n\n\n\n\nS001\n2022\n85\n\n\nS001\n2023\n90\n\n\nS001\n2024\n92\n\n\nS002\n2022\n78\n\n\nS002\n2023\n81\n\n\nS002\n2024\n85\n\n\nS003\n2022\n92\n\n\nS003\n2023\n95\n\n\nS003\n2024\n98"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-3",
+    "href": "lectures/lecture_1.html#data-structure-tidy-data-3",
+    "title": "From Messy Data to Research Insights",
+    "section": "Data Structure & Tidy Data",
+    "text": "Data Structure & Tidy Data\n(Typical) Finance data structures\n\nCross-sectional: One observation per firm (snapshot)\nTime series: Multiple observations over time for one firm\nPanel data: Multiple firms × multiple time periods → firm-year observations\n\n\nMost of your thesis work will use panel data. We’ll return to this in Lecture 4"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-4",
+    "href": "lectures/lecture_1.html#data-structure-tidy-data-4",
+    "title": "From Messy Data to Research Insights",
+    "section": "Data Structure & Tidy Data",
+    "text": "Data Structure & Tidy Data\nWhat else is there?\n\n\nOther data structures\n\nHierarchical / nested data\n\nXBRL data\nJSON data\nLists in R/Python\nDictionaries in Python\n\nSpatial data\n\nShapefiles, GeoJSON\nGIS software (ArcGIS, QGIS)\n\n\n\nDatabase types\n\nRelational databases\n\nSQL databases, e.g. PostgreSQL (WRDS), MySQL (backend of many web apps)\nNoSQL databases, e.g. MongoDB (document storage)\n\nTime-series databases\n\nInfluxDB, TimescaleDB\n\n\n\n\nThese are beyond the scope of this course!"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-5",
+    "href": "lectures/lecture_1.html#data-structure-tidy-data-5",
+    "title": "From Messy Data to Research Insights",
+    "section": "Data Structure & Tidy Data",
+    "text": "Data Structure & Tidy Data\nEach on teach one: Where to get finance data?\nKey data sources\n\n\nWRDS (Wharton Research Data Services)\n\nPrices: CRSP (US), Compustat Global, and Datastream/LSEG (global)\nIntraday prices: TAQ\nListed firms’ fundamentals: CRSP, Compustat, Bureau van Dijk\nPrivate firms: Bureau van Dijk (Orbis, Amadeus)\nInstitutional ownership: Thomson Reuters Institutional (13F) Holdings\nBoard and Executives: BoardEx, ExecuComp, Incentive Lab\nAnalyst forecasts: I/B/E/S\nAuditor data: Audit Analytics\n10-K/SEC filings: EDGAR\nESG data: MSCI ESG, Sustainalytics\n\n\nLibrary & other sources\n\nMutual funds, ETFs, etc.: Morningstar Direct: Mutual funds, ETFs, etc.\nMergers & Acquisitions: SDC Platinum\nText data:\n\nREddit (via API)\nSEC filings (via EDGAR or WRDS)\nNews data (via Bloomberg, Refinitiv, or other providers)\n\nMacroeconomic data: FRED, World Bank, IMF, OECD"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#data-structure-tidy-data-6",
+    "href": "lectures/lecture_1.html#data-structure-tidy-data-6",
+    "title": "From Messy Data to Research Insights",
+    "section": "Data Structure & Tidy Data",
+    "text": "Data Structure & Tidy Data\nEach on teach one: How to access Data?\nAccess via Library\n\nOn-campus access: Direct access via IP recognition\nOff-campus access: Remote desktop via RSM VPN\nSee Erasmus Data Service Centre (EDSC)\n\nAccessing WRDS\n\n\nWRDS via web interface\n\nPoint-and-click data extraction\nExport to CSV, Stata, SAS, R, Python\nGood for one-off downloads\n\n\nWRDS via API\n\nProgrammatic access via Python, R, Stata (and SAS)\nGood for reproducible research workflows\nSee WRDS documentation for details\n\n\n\n\nThe course assignments will provide data files directly, so you don’t need to set up WRDS access for this course."
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-1",
+    "href": "lectures/lecture_1.html#merging-identifiers-1",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nWhy do we care?\n\nReal-world data is messy and fragmented\nDifferent databases use different identifiers\nMerging datasets is essential for comprehensive analysis\nUnderstanding identifiers helps avoid merge errors and data inconsistencies\n\n\nMost important step to get from raw data to analysis-ready data!"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-2",
+    "href": "lectures/lecture_1.html#merging-identifiers-2",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nThe Identifier Zoo\n\n\n\nCommon Identifiers Across Major Finance Databases\n\n\nSource\nCRSP\nCompustat\nThomson Refinitiv\n\n\n\n\nCRSP\nLinking within the CRSP Environment\nCRSP/Compustat Merged (CCM)\nMFLINKs for Mutual Fund Linking; Linking through CUSIP; 13F Linking Program\n\n\nCompustat\nCRSP/Compustat Merged (CCM); Using Compustat Historical Identifiers\nLinking within the Compustat Environment using GVKEY\nLink through CUSIP\n\n\nCapital IQ\nCIQ company ID linked to GVKEY and then to CRSP\nLinking within Capital IQ\nLink through CUSIP, ISIN or Ticker\n\n\nIBES\nIBES CRSP Link\nLink through CRSP\nLink through Security Mapping\n\n\nAudit Analytics\nLink through Compustat\nLink through CIK Link (primary); Link through Ticker (secondary)\nLink these two products using Compustat\n\n\nBoardEx\nLink with CRSP and Compustat\nLink with CRSP and Compustat\nTR Insiders Boardex Link\n\n\nBond: TRACE / Mergent FISD\nBond CRSP Link\nLink through CRSP\nLink through CRSP\n\n\nBureau van Dijk\nLink through ISIN (CUSIP) for US Companies\nLink through CRSP\nLink through ISIN or SEDOL\n\n\n\n\n\nSource: WRDS Linking Matrix"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-3",
+    "href": "lectures/lecture_1.html#merging-identifiers-3",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nThe Identifier Zoo\nWhy so many?\n\nDifferent databases, different purposes, historical reasons\nCRSP uses PERMNO, Compustat uses GVKEY, SEC filings use CIK, everyone uses CUSIP (but which version?)\n\n\n\n\n\nIdentifier\nSource1\nWhat it identifies\nPersistence\n\n\n\n\nCUSIP\nCompustat\nSecurity\nCan change!\n\n\nGVKEY\nCompustat\nCompany\nStable\n\n\nPERMNO\nCRSP\nSecurity\nStable\n\n\nISIN\nRefinitiv\nSecurity\nCan change!\n\n\nTICKER\nRefinitiv\nSecurity\nCan change!\n\n\n\n\nIdentifiers may be available in multiple databases; source indicates common origin."
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-4",
+    "href": "lectures/lecture_1.html#merging-identifiers-4",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nThe Identifier Zoo\nWhy so many?\n\nDifferent databases, different purposes, historical reasons\nCRSP uses PERMNO, Compustat uses GVKEY, SEC filings use CIK, everyone uses CUSIP (but which version?)\n\n\n\n\n\n\n\nKey insights\n\n\n\nAlways check which identifier(s) your datasets use before merging!\nCheck WRDS to find linking tables between identifiers (e.g., CRSP-Compustat link)\nSaves a ton of work and headache later!"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-5",
+    "href": "lectures/lecture_1.html#merging-identifiers-5",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nMerge Types\nFundamentals\n\n\n1:1 Merge (a.k.a. inner-join)\n\n\nWhat to watch out for?\n\nEnsure both datasets have unique keys\nCheck for unexpected duplicates before merging\nNon-matches: Decide how to handle them (drop)"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-6",
+    "href": "lectures/lecture_1.html#merging-identifiers-6",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nMerge Types\nFundamentals\n\n\n1:m Merge (a.k.a. left-join)\n\n\nm:1 Merge (a.k.a. right-join)\n\n\nWhat to watch out for?\n\nEnsure both datasets have unique keys\nCheck for unexpected duplicates before merging\nUnderstand the direction of the merge (which dataset is “master”)\nDecide how to handle non-matches (keep/drop)\n\nKeep all from “master” dataset"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-7",
+    "href": "lectures/lecture_1.html#merging-identifiers-7",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nMerge Types\nFundamentals\n\n\nm:m Merge\n\n\nWhat to watch out for?\n\nAvoid m:m merges whenever possible!\nUsually indicates a problem with the data or merge keys\nCan lead to data explosion and incorrect results\nIf unavoidable, carefully check the results and understand implications"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-8",
+    "href": "lectures/lecture_1.html#merging-identifiers-8",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nExample"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-9",
+    "href": "lectures/lecture_1.html#merging-identifiers-9",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nExample"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#merging-identifiers-10",
+    "href": "lectures/lecture_1.html#merging-identifiers-10",
+    "title": "From Messy Data to Research Insights",
+    "section": "Merging & Identifiers",
+    "text": "Merging & Identifiers\nReality check\nBest practices for merging data\n\nCheck uniqueness before merging\nCheck match rates after merging\nInvestigate unmatched observations—are they expected?\n\nExamples\n\nMerging firm fundamentals (Compustat) with stock prices (CRSP)\n\nUse CRSP-Compustat link table (gvkey ↔︎ permno)\n\nOr download the merged dataset directly from WRDS!😉\n\nOne gvkey (Compustat) per firm to multiple daily prices (1:m) per year\nLeft-join: Keep all firm-(years) from Compustat, add prices from CRSP"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#vw-dieselgate",
+    "href": "lectures/lecture_1.html#vw-dieselgate",
+    "title": "From Messy Data to Research Insights",
+    "section": "VW Dieselgate",
+    "text": "VW Dieselgate\nWhat happened?\n\n\nStill making headlines today\n\n\n\nFT (2025)\n\n\n\nSeptember 2015\nSeptember 3\nVW engineers privately admitted to the US Environmental Protection Agency that 480,000 diesel cars had been fitted with illegal defeat devices to understate emissions\nSeptember 18\nEPA publicly announced it had found software-based defeat devices on model year 2009-2015 VW and Audi diesel cars with 2-litre engines\nSeptember 23\nMartin Winterkorn resigned as CEO, stating “I am not aware of any wrongdoing on my part”\nAsk FT (2026)"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#vw-dieselgate-1",
+    "href": "lectures/lecture_1.html#vw-dieselgate-1",
+    "title": "From Messy Data to Research Insights",
+    "section": "VW Dieselgate",
+    "text": "VW Dieselgate\nThe timeline\n\n\n\nSee also FT (2015)"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#vw-dieselgate-2",
+    "href": "lectures/lecture_1.html#vw-dieselgate-2",
+    "title": "From Messy Data to Research Insights",
+    "section": "VW Dieselgate",
+    "text": "VW Dieselgate\nWhy this matters for finance research and pratice\n\n\nResearch implications/opportunities\n\nEvent study opportunity (Lecture 5 preview)\nCross-firm contagion (did other automakers suffer?)\nData challenges: Matching news to stock prices, firms to industries, prices to accounting data\n\n\nPractical implications\n\nRisk management: How to price in such events?\nRegulatory oversight: Detecting fraud early\nCorporate governance: Preventing future scandals\nLegal consequences: Class-action lawsuits, fines"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#vw-dieselgate-3",
+    "href": "lectures/lecture_1.html#vw-dieselgate-3",
+    "title": "From Messy Data to Research Insights",
+    "section": "VW Dieselgate",
+    "text": "VW Dieselgate\nWhat does it have to do with the assignments?\nAssignments 1-5 use VW Dieselgate as a running example…\n\nAssignment 1: Data wrangling & visualization\nAssignment 2: visualization\nAssignment 3: Cross-sectional regression analysis (OLS)\nAssignment 4: Panel data regression analysis (DiD)\nAssignment 5: Event study analysis"
+  },
+  {
+    "objectID": "lectures/lecture_1.html#vw-dieselgate-4",
+    "href": "lectures/lecture_1.html#vw-dieselgate-4",
+    "title": "From Messy Data to Research Insights",
+    "section": "VW Dieselgate",
+    "text": "VW Dieselgate\nAssignment 1 walkthrough\nThe skinny\n\n\nData\n\nWRDS Compustat + CRSP\nauto_firms_raw.csv: Company identifiers and industry codes from Compustat\nauto_firms_prices.csv: Daily stock prices for automakers\nAll data provided in the assignment folder on JupyterHub\n\n\nYour tasks\n\nClean the header file (filter to relevant firms—German automakers including VW)\nMerge price data to get one analysis-ready “tidy” dataset\nCreate basic variables (returns, log prices) and publication-quality tables\nTeaser lecture 2: Time-series plot of VW’s stock price with event annotation\n\n\n\nAll details in the assignment document."
+  },
+  {
+    "objectID": "lectures/lecture_1.html#references",
+    "href": "lectures/lecture_1.html#references",
+    "title": "From Messy Data to Research Insights",
+    "section": "References",
+    "text": "References\n\n\nHuntington-Klein, Nick. 2022. The Effect: An Introduction to Research Design and Causality. 2nd ed. Chapman; Hall/CRC.\n\n\nVerbeek, Marno. 2021. Panel Methods for Finance: A Guide to Panel Data Econometrics for Financial Applications. De Gruyter."
+  },
+  {
+    "objectID": "lectures/lecture_1.html#appendix-1",
+    "href": "lectures/lecture_1.html#appendix-1",
+    "title": "From Messy Data to Research Insights",
+    "section": "Appendix",
+    "text": "Appendix\nWrds Web Interface example\nAccessing WRDS via web interface - Compustat"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Analytics for Finance",
+    "section": "",
+    "text": "BM17FI · Rotterdam School of Management\n        \n        \n    \n    \n    \n        COURSE PORTAL"
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "Data Analytics for Finance",
+    "section": "Course Overview",
+    "text": "Course Overview\nWelcome to the Data Analytics for Finance course materials. This website contains all the lecture slides, assignments, and resources for the course."
+  },
+  {
+    "objectID": "index.html#course-outline",
+    "href": "index.html#course-outline",
+    "title": "Data Analytics for Finance",
+    "section": "Course outline",
+    "text": "Course outline\nThis course is designed to equip students with comprehensive data analysis skills using Stata and a thorough understanding of research methods in finance. The course emphasizes both theoretical foundations and practical implementation of econometric techniques essential for empirical finance research.\nStudents will learn how to apply statistical analysis techniques with proper understanding of underlying assumptions, interpret data effectively, and address common methodological challenges in financial research. These skills directly support students’ ability to successfully complete their master thesis replication projects and prepare them for data-intensive roles in the financial industry."
+  },
+  {
+    "objectID": "index.html#learning-goals",
+    "href": "index.html#learning-goals",
+    "title": "Data Analytics for Finance",
+    "section": "Learning goals",
+    "text": "Learning goals\nBy the end of this course, students will be able to:\n\nData Management: Clean, transform, and merge complex datasets using different identifiers (CUSIP, GVKEY, PERMNO) in Stata\nEconometric Theory: Understand and verify the assumptions underlying statistical methods used in finance research\nPanel Methods: Implement and interpret fixed effects models with appropriate standard error corrections\nCausal Inference: Apply difference-in-differences and event study methodologies to identify causal effects\nResearch Communication: Create publication-quality tables and visualizations for effective presentation of empirical findings\nReplication Skills: Execute replications of published research with proper documentation and Stata code"
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Data Analytics for Finance",
+    "section": "Schedule",
+    "text": "Schedule\nThe course consists of 6 sessions, each lasting 2 hours 45 minutes. The sessions will be held in person on campus. The course includes individual assignments that reinforce the concepts learned in class."
+  },
+  {
+    "objectID": "index.html#lectures",
+    "href": "index.html#lectures",
+    "title": "Data Analytics for Finance",
+    "section": "Lectures",
+    "text": "Lectures\n\nFrom Messy Data to Research Insights\nData Exploration and Visualization\nRegressions and Identification\nDe Do Do Do, De Di i Di - Panel Data Methods\nEvent Studies (CAR) and Fama–MacBeth\nReplication Workshop"
+  },
+  {
+    "objectID": "index.html#materials",
+    "href": "index.html#materials",
+    "title": "Data Analytics for Finance",
+    "section": "Materials",
+    "text": "Materials\n\nCanvas\nCanvas will be used for announcements and sharing of resources.\n\n\nWebsite\nAll lecture slides, and additional resources are available on this website. Students are encouraged to review the materials before and after each session to reinforce their understanding.\n\n\nAssignments\nAssignments will be available via Jupyter Hub. You will receive a personal invitation to access the platform via Canvas."
+  },
+  {
+    "objectID": "index.html#assessment",
+    "href": "index.html#assessment",
+    "title": "Data Analytics for Finance",
+    "section": "Assessment",
+    "text": "Assessment\n\nIndividual assignments\n\nSix (weekly) assignments throughout the course\nAll assignments must be completed\n\n\n\nAssignment Overview:\n\nDieselgate - Data Wrangling\nDieselgate - Data Visualization\nDieselgate - Regression Analysis\nDieselgate - Difference-in-Differences\nDieselgate - Event Study\nReplication Exercise - Replicating a Published Study with a Twist\n\n\n\nPass Requirements:\n\nOverall course grade ≥ 5.5\nAssignment grades ≥ 50%"
+  },
+  {
+    "objectID": "index.html#software-and-tools",
+    "href": "index.html#software-and-tools",
+    "title": "Data Analytics for Finance",
+    "section": "Software and Tools",
+    "text": "Software and Tools\nStudents will use:\n\nStata (version 17 or higher) - All econometric analysis\nData from financial databases available through university subscriptions\n\nAll software is available through university resources. Basic familiarity with statistics is expected."
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Data Analytics for Finance",
+    "section": "Resources",
+    "text": "Resources\n\nRequired Textbooks\n\nHuntington-Klein, N. (2022). The Effect: An Introduction to Research Design and Causality (2nd ed.). Chapman and Hall/CRC.\n\nFree online version available at theeffectbook.net\nRequired reading for causal inference concepts\nSpecific chapters assigned for each session\n\n\nAdditional resources, recommended readings, and useful links will be provided throughout the course."
+  },
+  {
+    "objectID": "lectures/lecture_2.html#data-exploration-and-visualization-1",
+    "href": "lectures/lecture_2.html#data-exploration-and-visualization-1",
+    "title": "Data Exploration and Visualization",
+    "section": "Data Exploration and Visualization",
+    "text": "Data Exploration and Visualization\nToday’s Journey\n\nWhy visualize? The power and peril\nDescribing variables: Building blocks\nDesign principles that matter\nTables: The unsung hero\n\nLiterature\n\nHuntington-Klein (2022) (Chapters 3 & 4)"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#data-exploration-and-visualization-2",
+    "href": "lectures/lecture_2.html#data-exploration-and-visualization-2",
+    "title": "Data Exploration and Visualization",
+    "section": "Data Exploration and Visualization",
+    "text": "Data Exploration and Visualization\nRecap - Where did we leave things?\n\n\nLast time: The Research Pipeline\n\n\nRaw & Clean Data\n\nData acquisition (WRDS, identifiers)\nMerging datasets (CUSIP, GVKEY, PERMNO)\nUnderstanding and creating tidy data\n\nToday’s Menu\n\nData exploration & visualization\nDescriptive statistics\nEffective communication of results\n\n\nToday we learn how to LOOK at what we’ve built"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#data-exploration-and-visualization-3",
+    "href": "lectures/lecture_2.html#data-exploration-and-visualization-3",
+    "title": "Data Exploration and Visualization",
+    "section": "Data Exploration and Visualization",
+    "text": "Data Exploration and Visualization\nLearning Objectives\nBy the end of today, you will be able to\n\nExplain why visualization matters for research AND practice\nIdentify misleading visualizations and graph abuse\nDescribe distributions and relationships effectively\nApply core design principles to financial data\nCreate publication-quality summary statistics tables"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-1",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-1",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nVisualization in Practice\n\n\nJust Eat Takeaway Analyst Presentation\n\n\n\n\n\n\nWhat do you notice?\n\n\n\n\n\n\nKey observation\n\n\nAlmost every slide contains a visualization!\n\n\n\n\n\n\n\n\n\nKey question\n\n\nWhy do they do this?\n\n\n\n\n\n\nFull presentation available here: Just Eat Takeaway H1 2022 Results"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#visualization-in-practice-1",
+    "href": "lectures/lecture_2.html#visualization-in-practice-1",
+    "title": "Data Exploration and Visualization",
+    "section": "Visualization in Practice",
+    "text": "Visualization in Practice\nGrowth Story\n\n\nGross Trsansaction Value Over Time\n\n\n\n\n\n\nWhat story does this tell?\n\n“~2X growth since pre-pandemic”\nClear trend, immediate impact\nVisual &gt; table of numbers\n\n\n\n\nWhat makes this effective?\n\nClean design\nClear annotation\nColor use to highlight key info"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#visualization-in-practice-2",
+    "href": "lectures/lecture_2.html#visualization-in-practice-2",
+    "title": "Data Exploration and Visualization",
+    "section": "Visualization in Practice",
+    "text": "Visualization in Practice\nGeographic Breakdown\n\n\nMarket Leadership Across Regions\n\n\n\n\n\n\nMultiple dimensions in one view\n\nGeography\nMarket position\nRevenue by segment\n\n\n\n\nCognitive efficiency?\n\nWould take paragraphs to describe in text\nLatest disclosures before takeover by Prosus 🤦"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#visualization-in-practice-3",
+    "href": "lectures/lecture_2.html#visualization-in-practice-3",
+    "title": "Data Exploration and Visualization",
+    "section": "Visualization in Practice",
+    "text": "Visualization in Practice\nComparative Performance\n\n\nEBITDA by region over time\n\n\n\n\n\n\nWhat does this show?\n\nMultiple entities (regions)\nTime dimension\nPositive vs. negative values\nClear color coding\n\n\n\n\nHow long would this table be?"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-2",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-2",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nThe Case FOR Visualization\nWhat is visualization (vis)?\n\nComputer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively (Munzner 2025).\n\nWhy visualize?\n\nCommunication: Tell data-driven stories\nVerification: Confirm expected patterns\nExploration: Find unexpected patterns\nFalsification: Assess validity of models\n\n\n\nFor more theory and details on visualization analysis and design, see Munzner (2025)"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-3",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-3",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nBut… Visualization Can Mislead\n\n\n\n\n\n\n\nSource: Washington Post, 2025"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-4",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-4",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nBut… Visualization Can Mislead\nWhen keepin’ it vis goes wrong\n\n\nOpenAI\n\n\n\n\n\n\nAnthropic"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-5",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-5",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nBut… Visualization Can Mislead\nWhen keepin’ it vis goes wrong\n\n\nPizza toppings in the UK\n\n\n\n\n\n\nFemale height distribution"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-6",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-6",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nInsights from Beattie and Jones (1992)\nThe use and abuse of graphs in annual reports: theoretical framework and empirical study\n\nStudy of 240 large UK companies’ annual reports\nAverage: 5.9 graphs per report\nKey finding: Companies with ‘good’ performance significantly more likely to use graphs\nSelectivity: 65% graph at least one key financial variable\nBut which variables do they choose?"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-7",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-7",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nTwo Forms of Distortion\nBeattie and Jones (1992) Framework\n\n\nSelectivity\nChoosing WHICH data to visualize\n\nGraph the good news, table the bad news\nExample: Graph revenue growth, table margin decline\n\n\nMeasurement distortion\nHOW data is presented\n\nAxis manipulation\nVisual exaggeration\nFound in 30% of graphs!\nAverage exaggeration: 10.7%"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-8",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-8",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nDistortion Example Overview\n\n\n\n\n\n\n\nSource: Huang et al. (2011)"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-9",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-9",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nAnscombe’s Quartet - The Famous Example\nIdentical Statistics, Different Stories\n\n\nAnscombe’s Quartet Data\n\n\n\n\n\n\nVariable\nN\nMean\nSD\nP0\nP25\nP50\nP75\nP100\n\n\n\n\nx1\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny1\n11\n7.5\n2.03\n4.26\n6.31\n7.58\n8.57\n10.84\n\n\nx2\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny2\n11\n7.5\n2.03\n3.10\n6.70\n8.14\n8.95\n9.26\n\n\nx3\n11\n9.0\n3.32\n4.00\n6.50\n9.00\n11.50\n14.00\n\n\ny3\n11\n7.5\n2.03\n5.39\n6.25\n7.11\n7.98\n12.74\n\n\nx4\n11\n9.0\n3.32\n8.00\n8.00\n8.00\n8.00\n19.00\n\n\ny4\n11\n7.5\n2.03\n5.25\n6.17\n7.04\n8.19\n12.50\n\n\n\n\n\n\n\nVisuals Matter\n\n\n\n\n\n\n\n\n\n\n\n\nVisual inspection also reveals differences in variance, outliers, and non-linearity that summary statistics miss. Helpful for model (OLS) diagnostics! Wait for it, Lecture 3."
+  },
+  {
+    "objectID": "lectures/lecture_2.html#why-visualize-the-power-and-peril-10",
+    "href": "lectures/lecture_2.html#why-visualize-the-power-and-peril-10",
+    "title": "Data Exploration and Visualization",
+    "section": "Why Visualize? The Power and Peril",
+    "text": "Why Visualize? The Power and Peril\nAnscombe’s Quartet - The Famous Example\nKey Takeaways\n\nSummaries lose information\nDetails matter\nVisualization reveals structure that statistics hide"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables",
+    "href": "lectures/lecture_2.html#describing-variables",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nTypes of Variables\n\n\nWhat according to Munzner (2025)\n\n\n\n\n\n\nWhat we typically deal with…\n\nContinuous: Price, returns, income\nCount: Number of mergers, trades\nOrdinal: Credit ratings (AAA, AA, A…)\nCategorical: Industry, country\nBinary: Default/no default"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-1",
+    "href": "lectures/lecture_2.html#describing-variables-1",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nUnderstanding Distributions\n\n\nCommon Distribution Shapes\n\n\n\n\n\n\n\n\n\n\nWhat is a distribution?\n\nThe pattern of values a variable can take\nKey question: How is the data spread out?\nExamples:\n\nAre most returns clustered around zero?\nDo some firms have extremely high market caps?\nIs income evenly distributed or skewed?"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-2",
+    "href": "lectures/lecture_2.html#describing-variables-2",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nVisualizing Distributions - Continuous Variables\n\n\nHistograms\n\n\n\n\n\n\n\n\n\n\nThe Classic Choice\n\nDivides data into bins\nHeight → frequency in each bin"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-3",
+    "href": "lectures/lecture_2.html#describing-variables-3",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nVisualizing Distributions - Continuous Variables\n\n\nHistograms\n\n\n\n\n\n\n\n\n\n\nThe Classic Choice\n\nDivides data into bins\nHeight → frequency in each bin\nDesign choices matter!:\n\nBin width too narrow → noise\nBin width too wide → oversmoothing"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-4",
+    "href": "lectures/lecture_2.html#describing-variables-4",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nVisualizing Distributions - Density Plots\n\n\n\n\n\n\n\n\n\n\n\n\nThe Smooth Alternative\n\nContinuous curve estimate\nNo arbitrary bin choices\nEasier to compare multiple distributions"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-5",
+    "href": "lectures/lecture_2.html#describing-variables-5",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nVisualizing Distributions - Density Plots\n\n\n\n\n\n\n\n\n\n\n\n\nThe Smooth Alternative\n\nContinuous curve estimate\nNo arbitrary bin choices\nEasier to compare multiple distributions"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-6",
+    "href": "lectures/lecture_2.html#describing-variables-6",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nThe Numbers Behind the Picture\nSummary Statistics\n\n\nLocation (central tendency)\n\nMean: Average value\nMedian: 50th percentile\nMode: Most frequent value\n\n\nSpread (variability):\n\nStandard deviation: Average distance from mean\nVariance: SD squared\nRange: Max - Min\nInterquartile range (IQR): Q3 - Q1\n\n\nPercentile\n→ value below which X% of observations fall\nExamples:\n\n25th percentile (Q1): Bottom quarter\n50th percentile (Median): Middle\n75th percentile (Q3): Top quarter\n1st/99th percentile: Extreme values (outliers?)\n\n\nPutting it all together (Box Plot)"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-7",
+    "href": "lectures/lecture_2.html#describing-variables-7",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nMoving Beyond Univariate Analysis\n\n\nKey questions\n\nHow do two variables move together?\nIs there a pattern?\nIs the relationship linear or nonlinear?\n\n\nTools\n\nScatter plots\nCorrelation\nTime series plots (for temporal relationships)"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-8",
+    "href": "lectures/lecture_2.html#describing-variables-8",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nThe Scatter Plot\n\n\nTwo Continuous Variables\n\n\n\n\n\n\n\n\n\n\nWhat to look for\n\nDirection (positive/negative)\nStrength (tight cluster vs. diffuse)\nLinearity (straight line or curve?)\nOutliers"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-9",
+    "href": "lectures/lecture_2.html#describing-variables-9",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nConditional Relationships\n\n\n\n\n\n\n\n\n\nTerm\nMeaning\nExample\n\n\n\n\nUnconditional (or marginal) distribution\nThe overall spread of a variable, ignoring all other variables.\nHeight distribution of all children.\n\n\nConditional distribution\nThe spread of one variable given a specific value of another variable.\nDistributions of vitamin E intake among those who exercise vigorously versus those who do not.\n\n\nUnconditional mean\nThe average value of a variable, ignoring all other variables.\nAverage height of all children.\n\n\nConditional mean\nThe average value of a variable given a specific value of another variable.\nAverage vitamin E intake among those who exercise vigorously versus those who do not.\n\n\n\n\n\n\nSource: Adapted from Huntington-Klein (2022), Ch. 4"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-10",
+    "href": "lectures/lecture_2.html#describing-variables-10",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nCorrelation vs. Causation\n\n\nCorrelation vs. Causation\n\n\n\n\n\n\nThe Most Important Distinction in Statistics\n\nCorrelation: X and Y move together\nCausation: X causes Y\n\n\n\n\nMore on that during Lecture 3 (identification)"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-11",
+    "href": "lectures/lecture_2.html#describing-variables-11",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nTime Series Plots\n\n\nDaily Study Hours Over Time”\n\n\n\n\n\n\n\n\n\n\nBasics of Time Series Plots\n\nX-axis: Time\nY-axis: Variable of interest\nConnect the dots in chronological order\n\nEssential for …\n\nEvent studies (Lecture 5)\n(Parallel) Trend analysis (Lecture 4)\nStructural breaks\nSeasonality"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#describing-variables-12",
+    "href": "lectures/lecture_2.html#describing-variables-12",
+    "title": "Data Exploration and Visualization",
+    "section": "Describing Variables",
+    "text": "Describing Variables\nDescribing Relationships Between Variables\nMultiple Time Series - Comparison\n\n\nVW vs. Competitors - TEASER A2\n\n\nWhat this reveals\n\nContagion effects\nRelative performance\nIndustry-wide vs. firm-specific shocks"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-1",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-1",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-2",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-2",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)\n\nWhy? - Why am I visualizing?\n\nCommunication, exploration, verification"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#sesign-principles-that-matter",
+    "href": "lectures/lecture_2.html#sesign-principles-that-matter",
+    "title": "Data Exploration and Visualization",
+    "section": "Sesign Principles That Matter",
+    "text": "Sesign Principles That Matter\nMunzner (2025)’s Visualization Framework (Simplified)\n\n\nMunzner (2025)\n\n\n\n\n\n\nThree Important Questions\nWhat? - What data do I have?\n\nTables, networks, time series, spatial data\nWe mostly work with: Tables (panel data)\n\nWhy?- Why am I visualizing?\n\nCommunication, exploration, verification\n\nHow? - How should I encode the data?\n\nPosition, color, size, shape"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-3",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-3",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nThe Data-Ink Ratio\nEdward Tufte’s Core Principle\n\\[ \\text{Data-ink ratio} = \\frac{\\text{ink used to display data}}{\\text{total ink used}}\\]\n\n\nGoal: Maximize this ratio\n\nRemove chart junk\nEliminate non-data ink\nLet the data speak\n\n\nExample\n\n\n\nSource"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-4",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-4",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nChoosing the Right Plot Type\nMatch Visualization to Data Structure\n\n\n\n\nData Structure\nBest Visualization\n\n\n\n\nOne continuous variable\nHistogram, density plot, box plot\n\n\nOne categorical variable\nBar chart\n\n\nTwo continuous variables\nScatter plot\n\n\nContinuous over time\nLine plot\n\n\nMultiple groups over time\nLine plot or small multiples\n\n\nPart-to-whole\nStacked bar (avoid pie charts!)\n\n\n\n\n\n\nThis is a simplified refernce guide for your covience; real-world data may require hybrid approaches."
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-5",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-5",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nColor Theory Basics\nStrategic Use of Color\nThree palette types:\n\nSequential: Light to dark (e.g., revenue growth)\nDiverging: Two-color scale with neutral middle (e.g., positive/negative returns)\nCategorical: Distinct colors for groups (e.g., different firms)\n\n\n\n\n\n\n\n\nRule\n\n\nUse color to enhance, not decorate"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-6",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-6",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nAccessibility - Colorblind Considerations\n~8% of men have color vision deficiency\n\nAvoid red-green combinations\nUse colorblind-safe palettes:\n\nViridis (sequential)\nColorBrewer (all types)\n\n\n\n\nMake sure your visualizations are interpretable by everyone! (inclusivity matters)"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-7",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-7",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nAccessibility - Colorblind Considerations\n~8% of men have color vision deficiency\n\n\nAvoid red-green combinations\n\n\n\n\n\n\n\n\n\n\nUse colorblind-safe palettes: Viridis"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-8",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-8",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nAxis Integrity\nY-axis should start at zero for bar charts\n\n\nExceptions\n\nLine plots (time series can start at sensible minimum)\nWhen showing small changes in large numbers\nBUT: Always be transparent about scale choices\n\n\nBest practice\n\nUse non-zero axis when changes matter\nBUT: Clearly label and acknowledge the choice\nNever hide the axis range"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-9",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-9",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nTypography Matters\n\\[ \\text{Readable} &gt; \\text{Beautiful} \\]\n\n\nFont guidelines\n\nMinimum size: 8pt for print, 12pt for presentations\nFont families:\n\nSans-serif for plots (Arial, Helvetica)\nSerif for text if desired (Times, Garamond)\n\nConsistency: Use same fonts throughout paper/presentation\n\n\nLabels\n\nAxis labels: Clear, concise\nTitle: Informative, standalone\nLegend: Only if necessary (prefer direct labels)"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#design-principles-that-matter-10",
+    "href": "lectures/lecture_2.html#design-principles-that-matter-10",
+    "title": "Data Exploration and Visualization",
+    "section": "Design Principles That Matter",
+    "text": "Design Principles That Matter\nThe Iteration Process"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#tables-1",
+    "href": "lectures/lecture_2.html#tables-1",
+    "title": "Data Exploration and Visualization",
+    "section": "Tables",
+    "text": "Tables\nThe Unsung Hero of Academic Communication\n\n\nTables are better when…\n\nExact values matter (not just patterns)\nMany variables to compare\nFormal hypothesis testing results\nStandard format expected (e.g., regression output)\n\n\nPlots are better when…\n\nPattern matters more than precision\nLarge amounts of data\nRelationships are key"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#tables-2",
+    "href": "lectures/lecture_2.html#tables-2",
+    "title": "Data Exploration and Visualization",
+    "section": "Tables",
+    "text": "Tables\nThe Unsung Hero of Academic Communication\nSummary Statistics Table - Anatomy\nStandard Format (imo)\n\n\n\nVariable\nN\nMean\nSD\nMin\nP25\nMedian\nP75\nMax\n\n\n\n\n\n\n\nWhat this shows\n\nN: Sample size (are there missing values?)\nMean: Central tendency\nSD: Dispersion\nMin/Max: Range (outliers?)\nPercentiles: Distribution shape\n\n\nWhat to include\n\nDependent variable(s)\nKey All other variables\nIf panel data: Note firm-year structure\nNotes on data source, transformations, etc.\nAdhere to journal/MSc thesis style guide"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#tables-3",
+    "href": "lectures/lecture_2.html#tables-3",
+    "title": "Data Exploration and Visualization",
+    "section": "Tables",
+    "text": "Tables\nTable Design Principles\nMaking Tables Readable\n\n\nAlignment\n\nNumbers: Right-align\nText: Left-align\nHeaders: Center acceptable\n\n\nPrecision\n\n2-3 decimal places usually sufficient\nBe consistent across columns\nConsistent between coefficients and fit stats\n\n\n\n\nFormatting\n\nUse rules (horizontal lines) sparingly\nWhite space is your friend\nBold for emphasis (e.g., column headers)\n\n\nNotes\n\nDefine variables\nExplain sample restrictions\nNote data sources"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#tables-4",
+    "href": "lectures/lecture_2.html#tables-4",
+    "title": "Data Exploration and Visualization",
+    "section": "Tables",
+    "text": "Tables\nTable Design Principles\nExample & Teaser for Assignment 6\n\nHuck (2024), Table 2"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#takeaways-1",
+    "href": "lectures/lecture_2.html#takeaways-1",
+    "title": "Data Exploration and Visualization",
+    "section": "Takeaways",
+    "text": "Takeaways\nWhat to Remember\n\nVisualization is powerful - for communication AND deception\nDescribe first, model later - understand distributions and relationships\nDesign principles matter - data-ink ratio, color, accessibility\nTables are essential - especially in academic work\nIteration improves quality - first draft is never the last draft\n\n\n\n\n\n\n\nThe big picture\n\n\nGood visualization and tables are core skills, not optional extras."
+  },
+  {
+    "objectID": "lectures/lecture_2.html#next-week-preview",
+    "href": "lectures/lecture_2.html#next-week-preview",
+    "title": "Data Exploration and Visualization",
+    "section": "Next Week Preview",
+    "text": "Next Week Preview\nRegression Methods and Identification\nBuilding on today\n\nWe can now DESCRIBE data\nNext: We learn to MODEL relationships\nOLS assumptions\nWhat is identification?\nEndogeneity and causation\n\nThe connection\n\nToday: “What does the data show?”\nNext week: “What does it mean?”"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#references",
+    "href": "lectures/lecture_2.html#references",
+    "title": "Data Exploration and Visualization",
+    "section": "References",
+    "text": "References\n\n\nBeattie, Vivien, and Michael John Jones. 1992. “The Use and Abuse of Graphs in Annual Reports: Theoretical Framework and Empirical Study.” Accounting and Business Research 22 (88): 291–303.\n\n\nHuang, Shaio-Yan, Shi-Ming Huang, Tung-Hsien Wu, and Tung-Yen Hsieh. 2011. “The Data Quality Evaluation of Graph Information.” Journal of Computer Information Systems 51 (4): 81–91.\n\n\nHuck, John R. 2024. “The Psychological Externalities of Investing: Evidence from Stock Returns and Crime.” The Review of Financial Studies 37 (7): 2273–2314.\n\n\nHuntington-Klein, Nick. 2022. The Effect: An Introduction to Research Design and Causality. 2nd ed. Chapman; Hall/CRC.\n\n\nMunzner, Tamara. 2025. “Visualization Analysis and Design.” In Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Courses, 1–2."
+  },
+  {
+    "objectID": "lectures/lecture_2.html#appendix-1",
+    "href": "lectures/lecture_2.html#appendix-1",
+    "title": "Data Exploration and Visualization",
+    "section": "Appendix",
+    "text": "Appendix\nTypes of Variables\n\n\n\n\n\n\n\n\n\n\nType\nWhat it represents\nKey characteristics\nTypical examples\n\n\n\n\nContinuous\nReal‑valued measurements that can take any value within a range (often infinite).\nNo natural “next” value; can be split to arbitrary precision.\nMonthly income, height, temperature.\n\n\nCount\nNon‑negative integers recording counts of occurrences.\nCannot be negative; usually discrete, but can sometimes be treated as continuous when counts are large.\nNumber of mergers in a year, number of accidents.\n\n\nOrdinal\nCategories with a meaningful order but unknown spacing.\n“Higher” vs “lower” is defined but not how much higher.\nNeuroticism level (low / medium / high), education level.\n\n\nCategorical (nominal)\nDistinct, unordered categories.\nNo inherent ordering.\nFlower colour, blood type, eye colour.\n\n\nBinary\nSpecial case of categorical with exactly two possible values (often “yes”/“no”).\nSimplifies analysis; can be expanded into several binary variables.\nMilitary service (yes/no), treatment assignment.\n\n\nQualitative\nText, images, or other non‑numeric information that cannot be straightforwardly categorised.\nRequires transformation or summarisation before quantitative analysis.\nNewspaper headline, interview transcript.\n\n\n\n\n\n\n\nSource: Adapted from Huntington-Klein (2022), Ch. 3"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#appendix-2",
+    "href": "lectures/lecture_2.html#appendix-2",
+    "title": "Data Exploration and Visualization",
+    "section": "Appendix",
+    "text": "Appendix\nPlot types overview\nProportions\n\n\n\n\n\nSingle Distribution"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#appendix-3",
+    "href": "lectures/lecture_2.html#appendix-3",
+    "title": "Data Exploration and Visualization",
+    "section": "Appendix",
+    "text": "Appendix\nPlot types overview\nMultiple Distributions"
+  },
+  {
+    "objectID": "lectures/lecture_2.html#appendix-4",
+    "href": "lectures/lecture_2.html#appendix-4",
+    "title": "Data Exploration and Visualization",
+    "section": "Appendix",
+    "text": "Appendix\nPlot types overview\nProportions - 2 + Groups"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#overview",
+    "href": "lectures/lecture_4.html#overview",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Overview",
     "text": "Overview"
   },
   {
-    "objectID": "lectures/lecture_5.html#overview-1",
-    "href": "lectures/lecture_5.html#overview-1",
-    "title": "Event Studies (CAR) and Fama–MacBeth",
+    "objectID": "lectures/lecture_4.html#overview-1",
+    "href": "lectures/lecture_4.html#overview-1",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Overview",
+    "text": "Overview\nToday’s learning objectives\n\nWhat are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#overview-2",
+    "href": "lectures/lecture_4.html#overview-2",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
     "section": "Overview",
     "text": "Overview\nRecap of previous lecture"
   },
   {
-    "objectID": "lectures/lecture_5.html#overview-2",
-    "href": "lectures/lecture_5.html#overview-2",
-    "title": "Event Studies (CAR) and Fama–MacBeth",
+    "objectID": "lectures/lecture_4.html#overview-3",
+    "href": "lectures/lecture_4.html#overview-3",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Overview",
+    "text": "Overview\nToday’s learning objectives\n\nWhat are good and bad controls in regression analysis?\nUnderstand the Difference-in-Differences (DiD) framework for causal inference using panel data\nLearn how to implement DiD design, including fixed effects\nRecognize the importance of appropriate standard error adjustments in DiD analyses\nExplore advanced DiD topics such as staggered adoption and recent methodological developments"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#what-to-do-if-random-assignment-is-not-possible-1",
+    "href": "lectures/lecture_4.html#what-to-do-if-random-assignment-is-not-possible-1",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "What to do if random assignment is not possible?",
+    "text": "What to do if random assignment is not possible?\nBuilding the OLS model\nOLS model building blocks\n\n\n\n\nI took this figure from Huntington-Klein (2022) chapter 13!"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-1",
+    "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-1",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Control Variables in Regression Analysis",
+    "text": "Control Variables in Regression Analysis\nGood vs. Bad controls\n\n\nGood controls\n\nVariables that are correlated with the outcome but not with the treatment\nHelp reduce omitted variable bias\nImprove precision of estimates\n\n\nBad controls\n\nVariables that are affected by the treatment (mediators)\nVariables that are correlated with both treatment and outcome (colliders)\nCan introduce bias into estimates"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-2",
+    "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-2",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Control Variables in Regression Analysis",
+    "text": "Control Variables in Regression Analysis\nGood controls - Examples\n\n\nConfounder - “Common cause”\n\n\n“Hidden common cause”\n\n\n\nDiLLMA example: controlling for study hours and attendance rate\n\n\n\nFor more details on causal diagrams check Huntington-Klein (2022) chapters 6-9 and bad controls Cinelli, Forney, and Pearl (2024)!"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-3",
+    "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-3",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Control Variables in Regression Analysis",
+    "text": "Control Variables in Regression Analysis\nBad controls - Examples\n\n\nMediator\n\n\nVariables that lie on the causal path between treatment and outcome\nControlling for mediator can block part of the treatment effect, leading to biased estimates\n\n\nCollider\n\n\nVariables that are influenced by both treatment and outcome\nControlling for collider can open a backdoor path, introducing spurious associations and bias"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#control-variables-in-regression-analysis-4",
+    "href": "lectures/lecture_4.html#control-variables-in-regression-analysis-4",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Control Variables in Regression Analysis",
+    "text": "Control Variables in Regression Analysis\nBad controls - Example\n\n\nMediator\n\n\nVariables that lie on the causal path between treatment and outcome\nControlling for mediator can block part of the treatment effect, leading to biased estimates\n\n\nSimple Mediator Example\n\n\nBias arises from controlling fro a variable that lies on the causal path X → C → Y\nIf we include reported earnings as a control in a regression of market return on accounting choices, we remove part of the effect of accounting on returns.\n\n\n#TODO: Add more examples"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-1",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-1",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nKey concepts\n\n\n\n\n\n\nWhat is Difference‑in‑Differences (DID)?\n\n\nDifference‑in‑Differences (DID) is a quasi‑experimental method that exploits within‑group variation over time and cross‑group variation to identify a causal effect when random assignment is infeasible."
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-2",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-2",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nWhy Differnces - Isn’t one difference enough?\n\n\nBefore vs After (time variation)\nWhat is it?\nCompare outcomes before and after treatment implementation, e.g. pre- and post-policy change\nWhy not enough for causal inference?\nAll variation in Treatment is explained by Time!\n\nTreated vs Control (group variation)\nWhat is it?\nCompare outcomes between treated and control groups, e.g. those affected by a policy change vs those not affected\nWhy not enough for causal inference?\nDifferences between Treated and Control groups may be driven by time-invariant confounders, e.g. ability, demographics, location, etc.\n\nCombining both, allows to isolating the causal impact of the treatment a.k.a. average treatment effect on the treated (ATT)"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-3",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-3",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nWhy Differnces - Isn’t one difference enough?\nA picture is worth a thousand words\n\n\n\n\n\n\n\nDiD only recovers the causal effect if the “parallel trends assumption” holds!"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-4",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-4",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nDiLLMa - Setting continued\n\nWe observe students’ exam scores before and after LLMs were introduced 1\nSome courses allowed LLM use (treatment), others banned it (control)\nGoal: Estimate the causal effect of allowing LLM use on exam scores\n\nIn short\nCompare grade changes in allowed vs. banned courses, before and after LLMs became available\n\nDiD isolates the treated group’s response, conditional on the assumption that the untreated group’s changes represent the non-treatment counterfactual for the treated group\n\nIt is worth noting that the underlying data is a panel dataset with multiple observations per student."
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-5",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-5",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nThe two-by-two set-up\n\n\n\n\n\n\n\n\n\n\n(1) After\n(2) Before\n(1) - (2)\n\n\n\n\n(a) Treatment\nY\\(_{treated,\\ after}\\)\nY\\(_{treated,\\ before}\\)\n\\(\\Delta_{treated}\\)\n\n\n(b) Control\nY\\(_{control,\\ after}\\)\nY\\(_{control,\\ before}\\)\n\\(\\Delta_{control}\\)\n\n\n(a) - (b)\n\\(\\Delta_{after}\\)\n\\(\\Delta_{before}\\)\nDiD\n\n\n\nA typical DiD regression looks like this\n\\[Y = \\beta_0 + \\beta_1 Treated + \\beta_2 After + \\beta_3 Treated \\times After + \\epsilon\\]\n\nThe difference-in-differences regression gives you the same estimate as if you took differences in the group averages\nIt takes also care of any unobserved constant differences between subjects and time trends!"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-6",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-6",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nThe two-by-two set-up\n\n\n\n\n\n\n\n\n\n\n(1) After\n(2) Before\n(1) - (2)\n\n\n\n\n(a) Treatment\n\\(\\beta_0 + \\beta_1+\\beta_2+\\beta_3\\)\n\\(\\beta_0 + \\beta_1\\)\n\\(\\beta_2+\\beta_3\\)\n\n\n(b) Control\n\\(\\beta_0 + \\beta_2\\)\n\\(\\beta_0\\)\n\\(\\beta_2\\)\n\n\n(a) - (b)\n\\(\\beta_1+\\beta_3\\)\n\\(\\beta_1\\)\n\\(\\beta_3\\)\n\n\n\nA typical DiD regression looks like this\n\\[Y = \\beta_0 + \\beta_1 Treated + \\beta_2 After + \\beta_3 Treated \\times After + \\epsilon\\]\n\nThe difference-in-differences regression gives you the same estimate as if you took differences in the group averages\nIt takes also care of any unobserved constant differences between subjects and time trends!"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-7",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-7",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\nExample data summary\n\n\nSame variables as in previous lecture, but now panel data with multiple observations per student\nTreatment assigned at the course level (some instructors allow LLM use, others ban it)\nData contains two periods: pre-LLM (before) and post-LLM (after), each consisting of two exam scores per student\nThe unit of analysis is the student-time level\nThe key variables are:\n\ntreated: Indicator for whether the course allows LLM use (1 = yes, 0 = no)\nafter: Indicator for whether the observation is from the post-LLM period (1 = after, 0 = before)\nexam_score: The student’s exam score"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-8",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-8",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nCanonical DiD model - The two-by-two design\n\n\nComparing means\n\n\n\n\n\n\nAfter\nBefore\nDifference\n\n\n\n\nTreated group\n6.57\n7.12\n-0.55\n\n\nControl group\n7.42\n7.22\n0.20\n\n\nDifference\n-0.85\n-0.10\n-0.75\n\n\n\n\n\n\nEstimation"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-.smaller",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-.smaller",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD) .{smaller}",
+    "text": "Difference-in-Differences (DiD) .{smaller}\n2-way fixed effects model\n\\[Y = \\alpha_i + \\alpha_t + \\beta_3 Treated \\times After + \\epsilon\\]\n\n\nWhat is absorbed by fixed effects?\n\n\\(\\beta_0\\) disappears - not meaningful in panel data with fixed effects\n\\(\\beta_1\\) disappears - time-invariant differences are absorbed by individual fixed effects\n\\(\\beta_2\\) disappears - time fixed effects capture common shocks over time\n\n\nWhy use fixed effects?\n\nControls for unobserved heterogeneity across individuals and over time\nFocuses on within-individual variation to identify treatment effects\nMore robust to omitted variable bias from time-invariant confounders"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-9",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-9",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\n2-way fixed effects model\n\n\n\nEstimation with fixed effects\n\n\n\n\nWhat changes with fixed effects?\n\nThe DiD estimate remains similar, indicating robustness to fixed effects\nControls for unobserved individual heterogeneity and time effects\nTime-invariant confounders are addressed (ability drops out!)\nBut what about standard errors?\n\n\n\n\n\nFor an exellent deep-dive into fixed effects models, see e.g. Breuer and DeHaan (2024) or Verbeek (2021)"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-10",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-10",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nIdentification\nParallel trends assumption\n\n\nUnconditional means\n\n\n\n\n\n\n\n\n\n\nEvent study approach\n\n\n\n\n\n\n\n\nThe parallel trends assumption states that, in the absence of treatment, the average change in the outcome variable would have been the same for both the treatment and control groups."
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-11",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-11",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nStandard errors in DiD"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-12",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-12",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nTakeaways so far\n\nDiD leverages both cross-sectional and time-series variation to identify causal effects (ATT)\nThe canonical DiD model can be extended with fixed effects to control for time-invariant heterogeneity\nThe parallel trends assumption is crucial for valid DiD inference\nProper standard error adjustments are essential for accurate inference in DiD settings\nIs that all? Not quite…\n\n\n\n\n\n\n\nLimitations\n\n\nLimitations arise in rollout (staggered) designs, where treatment timing varies across groups; TWFE can perform poorly in such settings (to be discussed later)."
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-13",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-13",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nStandard errors in DiD - Issues"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-14",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-14",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nStandard errors in DiD - A new hope"
+  },
+  {
+    "objectID": "lectures/lecture_4.html#difference-in-differences-did-15",
+    "href": "lectures/lecture_4.html#difference-in-differences-did-15",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "Difference-in-Differences (DiD)",
+    "text": "Difference-in-Differences (DiD)\nBeyond your MSc repliciation - Your contribution\nNew approaches\nHow to learn about the new approaches?\n(baker2022difference?)\nHow to learn about applicating them?\n\nA way to extend your MSc replication project is to apply some of the new DiD methods to the DiLLMa dataset and compare the results with the traditional TWFE approach."
+  },
+  {
+    "objectID": "lectures/lecture_4.html#references",
+    "href": "lectures/lecture_4.html#references",
+    "title": "De Do Do Do, De Di i Di - Panel Data Methods",
+    "section": "References",
+    "text": "References\n\n\nBreuer, Matthias, and ED DeHaan. 2024. “Using and Interpreting Fixed Effects Models.” Journal of Accounting Research 62 (4): 1183–1226.\n\n\nCinelli, Carlos, Andrew Forney, and Judea Pearl. 2024. “A Crash Course in Good and Bad Controls.” Sociological Methods & Research 53 (3): 1071–1104.\n\n\nHuntington-Klein, Nick. 2022. The Effect: An Introduction to Research Design and Causality. 2nd ed. Chapman; Hall/CRC.\n\n\nVerbeek, Marno. 2021. Panel Methods for Finance: A Guide to Panel Data Econometrics for Financial Applications. De Gruyter."
+  },
+  {
+    "objectID": "lectures/lecture_6.html#overview",
+    "href": "lectures/lecture_6.html#overview",
+    "title": "Replication Workshop",
+    "section": "Overview",
+    "text": "Overview"
+  },
+  {
+    "objectID": "lectures/lecture_6.html#overview-1",
+    "href": "lectures/lecture_6.html#overview-1",
+    "title": "Replication Workshop",
+    "section": "Overview",
+    "text": "Overview\nRecap of previous lectures"
+  },
+  {
+    "objectID": "lectures/lecture_6.html#overview-2",
+    "href": "lectures/lecture_6.html#overview-2",
+    "title": "Replication Workshop",
+    "section": "Overview",
+    "text": "Overview\nQuarto showcase\n\nWalktrough of a quarto document that includes the Dielgate analyses\nShow how to handle references\nPut on GitHub"
+  },
+  {
+    "objectID": "lectures/lecture_6.html#overview-3",
+    "href": "lectures/lecture_6.html#overview-3",
+    "title": "Replication Workshop",
     "section": "Overview",
     "text": "Overview\nToday’s learning objectives"
   },
   {
-    "objectID": "lectures/lecture_5.html#overview-3",
-    "href": "lectures/lecture_5.html#overview-3",
-    "title": "Event Studies (CAR) and Fama–MacBeth",
+    "objectID": "lectures/lecture_6.html#overview-4",
+    "href": "lectures/lecture_6.html#overview-4",
+    "title": "Replication Workshop",
     "section": "Overview",
-    "text": "Overview\nKey concepts"
+    "text": "Overview\nWhat’s on the menu today?"
   },
   {
-    "objectID": "lectures/lecture_5.html#references",
-    "href": "lectures/lecture_5.html#references",
-    "title": "Event Studies (CAR) and Fama–MacBeth",
+    "objectID": "lectures/lecture_6.html#ingredients",
+    "href": "lectures/lecture_6.html#ingredients",
+    "title": "Replication Workshop",
+    "section": "Ingredients",
+    "text": "Ingredients"
+  },
+  {
+    "objectID": "lectures/lecture_6.html#goals-what-do-we-want-to-replicate",
+    "href": "lectures/lecture_6.html#goals-what-do-we-want-to-replicate",
+    "title": "Replication Workshop",
+    "section": "Goals: What do we want to replicate?",
+    "text": "Goals: What do we want to replicate?"
+  },
+  {
+    "objectID": "lectures/lecture_6.html#jupyter-notebook---walkthrough",
+    "href": "lectures/lecture_6.html#jupyter-notebook---walkthrough",
+    "title": "Replication Workshop",
+    "section": "Jupyter Notebook - Walkthrough",
+    "text": "Jupyter Notebook - Walkthrough"
+  },
+  {
+    "objectID": "lectures/lecture_6.html#what-can-we-add-discussion",
+    "href": "lectures/lecture_6.html#what-can-we-add-discussion",
+    "title": "Replication Workshop",
+    "section": "What can we add? Discussion",
+    "text": "What can we add? Discussion"
+  },
+  {
+    "objectID": "lectures/lecture_6.html#references",
+    "href": "lectures/lecture_6.html#references",
+    "title": "Replication Workshop",
     "section": "References",
     "text": "References"
   }
